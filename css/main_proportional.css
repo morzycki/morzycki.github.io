@@ -1,0 +1,459 @@
+/*****************************************************************************
+
+   
+	stylesheet for personal site
+	============================
+	
+	Thoroughly revised 1-Mar-10. ---MJM
+
+   Using pixels rather than ems or percentages here deliberately. This seems
+   to be the only thing that allows scaling properly (weirdly). Using ems
+   entails having them change size when you change the font size within a
+   single page, which wreaks all manner of havoc. So don't change this unless
+   really, really sure.
+   
+*/
+
+
+/*****************************************************************************
+ *
+ *    colors
+ */
+
+/* overall colors: */
+body {
+	color: #111111; 
+   background-color: #ECECE5;
+}
+.semanticsarchive, 
+#content { background-color: #F9FAF9; }
+	
+/* border colors: */
+* { border-color: #D1D3D9; }
+
+/* accent colors: */
+#menu .current a,
+#footer,
+h2, h3 { color: #3B53AA; }
+a:hover { border-color: #3B53AA; }
+
+/* link colors */
+#menu a:hover,
+a {
+   color: #900; 
+   border-color: #900; 
+}
+a:visited { color: #7A5100; }
+#menu a { color: #111111; }
+#menu a:active,
+a:active { color: #E00 }
+
+/* grey */
+h4,
+strong, b, 
+.abs, blockquote 
+	{ color: #383838; }
+
+
+/*****************************************************************************
+ *
+ * 	fonts 
+ */
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", 
+	   "Lucida Sans", "Trebuchet MS", Trebuchet, sans-serif; 
+	font-size: 80%;
+	line-height: 1.6em; 
+	/*	font-size-adjust: .62;*/
+		/* Not supported by most browsers (in 2010), and in any case not in 
+		/* CSS 2.1, though apparently may be back in 3.0. */
+}
+h1, h2 { 	
+   font-family: Georgia, "Palatino", "Palatino Linotype", "Book Antiqua", 
+      serif; 
+}
+
+h1 { font-size: 190%; }
+h2 { font-size: 145%; }
+h3 { font-size: 127%; }
+h4 { font-size: 109%; }
+.abs, blockquote 
+	{ font-size: 91%; }
+.bib, .abs_link,
+#menu a,
+#footer 
+	{ font-size: 82%; }
+sup { line-height: 82%; font-size: 82%; }
+	/* The line-height business prevents browsers from adding extra space 
+	unevenly between lines to accommodate the superscript. */
+.abs, blockquote { line-height: inherit; }
+
+
+/*****************************************************************************
+ *
+ * 	overall layout 
+ */
+
+#content, 
+#text, 
+#sidebar, 
+#menu, 
+#footer, 
+#bar,
+#picture, 
+body {
+   margin: 0;
+   padding: 0;
+   border-width: 0px;
+   border-style: solid;
+}
+#content { 
+      /* This is the main vertical area in the middle of the page that extends
+      all the way down to the bottom. This needs to be distinguished from the
+      body itself because:
+
+         - The body needs to extend horizontally to the window edges to allow
+           certain elements, like a top bar, to do this.
+
+         - The body needs to provide a background color. This could be done
+           instead by assigning a background color to the html tag, but this
+           seems risky, since it's not actually a layout tag, and in any case
+           it wouldn't make it possible to have elements that extend to its
+           full width since there can be no elements inside <html> that aren't
+           also in <body>.
+      */
+
+   position: absolute;
+   left: 23em;
+   min-height: 100%;
+   z-index: 50;
+
+   border-left-width: 1px;
+   border-right-width: 1px;
+
+}
+#text {
+      /* This is the main text inside the content div (i.e., inside the main 
+      vertical space). It's distinct in that it only goes as far as the text 
+      itself goes. Distinguishing these is useful because: 
+
+         - This means that this can have padding after it, which makes things
+           look a lot better when scrolled all the way to the bottom---the
+           text doesn't abut the edge of the window. Adding this padding to
+           the content itself would mean that when the text doesn't overflow
+           the window, the content---which necessarily extends all the way to
+           the bottom of it---would still have more padding below the bottom
+           of the window. This results in a gratuitous spillover beyond the
+           window and a pointless scrollbar.
+
+         - If I wanted the footer to be aligned with either the bottom
+           of the text or the bottom of the window, whichever is longer, this
+           would make it possible by aligning with the bottom of the content
+           (i.e., putting it inside the content div but outside the text div).
+           Because this text div itself has padding below it, it ensures that
+           the content will as well, which in turn means that something
+           aligned with the bottom of the content div wouldn't overlap with
+           what's inside it when it extends beyond the window.
+      */
+
+   border-top: 1em solid #000;
+      /* This bar is mostly redundant. It's a fallback for when the real main 
+      top bar winds up too short because the text has been scrolled
+      horizontally. (Since it's 100% of the window, it wouldn't necessarily be
+      long enough.) This has to be done here rather than in the content div
+      because the content div is 100% high, so adding it there would make it
+      100% + 1em. For this to work, all horizontal size stuff has to be set 
+      here rather than there as well. */
+
+	max-width: 47em; min-width: 33em; padding-left: 5em; padding-right: 5em;
+	   /* These all have to be here rather than in the content div to get the 
+	   top bar to work. */
+
+   padding-bottom: 5em;
+   padding-top: 3em;
+
+}
+#sidebar {
+
+   position: fixed;
+   top: 0em; bottom: 0em; left: 0em;
+   padding-top: 5em;
+   z-index: 10;
+   
+   padding-left: 3.65em;
+      /* It helps to do this in pixels because we want to match the pointy 
+      hand picture and because the em size is smaller here. */
+   padding-right: 2.35em;
+   width: 17em;
+
+}
+#footer {
+
+	position: absolute;
+   bottom: 1em;
+   text-align: right;
+   line-height: 1.4em;
+
+	right: 5em; left: 5em;
+	   /* These should both be same as padding of #text. There's no obvious way 
+      to inherit it, since the padding has to be in #text rather than #content
+      to get the fallback bar to work, and this has to be in #content to align
+      with bottom of window. */
+
+}
+#menu {
+   position: relative;
+	z-index: 25;
+}
+#bar {
+   position: absolute;
+   left: 0px;
+   width: 100%;
+   border: none;
+   border-top: 1em solid #000;
+   z-index: 100;
+}
+.semanticsarchive {
+   margin: 4em 0em 4em 5em;
+   max-width: 45em;
+}
+
+
+/*****************************************************************************
+ *
+ * 	text  
+ */
+
+/* headings: */
+h1 { 
+	font-weight: bold; 
+	color: #000; 
+	margin-bottom: 1.5em; 
+}
+h2 { 
+	margin-top: 1.8em;  
+	margin-bottom: 1.4em; 
+	font-weight: bold; 
+}
+h3 { 
+   font-weight: bold; 
+   font-style: normal;
+   margin-top: 2.5em;
+   margin-bottom: 1.2em;
+}
+h4 { 
+   font-weight: bold; 
+   font-style: normal;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
+}
+
+/* basic links: */
+a, a:active, a:hover { text-decoration: none; }
+a:hover { 
+   border-style: solid; border-width: 0px; border-bottom-width: 1px;
+	   /* Careful here not to overwrite color set above. */
+	padding-bottom: 0.1em;
+}
+
+/* lists: */
+ul li { 
+   list-style-type: square; 
+   list-style-position: outside; 
+}
+li li { list-style-type: none; }
+li li:before {
+   content: "–"; 
+   right: 2.2ex;
+   position: relative;
+   width: 0px;
+   float: left;
+}
+
+/* table-like stuff */
+dl { margin-left: 2em; }
+dt {
+   margin-top: 1em;
+   font-weight: bold;
+   color: #444;
+   margin-bottom: 0.5ex;
+}
+dd {
+   margin-left: 4ex;
+   margin-bottom: 1em;
+}
+.tabular {
+   margin-left: 16ex;
+   text-indent: -12ex;
+}
+.tabular strong:first-child {
+   float: left;
+   display: block;
+   padding-right: 1ex;
+   min-width: 11ex;
+}
+
+/* misc text formatting */
+.abs, blockquote { 
+	line-height: inherit;
+	margin-left: 1.5em;
+}
+blockquote p:before { 
+	content: "‘"; 
+	font-size: 120%;
+	position: relative;
+	float: left;
+	right: 0.6ex;
+	width: 0px;
+}
+blockquote p:after { 
+	content: "’"; 
+	font-size: 120%;
+}
+.abs .label { 
+   font-weight: bold; 
+   padding-right: 1ex;
+}
+.semanticsarchive p.abs:before {
+   font-weight: bold; 
+   padding-right: 1ex;
+   content: "Abstract";
+}
+.semanticsarchive p.keywords:before { content: "Keywords"; }
+.sc { font-variant: small-caps; }
+.strikeout { text-decoration: line-through; }
+.IPA { white-space: nowrap; }
+
+/* BibTeX links and abstract links: */
+.bib, .abs_link { 
+   border: 1px solid #d0d0d0;
+   background-color: #EFEFEF;
+   padding: 0.1ex 0.5ex;
+   margin: 1px;
+   white-space: nowrap;
+   /* font-weight: bold; */
+}
+a:hover.bib, a:hover.abs_link { border-width: 1px; }
+	/* alternative set-up: */
+   /*    a.bib:before, a.abs_link:before { content: "["; }
+         a.bib:after,  a.abs_link:after  { content: "]"; }
+         a.bib, a.abs_link { font-size: 10px; } */
+
+hr { border-style: solid; border-width: 0px; border-top-width: 1px; }
+   /* For some reason, in Firefox this is not only necessary but also seems to 
+   be the only way to do it. In particular, setting style and width at once 
+   rather than in two steps causes the color to revert to black. Weird. */
+
+/* picture stuff: */
+.picture {
+	float: right;
+	margin: 0 0 1em 2em;
+	max-width: 33%;
+}
+.picture img { width: 100%; }
+.caption, .picture em { 
+
+	line-height: 1.4em; 
+	font-size: 10px;
+
+	display: block;
+	margin-top: 1ex; 
+	padding-bottom: 1em;
+	border-bottom-width: 1px; border-bottom-style: solid;
+		/* Done here rather than in .picture, as might seem more sensible, so 
+		that it's easy to simply omit a caption without also winding up with the 
+		line that goes under the caption. */
+
+}
+
+/* menu stuff: */
+#menu { line-height: 1em; }
+   /* Smaller line height prevents wrapped menu items from having lines more 
+   far apart from each other than from adjacent items. */
+#menu li { list-style: none; }
+#menu .current a:before {
+   content: url("pix/hand.png"); 
+   position: absolute;
+   left: -25px;
+   margin-top: 2px;
+      /* This seems to scale better than doing this using ems, oddly, at least 
+      in Safari, which, unlike Firefox, doesn't scale the image along with the 
+      font size. */
+}
+#menu a, #menu a:visited {
+
+	text-transform: uppercase;
+	font-weight: bold;
+	
+   padding-bottom: 0px; border-width: 0px;
+      /* These both undo general formatting of links. */
+	display: block;
+		/* It's important to have a be block, rather than using an inherently 
+		block element, because you want it to be the case that mousing over 
+		non-text areas of these links also activates them. */
+
+   padding: 0.75em 0; 
+
+	overflow: hidden;
+	   /* In case of weirdness when text is hugely magnified in browsers that 
+	   don't also adjust pixel size flexibly (Firefox, prob. others). */
+	
+   border-bottom: 2px solid transparent;
+   border-top: 2px solid transparent;
+      /* This is a way of leaving room for the heavy rules when hovering over 
+      items that is safer than using padding, since a 2px rule is always a 2px 
+      rule, whether transparent or not. */
+   margin: -1px 0;
+      /* To overlap rule between menu items, so it gets covered up. */
+
+}
+#menu li { border-style: solid; border-width: 0; border-bottom-width: 1px; }
+   /* In steps to avoid overwriting color. */
+#menu li:first-child { border-top-width: 1px; }
+/* NB: All the border stuff is INCREDIBLY delicate.
+
+      - At one point, I had this work by having the hovered-over item
+        shrink the size of its padding to accommodate its wider borders to
+        prevent subsequent menu items from being displaced. This turns out
+        not to scale up when font size is changed, at least in Firefox.
+        
+      - Then I tried drawing the rules using a background image rather
+        than a border. This is more reliable because it never affects the
+        vertical position of the text itself---but on Firefox, at least on
+        the laptop, this causes the rules to actually disappear when
+        resized, and, worse, only some of the rules disappear, so that
+        looks like crap.
+        
+      - The most recent arrangement (like the immediately preceding one)
+        draws the thicker hovered-over rules for all items in advance, but
+        transparently, which is a safer way of ensuring that precisely
+        enough white space is present and there is no popping up and down
+        of the menu items below the selection. But now instead of a
+        background image, the rules are drawn using borders again, but on
+        li rather than on a. (Previously didn't do this because was using a
+        background image for the hand, which would cause any rules to
+        include it. Now that I'm using an absolutely-positioned thing, this
+        isn't a problem.) 
+*/
+#menu a:hover, #menu a:active {
+
+   border-color: #000;
+      /* In principle, this should be set above with the other color stuff, 
+      but it has to come after the border-color: transparent setting above. */
+
+   background-repeat: no-repeat; background-position: right center; 
+   background-image: none; 
+   /*   background-image: url("pix/leaves_2_gr.png"); */
+      /* Pretty, but maybe a bit too much, and raises the question of why. */
+   /*   background-image: url("pix/curl_1_35_sm.png"); */
+      /* Looks like it might be an accident of some kind. Also sort of 
+      frilly. */
+   /*   background-image: url("pix/chili_sm_gr_30.png"); */
+      /* Looks all right, but kind of striking, and maybe also flowery or 
+      effete. */
+   /*   background-image: url("pix/elephant_sm_35.png"); */
+      /* I don't know if it seems whimsical or just cryptic. Also, it's so 
+      small you can't even really tell that it's an elephant. */
+
+}

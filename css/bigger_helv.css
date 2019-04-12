@@ -1,0 +1,253 @@
+/*
+
+	stylesheet for personal site
+	============================
+	
+	Thoroughly revised 1-Mar-10. ---MJM
+
+*/
+
+/* document: */
+html { 
+	background-image: url("pix/blue_border_thin.jpg");
+	background-repeat: repeat-x;
+	background-color: #ECEEF2;
+}
+body { 
+
+	position: absolute;
+	/*	margin: 20px 3em 0px 250px;*/
+	top: 11px;
+	right: 3em;
+	left: 240px;
+		/* Using pixels rather than ems or percentages here deliberately. This 
+		seems to be the only thing that allows scaling properly, especially wrt 
+		the fixed position of the menu. Don't change this unless really, really 
+		sure... */
+
+	min-height: 90%;
+		/* This is to ensure that even if the body text doesn't extend all the 
+		way to the bottom of the window, the middle text area thingy still 
+		does. */
+	padding: 30px 5em;
+	max-width: 45em;
+	min-width: 35em;
+
+	color: #111111; 
+	background-color: #F7F7F7;
+	border: 1px solid #D1D3D9;
+	border-top-width: 0px;
+
+	font-size: 11px; 
+		/* Using pixels sucks, but more consistent esp. on Firefox. */
+	font-family: Helvetica, Arial, sans-serif; 
+	line-height: 1.5em; 
+	/* font-size-adjust: .58; */  
+		/* Apparently not yet (2010) supported by virtually any browser. */
+
+}
+body.no_sidebar { left: 3em }
+
+/* text: */
+ul li { 
+	list-style-type: square; 
+	list-style-position: outside; 
+}
+strong, b { 
+	font-weight: bold; 
+	color: #444444; 
+	background-color: inherit; 
+}
+.abs, blockquote { 
+	color: #404040;
+	background-color: inherit; 
+	line-height: 1.5em;
+	margin-left: 1.5em;
+	font-size: 11px;
+}
+blockquote p:before { 
+	content: "‘"; 
+	font-size: 15px;
+	position: relative;
+	float: left;
+	right: 0.6ex;
+	width: 0px;
+	color: #404040;
+}
+blockquote p:after { 
+	content: "’"; 
+	font-size: 15px;
+	color: #404040;
+}
+.sc { font-variant: small-caps; }
+.strikeout { text-decoration: line-through; }
+
+/* links: */
+a { 
+	color: #AA0000; 
+	text-decoration: none; 
+}
+a:visited { 
+	color: #754A00; 
+}
+a:active { 
+	color: #0022AA; 
+	text-decoration: none; 
+}
+a:hover { 
+	border-bottom: 1px solid #7984A7;
+	padding-bottom: 1px;
+}
+
+/* headings: */
+h1 { 
+	font-weight: bold; 
+	color: #000000; 
+	background-color: inherit; 
+	margin-bottom: 1.2em; 
+	font-size: 22px; 
+	line-height: 1.4em; 
+	font-family: Georgia, Times, serif; 
+}
+h2 { 
+	padding-top: 2.5ex; 
+		/* Using padding rather than margin to allow some extra space between 
+		window edge and heading when jumping to it. */
+	font-weight: bold; 
+	color: #2c4c85; 
+	background-color: inherit; 
+	font-size: 16px; 
+	line-height: 1.4em; 
+	font-family: inherit;
+	font-family: Georgia, Times, serif; 
+}
+h3 { 
+	font-weight: bold; 
+	font-style: normal;
+	color: #444444; 
+	background-color: inherit; 
+	font-family: inherit;
+	font-size: 13px;
+}
+
+/* footer: */
+.footer { 
+	margin-top: 4.5em; 
+	text-align: right; 
+	font-style: normal;
+	font-size: 10px;
+	color: #2C4C85;
+	background-color: inherit; 
+}
+.footer hr {
+	border-top: 1px solid #D1D3D9;
+	border-bottom-width: 0px; 
+	border-left-width: 0px;   
+	border-right-width: 0px;
+		/* Doing things this way rather than all at once is nec for Firefox, for 
+		some reason. */
+	background-color: inherit; 
+}
+
+/* BibTeX links and abstract links: */
+.bib, .abs_link { 
+	font-size: 9px;
+	border: 1px solid #d0d0d0;
+	padding: 0.1ex 0.5ex;
+	margin: 1px;
+	/*	color: #444;*/
+	/*	color: #404080;*/
+	background-color: #ECEEF2;
+	/*	font-weight: bold;*/
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+}
+a:hover.bib, a:hover.abs_link { border: 1px solid #7984A7; }
+	/* alternative set-up: */
+	/*
+		a.bib:before, a.abs_link:before { content: "["; }
+		a.bib:after,  a.abs_link:after  { content: "]"; }
+		a.bib, a.abs_link { font-size: 10px; }
+	*/
+
+/* picture: */ 
+.picture {
+
+	position: absolute;
+	top: 40px;
+	left: -209px;
+		/* I don't know why this weird number, but it's what seems to be 
+		necessary to line up with menu... */
+	width: 175px;
+	margin-bottom: 1em;
+
+	line-height: 1.4em; 
+	font-size: 11px;
+	color: #444; 
+	background-color: #ECEEF2;
+		/* Makes sure the picture div itself has a background color. This 
+		ensures that if the menu or something else winds up under the picture
+		due to weird window resizing, we won't accidentally have both visible.
+		(We can't just inherit this color, because that would leave us with the
+		main body color rather than the sidebar color.) */
+
+}
+.picture img { 
+	width: 100%;
+	border: 0px solid #888888; 
+	margin-bottom: 1ex; 
+}
+.picture em, .caption { 
+	display: block;
+	border-bottom: 1px solid #D1D3D9;
+		/* Done here rather than in .picture, as might seem more sensible, so 
+		that it's easy to simply omit a caption without also winding up with the 
+		line that goes under the caption. */
+	padding-bottom: 1.5ex;
+	font-style: normal; 
+}
+
+/* menu stuff: */
+.menu {
+
+	position: fixed;
+	bottom: 25px;
+	left: 40px;
+	width: 175px;
+
+	font-size: 9px;
+	line-height: 1.4em;
+		/* Smaller line height prevents wrapped menu items from having lines 
+		more far apart from each other than from adjacent items. */
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+
+	z-index: -1;
+		/* Makes sure that menu is actually lower in stack than the body text 
+		itself, so if they overlap because of weird window resizing everything 
+		else will always win, covering up the menu, rather both being 
+		visible. */
+
+}
+.menu a:first-child { border-top: 1px solid #D1D3D9 }
+.menu a, .menu a:visited, .menu a:hover, .menu a:active { 
+	text-decoration: none; 
+	border-bottom: 1px solid #D1D3D9;
+	display: block;
+	padding: 5px 0px;
+	color: #2c4c85; 
+}
+.menu a:hover { 
+	margin-top: -1px;
+		/* Makes sure the topline this introduces covers up the bottom line of 
+		the element above it, thereby preventing the menu from seeming to hop 
+		around vertically. */
+	border: 1px solid #A00;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	color: #A00; 
+}
+.menu a:active { 
+	color: #E00; 
+	/* color: #0022FF; */
+}

@@ -1,0 +1,395 @@
+/*****************************************************************************
+
+   
+	Stylesheet for personal site for phones/things with small screens. 
+	   ---MJM 7 Jan 11
+
+
+*****************************************************************************/
+
+
+/*****************************************************************************
+ *
+ *    colors
+ */
+
+/* overall colors: */
+body {
+	color: #111; 
+   background-color: #ECECEC;
+/*   background-color: #ECECE5;*/
+}
+.semanticsarchive, 
+#content { background-color: #FBFBFB; }
+/*#content { background-color: #F9FAF9; }*/
+	
+/* border colors: */
+* { border-color: #D1D3D9; }
+
+/* accent colors: */
+#footer,
+#menu .current a,
+h2, h3 { color: #3B53AA; }
+/*a:hover, a:visited:hover { border-color: #666; }*/
+/*a:hover, a:visited:hover { border-color: #3B53AA; }*/
+
+/* link colors */
+/*#menu a:hover,*/
+a {
+   color: #A00; 
+   border-color: #A00; 
+}
+/*a:visited { color: #7A5100; } */
+   /* Original. At least on Felafel, not visible enough. */
+/*a:visited { color: #8F6E00; } 
+a:visited { color: #A88040; } 
+a:visited { color: #906868; } 
+a:visited { color: #906040; } */
+#menu a { color: #333; }
+#menu a:active,
+a:active { color: #E00 }
+
+/* grey */
+.caption, .picture em,
+h4,
+strong, b, 
+dt,
+.abs, blockquote 
+	{ color: #555; }
+/*a.bib, a.abs_link,*/
+
+
+/*****************************************************************************
+ *
+ * 	overall layout 
+ */
+
+#content, 
+#text, 
+#sidebar, 
+#menu, 
+#footer, 
+#bar,
+#picture, 
+body {
+   margin: 0;
+   padding: 0;
+   border-width: 0px;
+   border-style: solid;
+}
+#content { 
+      /* This is the main vertical area in the middle of the page that extends
+      all the way down to the bottom. This needs to be distinguished from the
+      body itself because:
+
+         - The body needs to extend horizontally to the window edges to allow
+           certain elements, like a top bar, to do this.
+
+         - The body needs to provide a background color. This could be done
+           instead by assigning a background color to the html tag, but this
+           seems risky, since it's not actually a layout tag, and in any case
+           it wouldn't make it possible to have elements that extend to its
+           full width since there can be no elements inside <html> that aren't
+           also in <body>.
+      */
+
+   position: absolute;
+   min-height: 100%;
+   z-index: 50;
+	left: 0; right: 0;
+   
+	/*   left: 3em; margin-right: 3em;*/
+
+   border-left-width: 1px;
+   border-right-width: 1px;
+
+}
+#text {
+      /* This is the main text inside the content div (i.e., inside the main 
+      vertical space). It's distinct in that it only goes as far as the text 
+      itself goes. Distinguishing these is useful because: 
+
+         - This means that this can have padding after it, which makes things
+           look a lot better when scrolled all the way to the bottom---the
+           text doesn't abut the edge of the window. Adding this padding to
+           the content itself would mean that when the text doesn't overflow
+           the window, the content---which necessarily extends all the way to
+           the bottom of it---would still have more padding below the bottom
+           of the window. This results in a gratuitous spillover beyond the
+           window and a pointless scrollbar.
+
+         - If I wanted the footer to be aligned with either the bottom
+           of the text or the bottom of the window, whichever is longer, this
+           would make it possible by aligning with the bottom of the content
+           (i.e., putting it inside the content div but outside the text div).
+           Because this text div itself has padding below it, it ensures that
+           the content will as well, which in turn means that something
+           aligned with the bottom of the content div wouldn't overlap with
+           what's inside it when it extends beyond the window.
+      */
+
+	padding-left: 4em; padding-right: 4em;
+
+   padding-bottom: 5em;
+   padding-top: 6em;
+
+}
+#sidebar {
+
+   border-top: 0.5em solid #000;
+      /* This bar is mostly redundant. It's a fallback for when the real main 
+      top bar winds up too short because the text has been scrolled
+      horizontally. (Since it's 100% of the window, it wouldn't necessarily be
+      long enough.) This has to be done here rather than in the content div
+      because the content div is 100% high, so adding it there would make it
+      100% + 1em. For this to work, all horizontal size stuff has to be set 
+      here rather than there as well. */
+
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	border-bottom: 1pt solid black;
+	width: 100%;
+
+   z-index: 60;
+	position: absolute;
+	top: 0;
+	text-align: center;
+
+}
+#footer {
+
+	position: absolute;
+   bottom: 1em;
+   text-align: right;
+
+	right: 5em; left: 5em;
+	   /* These should both be same as padding of #text. There's no obvious way 
+      to inherit it, since the padding has to be in #text rather than #content
+      to get the fallback bar to work, and this has to be in #content to align
+      with bottom of window. */
+
+}
+#menu {
+   position: relative;
+	z-index: 25;
+}
+#bar {
+   position: absolute;
+   left: 0px;
+   width: 100%;
+   border: none;
+   border-top: 0.5em solid #000;
+   z-index: 100;
+}
+.semanticsarchive {
+   margin: 4em 0em 4em 5em;
+   max-width: 45em;
+}
+
+
+/*****************************************************************************
+ *
+ * 	fonts 
+ */
+
+* { -webkit-text-size-adjust: none; }
+	/* Turns off crazy iPhone automatic fucking up. */
+body {
+   font-family: Helvetica, Arial, sans-serif;
+	font-size: 18pt;
+	line-height: 1.4em; 
+	/*	font-size-adjust: .62;*/
+		/* Not supported by most browsers (in 2010), and in any case not in 
+		/* CSS 2.1, though apparently may be back in 3.0. */
+}
+h1 { 
+   font-family: Georgia, Times, "Times New Roman", serif; 
+}
+h1 { font-size: 160%; }
+h2 { font-size: 135%; }
+h3 { font-size: 120%; }
+h4 { font-size: 110%; }
+	/* None of these render properly on the iPhone, even when just left at the 
+	default sizes. WTF? */
+.abs, blockquote { 
+	font-size: 90%; 
+}
+.bib, .abs_link { font-family: Verdana, Helvetica, Arial, sans-serif; }
+.bib, .abs_link,
+#footer { font-size: 75%; }
+	/* If this is a percentage, bib links in abstracts will be smaller than 
+	those elsewhere. */
+#menu a { 
+   font-family: Verdana, sans-serif;
+	font-size: 90%;
+}
+sup { line-height: 85%; font-size: 85%; }
+	/* The line-height business prevents browsers from adding extra space 
+	unevenly between lines to accommodate the superscript. */
+.caption, .picture em { 
+	line-height: 1.3em;
+	font-style: normal;
+	font-size: 85%;
+}
+
+/*****************************************************************************
+ *
+ * 	text  
+ */
+
+/* headings: */
+h1 { 
+   font-weight: bold; 
+	color: #000; 
+	margin-bottom: 1.5em; 
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   padding-bottom: 0.75em;
+	margin-bottom: 1.25em; 
+}
+h2 { 
+	margin-top: 1.2em;  
+	margin-bottom: 1.2em; 
+	font-weight: bold; 
+}
+h3 { 
+   font-weight: bold; 
+   font-style: normal;
+   margin-top: 2.5em;
+   margin-bottom: 1.2em;
+}
+h4 { 
+   font-weight: bold; 
+   font-style: normal;
+   margin-top: 1.5em;
+   margin-bottom: 1em;
+}
+
+/* basic links: */
+a, a:active, a:hover { text-decoration: none; }
+
+/* lists: */
+ul li, ul li li {
+   list-style-type: square; 
+   list-style-position: outside; 
+}
+
+/* table-like stuff */
+dl { margin-left: 1em; }
+dt {
+   margin-top: 1em;
+   font-weight: bold;
+   margin-bottom: 0.5ex;
+}
+dd {
+   margin-left: 1em;
+   margin-bottom: 1em;
+}
+.tabular {
+   margin-left: 8em;
+   text-indent: -6em;
+}
+.tabular strong:first-child {
+   float: left;
+   display: block;
+   padding-right: 1ex;
+   min-width: 5.5em;
+}
+
+/* misc text formatting */
+.abs, blockquote { 
+	margin-left: 1.5em;
+}
+blockquote p:before { 
+	content: "‘"; 
+	font-size: 120%;
+	position: relative;
+	float: left;
+	right: 0.6ex;
+	width: 0px;
+}
+blockquote p:after { 
+	content: "’"; 
+	font-size: 120%;
+}
+.abs .label { 
+   font-weight: bold; 
+   padding-right: 1ex;
+}
+.semanticsarchive p.abs:before {
+   font-weight: bold; 
+   padding-right: 1ex;
+   content: "Abstract";
+}
+.semanticsarchive p.keywords:before { content: "Keywords"; }
+.sc { font-variant: small-caps; }
+.strikeout { text-decoration: line-through; }
+.IPA { white-space: nowrap; }
+
+/* BibTeX links and abstract links: */
+.bib, .abs_link { 
+   border: 1px solid #d0d0d0;
+   background-color: #EFEFEF;
+   padding: 0.3ex 1ex;
+   margin: 0.2em;
+   white-space: nowrap;
+/*	font-weight: bold;
+	font-size: 70%;*/
+}
+	/* alternative set-up: */
+   /*    a.bib:before, a.abs_link:before { content: "["; }
+         a.bib:after,  a.abs_link:after  { content: "]"; }
+         a.bib, a.abs_link { font-size: 10px; } */
+
+hr { border-style: solid; border-width: 0px; border-top-width: 1px; }
+   /* For some reason, in Firefox this is not only necessary but also seems to 
+   be the only way to do it. In particular, setting style and width at once 
+   rather than in two steps causes the color to revert to black. Weird. */
+
+/* picture stuff: */
+.picture {
+	float: right;
+	margin: 0 0 1em 2em;
+	max-width: 30%;
+	width: 16em;
+}
+.picture img { width: 100%; }
+.caption, .picture em { 
+
+	display: block;
+	margin-top: 1ex; 
+	padding-bottom: 1em;
+	border-bottom-width: 1px; border-bottom-style: solid;
+		/* Done here rather than in .picture, as might seem more sensible, so 
+		that it's easy to simply omit a caption without also winding up with the 
+		line that goes under the caption. */
+
+}
+
+/* menu stuff: */
+#menu li { 
+	list-style: none; 
+	display: inline; 	
+}
+#menu li:before { 
+	content: "•"; 
+	padding: 0 1ex;
+	color: #555;
+}
+#menu li:first-child:before { 
+	content: "";
+	padding: 0;
+}
+#menu a, #menu a:visited {
+	text-transform: uppercase;
+	border: 0; 
+}
+#menu .current a, 
+#menu a:hover, 
+a:active { 
+	font-weight: bold; 
+}
+
+/* no menu (use as class of body) */
+.nomenu #content { left: 8em; }
+.nomenu #menu { display: none; }

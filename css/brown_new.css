@@ -1,0 +1,342 @@
+/*
+
+	stylesheet for personal site
+	============================
+	
+	Thoroughly revised 1-Mar-10. ---MJM
+
+*/
+
+
+/*
+ * 	colors 
+ */
+
+/* overall background color: */
+.bib, .abs_link,
+.picture,
+	/* Makes the picture div itself have a background color rather than be 
+	transparent. This ensures that if the menu or something else winds up under
+	the picture due to weird window resizing, we won't accidentally have both
+	visible. (We can't just inherit this color, because that would leave us
+	with the main body color rather than the sidebar color.) */
+html 
+	{ background-color: #F0F0EA; }
+/*	{ background-color: #F0EEE7; }*/
+	
+/* borders: */
+#content, 
+hr, 
+.picture em, .picture img, .caption,
+#menu li
+{
+	border-color: #D1D3D9;
+/*	border-color: #D6D5CD;*/
+	border-width: 0px;
+	border-style: solid;
+}
+
+/* accent foreground colors: */
+.footer,
+h2 
+	{ color: #2c4c85; }
+a:hover 
+	{ border-color: #2c4c85; }
+#menu a.current 
+   { color: #10349A }
+
+
+/* link colors */
+a
+	{ color: #900; }
+a:visited 
+	{ color: #754A00; }
+a:active, 
+#menu a:active
+   { color: #E00 }
+#menu li:hover, 
+#menu li:hover a { 
+   color: #900; 
+   border-color: #900; 
+}
+
+/* body colors */
+#content {
+	color: #111111; 
+	background-color: #F7F7F7;
+}
+#menu a
+	{ color: #111111; }
+
+/* grey */
+h3, 
+strong, b, 
+.picture,
+.abs, blockquote 
+	{ color: #444; }
+
+
+/*
+ * 	fonts 
+ */
+
+/* overall: */
+body {
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, sans-serif; 
+	font-size: 11px;
+		/* Using pixels sucks, but more reliable. */
+	line-height: 1.6em; 
+	/*	font-size-adjust: .62;*/
+		/* Not supported by most browsers (in 2010), and in any case not in 
+		/* CSS 2.1, though apparently may be back in 3.0. */
+}
+h1, h2 { font-family: Georgia, Times, serif; }
+	
+/* sizes (it'd be better to use percentages, but those aren't reliable, esp. 
+wrt effects on line-height): */
+h1 { font-size: 20px; }
+h2 { font-size: 16px; }
+h3 { font-size: 12px; }
+.picture,
+.abs, blockquote 
+	{ font-size: 10px; }
+#menu, 
+.bib, .abs_link,
+.footer 
+	{ font-size: 9px; }
+sup { line-height: 9px; font-size: 9px; }
+	/* The line-height business prevents browsers from adding extra space 
+	unevenly between lines to accommodate the superscript. */
+
+/* line height: */
+.abs, blockquote,
+h3
+	{ line-height: inherit; }
+.picture,
+#menu, 
+	/* Smaller line height prevents wrapped menu items from having lines more 
+	far apart from each other than from adjacent items. */
+h1, h2
+	{ line-height: 1.4em; }
+
+
+/*
+ * 	overall layout 
+ */
+
+/* document: */
+html { 
+}
+body { 
+	background-image: url("pix/blue_border_thin.jpg");
+	background-repeat: repeat-x;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+	min-height: 100%;
+	z-index: 1;
+}
+#content {
+   
+   position: absolute;
+	top: 0px;
+	right: 3em;
+	left: 240px;
+		/* Using pixels rather than ems or percentages here deliberately. This 
+		seems to be the only thing that allows scaling properly, especially wrt 
+		the fixed position of the menu. Don't change this unless really, really 
+		sure... */
+
+	padding: 0px 5em;
+	margin: 0px;
+	padding-bottom: 4em;
+	max-width: 45em;
+	min-width: 33em;
+	
+	min-height: 100%;
+
+	border-width: 1px;
+	border-top-width: 0px;
+	
+	z-index: 0;
+
+}
+
+/* headings: */
+h1 { 
+	font-weight: bold; 
+	color: #000; 
+	background-color: inherit; 
+	margin-bottom: 2ex; 
+}
+h2 { 
+	margin-top: 2ex; 
+	font-weight: bold; 
+	background-color: inherit; 
+}
+h3 { 
+	font-weight: bold; 
+	font-style: normal;
+	background-color: inherit; 
+	margin-top: 2.5ex;
+}
+
+/* links: */
+a, a:active, a:hover { text-decoration: none; }
+a:hover { 
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-style: solid;
+	padding-bottom: 1px;
+}
+
+/* lists: */
+ul li { 
+   list-style-type: square; 
+   list-style-position: outside; 
+}
+li li { list-style-type: none; }
+li li:before {
+   content: "–"; 
+   right: 2.2ex;
+   position: relative;
+   width: 0px;
+   float: left;
+}
+
+/* text */
+.abs, blockquote { 
+	line-height: inherit;
+	margin-left: 1.5em;
+}
+blockquote p:before { 
+	content: "‘"; 
+	font-size: 120%;
+	position: relative;
+	float: left;
+	right: 0.6ex;
+	width: 0px;
+}
+blockquote p:after { 
+	content: "’"; 
+	font-size: 120%;
+}
+strong, b { font-weight: bold; }
+.sc { font-variant: small-caps; }
+.strikeout { text-decoration: line-through; }
+
+
+/*
+ * 	special elements
+ */
+
+/* footer: */
+.footer { 
+	text-align: right; 
+	font-style: normal;
+	background-color: inherit; 
+ position: absolute;
+	bottom: 4ex;
+	height: 3ex;
+}
+.footer hr {
+	border-top-width: 1px;
+	background-color: inherit; 
+}
+
+/* BibTeX links and abstract links: */
+.bib, .abs_link { 
+	border: 1px solid #d0d0d0;
+	padding: 0.1ex 0.5ex;
+	margin: 1px;
+	/*	color: #444;*/
+	/*	color: #404080;*/
+	/*	font-weight: bold;*/
+}
+a:hover.bib, a:hover.abs_link { border-width: 1px; }
+	/* alternative set-up: */
+	/*
+		a.bib:before, a.abs_link:before { content: "["; }
+		a.bib:after,  a.abs_link:after  { content: "]"; }
+		a.bib, a.abs_link { font-size: 10px; }
+	*/
+
+/* picture: */ 
+.picture {
+
+	position: absolute;
+	top: 40px;
+	left: -209px;
+		/* I don't know why this weird number, but it's what seems to be 
+		necessary to line up with menu... */
+	width: 175px;
+	margin-bottom: 1em;
+
+	line-height: 1.4em; 
+	font-size: 10px;
+	
+}
+.picture img { 
+	width: 100%;
+	border: 0px solid #888888; 
+	margin-bottom: 1ex; 
+}
+.picture em, .caption { 
+	display: block;
+	border-bottom-width: 1px;
+		/* Done here rather than in .picture, as might seem more sensible, so 
+		that it's easy to simply omit a caption without also winding up with the 
+		line that goes under the caption. */
+	padding-bottom: 1.5ex;
+	font-style: normal; 
+}
+.no_sidebar div.picture { display: none; }
+
+/* menu stuff: */
+#menu {
+
+	position: fixed;
+	bottom: 25px;
+	left: 40px;
+	width: 175px;
+
+	text-transform: uppercase;
+	font-weight: bold;
+
+	z-index: -1;
+		/* Makes sure that menu is actually lower in stack than the body text 
+		itself, so if they overlap because of weird window resizing everything 
+		else will always win, covering up the menu, rather both being 
+		visible. */
+
+   margin-left: 0px;
+   padding-left: 0px;
+	
+}
+#menu li {
+   list-style: none;
+	padding: 5px 0px;
+   border-bottom-width: 1px;
+}
+#menu li:first-child { 
+   border-top-width: 1px;
+}
+#menu li:hover { 
+   margin-top: -1px;
+   border-top-width: 1px;
+}
+#menu a:hover, a:active, a:visited {
+   padding-bottom: 0px; border-width: 0px;
+      /* These both undo general formatting of links. */
+}
+#menu a.current {
+   margin-left: -25px;
+   padding-left: 25px;
+   display: block;
+   background-image: url("pix/hand.png"); 
+	background-repeat: no-repeat;
+   background-position: left 70%;
+}

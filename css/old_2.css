@@ -1,0 +1,220 @@
+
+/* document: */
+body { 
+	background-image: url("pix/blue_border.jpg");
+	background-repeat: repeat-x;
+		/* This is only for when a menu doesn't independently put up a 
+		background blocking it. */
+	font-size: 11px; 
+		/* Using pixels sucks, but more consistent on Firefox. */
+	margin: 70px 5% 2em 290px;
+	max-width: 44em;
+	text-align: left;
+	color: #111111; 
+	background-color: #FAFAFA;
+	line-height: 1.6em; 
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, sans-serif; 
+	/* font-size-adjust: .58; */  
+		/* Apparently not implemented in CSS yet. */
+}
+ul li { 
+	list-style-type: square; 
+	list-style-position: outside; 
+}
+strong, b { 
+	font-weight: bold; 
+	color: #444444; 
+	background-color: inherit; 
+}
+.abs, blockquote { 
+	color: #404040;
+	background-color: inherit; 
+	line-height: inherit;
+	margin-left: 1.5em;
+	font-size: 10px;
+}
+blockquote p:before { 
+	content: "‘"; 
+	font-size: 12px;
+	position: relative;
+	float: left;
+	right: 0.75ex;
+	width: 0px;
+}
+blockquote p:after { 
+	content: "’"; 
+	font-size: 12px;
+	position: relative;
+}
+.sc { font-variant: small-caps; }
+.strikeout { text-decoration: line-through; }
+
+/* links: */
+a { 
+	color: #AA0000; 
+	background-color: inherit; 
+	text-decoration: none; 
+}
+a:visited { 
+	color: #754A00; 
+	background-color: inherit; 
+}
+a:active { 
+	color: #0022AA; 
+	background-color: inherit; 
+	text-decoration: none; 
+}
+a:hover { 
+	border-bottom: dotted; 
+	border-color: #888888; 
+	border-width: 1px; 
+}
+
+/* headings: */
+h1 { 
+	font-weight: bold; 
+	color: #000000; 
+	background-color: inherit; 
+	margin-bottom: 1.2em; 
+	font-size: 22px; 
+	line-height: 1.4em; 
+	font-family: Georgia, Times, serif; 
+}
+h2 { 
+	/*	margin-top: 1.8em; */
+	padding-top: 4.25ex; 
+	margin-top: -1.75ex; 
+		/* This is done in this weird way, with lots of padding and a negative 
+		margin, to accommodate fixed position of top bar, which would otherwise 
+		obscure headings that are aligned with the top of the window. */
+	font-weight: bold; 
+	color: #2c4c85; 
+	background-color: inherit; 
+	font-size: 15px; 
+	line-height: 1.4em; 
+	font-family: inherit;
+	font-family: Georgia, Times, serif; 
+}
+h3 { 
+	font-weight: bold; 
+	font-style: normal;
+	color: #444444; 
+	background-color: inherit; 
+	font-family: inherit;
+	font-size: 11px;
+}
+
+/* picture: */ 
+.picture {
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	width: 175px; /* ensures proper wrapping of caption */
+	margin-left: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1.5ex;
+	border-bottom: 1px dotted #888888;
+	color: #2c4c85; 
+	background-color: inherit; 
+	line-height: 1.4em; 
+	font-size: 10px;
+	z-index: 1;
+}
+.picture img { 
+	width: 175px; /* ensures img size matches caption size */
+	border: 1px solid #888888; 
+	margin-bottom: 0.5ex; 
+}
+.picture em { font-style: normal; }
+
+/* BibTeX links: */
+.bib { 
+	font-size: 9px;
+	border: 1px solid #d0d0d0;
+	padding: 0.1ex 0.5ex;
+	margin: 1px;
+/*	color: #444;
+	background-color: #ddd; */
+/*	font-weight: bold;*/
+/*	color: #404080;*/
+}
+a:hover.bib         { border: 1px solid #AA0000; }
+a:visited:hover.bib { border: 1px solid #754A00; }
+
+/* alternative BibTeX link set-up: */
+/*
+	a.bib:before { content: "["; }
+	a.bib:after { content: "]"; }
+	a.bib { font-size: 10px; }
+*/
+
+/* footer: */
+.footer { 
+	margin-top: 4.5em; 
+	text-align: right; 
+	font-style: normal;
+	font-size: 9px;
+	color: #2C4C85;
+	background-color: inherit; 
+}
+.footer hr {
+	border-bottom-width: 0px; 
+	border-left-width: 0px;   
+		/* Doing things this way rather than all at once is nec for Firefox, for 
+		some reason. */
+	color: #FAEBD7; 
+		/* This helps with old versions of Explorer. */
+	border-top: 1px dotted #888888;
+	border-right-width: 0px;
+	background-color: inherit; 
+}
+
+/* hiding-showing bullshit: */
+.hidden { display: none; }
+.hidden_abs .abs { display: none; }
+.visible_abs .abs { display: block; }
+
+/* menu stuff: */
+.menu {
+	background-image: url("pix/blue_border.jpg");
+	background-repeat: repeat-x;
+	height: 20px;
+	line-height: 18px;
+/*	background-image: url("pix/collage.jpg");
+	background-repeat: repeat-x;
+	height: 22px;
+	line-height: 20px;
+	font-weight: bold;*/
+/*	background-color: #5C68A9;
+	border-bottom: 2px inset #445;
+	height: 18px;
+	line-height: 17px;*/
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	padding-right: 10px;
+	text-align: right;
+	font-size: 9px;
+	color: #000; 
+	text-transform: uppercase;
+	/*	font-weight: bold;*/
+}
+.menu a, .menu a:visited, .menu a:hover, .menu a:active { 
+	text-decoration: none; 
+	border-width: 0px;
+	color: #CCD5F0; 
+	/*	color: #335; */
+	padding-left: 1ex;
+}
+.menu a:hover { 
+	color: #FFF;
+	/*	color: #D7E2F8;*/
+}
+.menu a:active { 
+	color: #000;
+	/*	color: #D7E2F8;*/
+}
+.menu a:first-child:before { content: "" }
+.menu a:before { content: "·"; padding-right: 1em; color: #000; }

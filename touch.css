@@ -1,0 +1,25 @@
+/*****************************************************************************
+
+   
+	Hacks for touch devices. Loaded on top of basic stylesheets.
+	   ---MJM 28 Dec 11
+
+
+*****************************************************************************/
+
+
+#sidebar {
+   position: absolute;
+      /* 'Fixed' is nicer, but it fucks up iOS (blurry text, mispositioned 
+      stuff on resize). */
+}
+
+/* Borders introduced using :hover get stuck in place after release on 
+javascript buttons. */
+a:hover {
+   border-width: 0px;
+}
+a.bib:hover, a.abs_link:hover,
+a:hover.bib, a:hover.abs_link {
+   border: 0.2em solid #d0d0d0;
+}

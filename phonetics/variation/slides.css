@@ -1,0 +1,49 @@
+/*****************************************************************************
+
+   
+	Stylesheet for slides. 
+	
+	---MJM-31-Oct-10
+
+
+*****************************************************************************/
+
+
+body {
+	color: #181818; 
+   background-color: #F3F3EB;
+	font: 16px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	line-height: 1.6em;
+}
+.slide { 
+	margin: 5em 10%;
+	max-width: 30em;
+}
+h1 { font-size: 18px; }	
+h2 { font-size: 20px; margin-bottom: 1.5em;}
+h2, h3 { color: #3B53AA; }
+
+/* basic links: */
+a {
+   color: #900; 
+   border-color: #900; 
+}
+/*a:visited { color: #7A5100; }*/
+a:active { color: #E00 }
+a:active { color: #E00 }
+a, a:active, a:hover { text-decoration: none; }
+
+blockquote, .display {
+	font-size: 140%;
+	margin-left: 3em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+.note {
+	color: #888;
+	font-size: 80%;
+}
+p.note {
+	margin-top: 1.5em;
+}

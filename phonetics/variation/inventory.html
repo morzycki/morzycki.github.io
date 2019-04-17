@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Phonetic Variation</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <link rel="stylesheet" type="text/css" href="slides.css" />
+
+  <script>
+  function sound(soundobj) {
+    var thissound= eval("document." + soundobj);
+    thissound.Play();
+  }
+  </script>
+
+</head>
+
+<body class="slide">
+
+<h2 id="cast_of_characters">Cast of characters</h2>
+
+<ul>
+
+  <li>
+
+    <p><a href="javascript:sound('labial')" id="labial">labial</a> (more
+      precisely, bilabial):</p>
+
+    <p class="display">[&#664;]</p>
+
+  </li>
+
+  <li>
+
+    <p><a href="javascript:sound('dental')" id="dental">dental</a>:</p>
+
+    <p class="display">[&#448;]</p>
+
+  </li>
+
+  <li>
+
+    <p><a href="javascript:sound('alveolar')" id="alveolar">alveolar</a>
+      (more precisely, postalveolar or alveolopalatal):</p>
+
+    <p class="display">[!]</p>
+
+  </li>
+
+  <li>
+
+    <p><a href="javascript:sound('palatal')" id="palatal">palatal</a> (more
+      precisely, palatoalveolar):</p>
+
+    <p class="display">[&#450;]</p>
+
+  </li>
+
+  <li>
+
+    <p><a href="javascript:sound('lateral')" id="lateral">alveolar
+      lateral</a>:</p>
+
+    <p class="display">[&#449;]</p>
+
+  </li>
+
+</ul>
+
+<p><embed src="../clicks/labial.aiff" name="labial" autostart="false" hidden=
+  "true" /> <embed src="../clicks/dental.aiff" name="dental" autostart=
+  "false" hidden="true" /> <embed src="../clicks/alveolar.aiff" name=
+  "alveolar" autostart="false" hidden="true" /> <embed src=
+  "../clicks/palatal.aiff" name="palatal" autostart="false" hidden="true" />
+  <embed src="../clicks/lateral.aiff" name="lateral" autostart="false"
+  hidden="true" /></p>
+
+</body>
+
+</html>

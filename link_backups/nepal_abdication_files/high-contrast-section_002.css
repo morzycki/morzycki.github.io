@@ -1,0 +1,545 @@
+
+          /* ---------- accent.css starts here ---------- */
+
+@media all{
+
+#footer,
+body.gallery div.gallery-navigation ul li.current img,
+body.cartoon #wrapper #footer,
+body.news #box,
+body.news p.ticker-strap,
+body.contributor-index div#wrapper div#box div#section-contents ul#main-trailblock li.major-heading h2,
+body.subject-index div#wrapper div#box div#section-contents ul#main-trailblock li.major-heading h2,
+body.beautiful-boss div#beautiful-boss-trail div#main-trailblock h2.first,
+body.interactive-wide div#footer ul#footer-links
+{
+    border-color: #d61d00; /* $zonePrimary */
+}
+
+body.front #content h1,
+ul.toolset,
+#related h2,
+#related h3,
+#wrapper #related div.capsule h3,
+body.article #related h2,
+h1,
+h2,
+h3,
+h4,
+#article-header,
+body.article #article-header h2#strap,
+body.article div#advertiser-container .advertiser-links h3,
+body.contributor div#advertiser-container .advertiser-links h3,
+div.directory,
+body.front #content h2,
+h3,
+#related-info,
+#related-info div.section,
+#related-info div.section h2,
+#section-contents h2,
+body.other #box #content #section-contents h2,
+body.triplet #box div.col h2,
+#related #keyword-combiner h3,
+#section-contents ul.been-there li,
+body.keyword-page #content h2.first,
+#related h4,
+#related p.jump-related,
+#related ul.auto-trail-block h2,
+#related #fact-box,
+.keyword-page #related .capsule h3,
+#related #article-trailblock h2,
+.directory-front #content h2,
+div#wrapper #box ul.trail li.major-heading h2,
+body.other #box #content h2.first,
+body.directory-place #content .index h2,
+body.directory-place #content .regionplaceholder h2,
+.late-offers-front #box #content li.minor-heading h2,
+.double-spread #content h2,
+.commercial #wrapper #promo .capsule h2,
+.directory ol.alphabet,
+.offers-place #content h2.first,
+#related-info h2,
+div.series-navigation,
+div#box div.series-navigation,
+body.directory-place #content .countries h2,
+body.directory-front #box div#article-header,
+ul.article-attributes,
+body.series-index div#content h2.first,
+body.series-index div#content ul#auto-trail-block li.latest h2,
+body.series-index div#wrapper div#box div#related div.capsule h2.series-desc,
+body.video-series #box h2,
+body.video-series div#wrapper #box #videos-third-column li.major-heading h2,
+body.video-series div#wrapper #box #videos-third-column div#latest-series ul li h2,
+body.video-series div#wrapper #box #videos-third-column div#latest-series ul li h2,
+div#second-trailblock,
+div.trailblock.offerblock h3#offers-heading,
+body.front #wrapper div#section-contents li.major-heading h2,
+body.front #wrapper div#section-contents li.major-heading h3,
+body.front #wrapper div#more-trails div.sponsored-features,
+body.front #wrapper div#section-contents div.ventures-slot-machine h3,
+body.cartoon #box .main-picture,
+body.cartoon .navigation #article-toolbox-side,
+body.cartoon #box div.relatedlinks h3.first,
+body.cartoon div.series-navigation,
+body.cartoon div.related-content h3,
+body.poll div#related ul#article-toolbox-side,
+body.poll div#related div.article-trailblock li.first h2,
+body.poll div#related div.article-trailblock h2.major-heading,
+body.poll div#previous-polls,
+body.quiz div#content,
+body.quiz div#related ul#article-toolbox-side,
+body.quiz div#related h2#keywords,
+body.competition #box div#related div.relatedlinks h3.first,
+body.competition div#content,
+body.competition div#related ul#article-toolbox-side,
+body.competition div#related h2#keywords,
+body.table #box div#related div.relatedlinks h3.first,
+body.table div#content,
+body.table div#related ul#article-toolbox-side,
+body.table div#related h2#keywords,
+div#relatedlinks h2.related-information,
+body.audio-canonical div.keyword-list,
+body.audio-canonical div.resources,
+body.audio-canonical #section-contents li.package-headline h4,
+div#box div#content div#second-trailblock ul#money-trails h2,
+div#box div#content div#second-trailblock div#most h2,
+div#box div#content div.recent-blogs h2,
+body.reuters div#related div#stock-search-narrow h3,
+ul.package,
+body.boss-tag #related h2,
+ul.package,
+body.beautiful-boss div#box div#related div#recent h2.first,
+body.audio-front h2,
+body.audio-front .latest h2,
+body.audio-front #audio-pick h2,
+body.audio-canonical #article-header h2.series-title,
+body.audio-canonical ul.article-attributes,
+body.audio-canonical #section-contents h2,
+body.audio div#more-in-audio-series h2,
+body.audio .more-podcasts li h5,
+body.beautiful-boss div#wrapper div#box div#content ul li p.strap,
+body.beautiful-boss div#wrapper div#related div#comment h2,
+body.article div.related-content h3.first,
+body.beautiful-boss div#content,
+body.article #wrapper #footer #footer-links,
+body.fixtures-and-results #wrapper #footer ul#footer-links,
+body.matches-by-date #wrapper #footer #footer-links,
+body.matches-by-date #content,
+body.matches-by-date table,
+body.match-statistics #article-toolbox-side,
+body.sport #box,
+body.sport #wrapper #content li.major-heading h2,
+body.sport #wrapper #section-contents div#sponsored-features h3,
+body.sport #wrapper div#box div#content #secondary-trailblocks .col li h2,
+body.football-tournament #league-position h2,
+body.other #league-position h2,
+body.cricket-match #box #content h2,
+body.in-this-section #wrapper #footer #copyright-links,
+body.article #wrapper #footer ul#copyright-links,
+#related div#book-index h2,
+body.keyword-page div#box div#content div.book-index h2,
+body.news #wrapper #section-contents div#sponsored-features h3,
+body.observer #wrapper #section-contents div#sponsored-features h3,
+body.publication div#box div#content ul.timeline li h2,
+body.publication #related h2,
+#aristotle,
+body.article div#related ul#article-toolbox-side,
+body.interactive div.navigation ul#article-toolbox-side,
+body.fixtures-and-results #content h2,
+body.boss-tag div#content div#related div.tag-tag h3,
+div.tag-tag h3,
+div.related-item p.strap,
+body.business-front div#newsticker,
+body.front div#section-contents #onsite h2,
+div#stock-search-narrow,
+div#content div.sponsored-features h3,
+body.subject-index div#wrapper div#header,
+body.contributor-index div#wrapper div#header,
+body.front div#content div#sponsored-jobs,
+body.media-front div#content div#sponsored-jobs,
+body.media-front div#promo div#mpu1,
+body.markets-index #content #market-data-header h2,
+body.article #readers-tips h3,
+body.article #more-in-series h3,
+body.audio-canonical #wrapper #footer #footer-links,
+body.audio-canonical #wrapper #footer ul#copyright-links,
+div#wrapper div#box div#section-contents div.other-services li.major-heading h3,
+#promo #league-position,
+body.tag-content div#wrapper div#video-trailblock li#editors-heading h2,
+body.tag-content div#wrapper div#box div#content h3.first,
+#pluck-container #pluck-comments h2,
+#pluck-container h2,
+#pluck-container .footer,
+#pluck-container .footer .pluck-all-comments,
+.pluck-comments-container #post-comment-div-top,
+.pluck-comments-container #post-comment-div-bottom,
+.pluck-comments-container .header .pluck-all-comments p,
+.pluck-comments-container .header .pluck-comment-post,
+.pluck-comments-container .header .pluck-comment-legend,
+ .pluck-comments-container .footer .pluck-all-comments,
+#pluck-addressed-comment-container #pluck-comments h2,
+#pluck-addressed-comment-container h2,
+#pluck-addressed-comment-container .header .pluck-comment-post,
+#pluck-addressed-comment-container .header .pluck-comment-legend,
+#pluck-addressed-comment-container .header .pluck-all-comments p,
+#pluck-addressed-comment-container .footer .pluck-all-comments p,
+div#related div.relatedlinks h3.first,
+body.interactive #box div.relatedlinks h3.first,
+body.gallery div.article-trailblock,
+body.gallery div.relatedlinks h3.first,
+body.audio-canonical #box div.relatedlinks h3.first,
+#sign-off p.more-galleries, 
+#sign-off ul h2,
+body.gallery div#current-gallery h2,
+#content div.hideableComponent h2,
+body.video-series div#wrapper div#video-series-header,
+body.life-and-style div#content div#secondary-trailblocks div.col h2,
+body.life-and-style div#content div#third-trailblocks div.col h2,
+body.interactive-wide div#wrapper div#box div#content-subSection-container ul li.major-heading h2,
+body.books div#wrapper div#section-contents div.sponsored-features ul.trail li.major-heading h3,
+div#factbox,
+body.culture div#content div#secondary-trailblocks div.col h2,
+body.culture div#content div#third-trailblocks div.col h2,
+body.has-badge div#wrapper div#article-header,
+body.stage div#wrapper div#additionals div#sponsored-features li.major-heading,
+body.stage div#wrapper div#box div#second-trailblock li.major-heading h2,
+#user-rating h2,
+#user-rating div.Ratings_Container,
+#user-reviews .sign-in,
+#user-rating form,
+#user-reviews h2,
+body.article div#wrapper div.badge-wrapper,
+body.video div#wrapper div.badge-wrapper,
+body.interactive div#wrapper div.badge-wrapper,
+body.audio div#wrapper div.badge-wrapper,
+body.culture div#main-trailblock div.strap,
+body#culture-gateway div#debate-trailblock div.strap,
+body.culture div#main-trailblock div.strap,
+body.film div#related h2.major-heading,
+body.film div#content div#film-dvd-reviews h3,
+body.film div#content div#find-a-film h4,
+body.film div#content form#cinema-search h4,
+body.art-and-design div#heading,
+body.business-front div#second-trailblock div#money-trails h2
+{
+    border-color: #d61d00; /* $zonePrimary */
+}
+
+#pluck-comments .pluck-content,
+#pluck-addressed-comment-container ul,
+div#pluck-pagination-bottom,
+div#pluck-pagination-top
+{
+	border-color: #999999;
+}
+
+body.poll span.leader,
+div.rating-container
+{
+	background-color: #d61d00; /* $zonePrimary */
+}
+
+
+
+.front div#promo div.jobsbox,
+body.front #promo div#edited-offers li.major-heading h3,
+body.front #promo div.capsule
+{
+    border-color: #d61d00; /* $zonePrimary */
+}
+
+body.travel #wrapper div.first h2,
+body.travel #wrapper #box #content div.first h2,
+body.front #content div.first h1,
+body #wrapper div#section-contents,
+div#page-header
+{
+    border-color: #d61d00; /* $zonePrimary */
+}
+
+body.most-clipped div#content ul#main-trailblock li.major-heading h2,
+body.most-viewed div#content ul#main-trailblock li.major-heading h2,
+body.most-popular div#content ul#main-trailblock li.major-heading h2
+{
+	border-color: #ccc;
+}
+
+/*
+pixie colors - same for each section so hard-coded here
+------------------------------------------------------------------------------*/
+
+
+div.news li.pixie div.caption,
+div.news li.pixie div.trail-text,
+div.news div.caption
+{
+	background-color: #ce2e20;
+}
+
+div.news li.pixie a,
+div.news div.caption h2,
+div.news div.caption h1
+{
+	color: black
+}
+
+div.news li.pixie p.strap a,
+div.news div.caption h2 a,
+div.news div.caption h1 a
+{
+	color: white
+}
+
+#wrapper #highlights .pixie li.open-pix.sport div.caption p.open-strap a,
+#highlights .pixie li.sport h3 a 
+{
+	color: #216a07;
+}
+
+#wrapper #highlights .pixie li.open-pix.travel div.caption p.open-strap a,
+#highlights .pixie li.travel h3 a
+{
+	color: #06f;
+}
+
+
+#wrapper #highlights .pixie li.open-pix.blog div.caption p.open-strap a,
+#wrapper #highlights .pixie li.open-pix.news div.caption p.open-strap a,
+#wrapper #highlights .pixie li.open-pix.comment div.caption p.open-strap a,
+#highlights .pixie li.blogs h3 a,
+#highlights .pixie li.news h3 a,
+#highlights .pixie li.comment h3 a
+{
+	color: #c00;
+}
+
+#wrapper #highlights .pixie li.open-pix.lifestyle div.caption p.open-strap a,
+#highlights .pixie li.lifestyle h3 a
+{
+	color: #ffd200;
+}
+#wrapper #highlights .pixie li.open-pix.arts-culture div.caption p.open-strap a,
+#highlights .pixie li.arts-culture h3 a
+{
+	color: #f09;
+}
+
+#wrapper #highlights .pixie li.open-pix.media-professional div.caption p.open-strap a,
+#highlights .pixie li.media-professional h3 a
+{
+	color: #e13209;
+}
+
+#wrapper #highlights .pixie li.open-pix.business-money div.caption p.open-strap a,
+#highlights .pixie li.business-money h3 a
+{
+	color: #5d15ad;
+}
+
+#wrapper #highlights .pixie li.open-pix.jobs div.caption p.open-strap a,
+#wrapper #highlights .pixie li.open-pix.shops-services div.caption p.open-strap a,
+#highlights .pixie li.jobs h3 a,
+#highlights .pixie li.shops-services h3 a
+{
+	color: #005689;
+}
+
+
+li.mugshot div.trail-text,
+li.open-pix div.trail-text
+{
+	background-color: #ccc;
+}
+
+
+li.mugshot h3 a,
+li.mugshot div.trail-text a,
+li.mugshot div.trail-text strong,
+li.mugshot div.trail-text b,
+li.open-pix h3 a,
+li.open-pix div.trail-text a,
+li.open-pix div.trail-text strong,
+li.open-pix div.trail-text b
+{
+	color: #333;
+}
+
+
+li.mugshot p a,
+li.open-pix p a  
+{
+	color: #005689;
+}
+
+li.mugshot div.trail-text strong a,
+li.mugshot div.trail-text,
+li.open-pix div.trail-text strong a,
+li.open-pix div.trail-text 
+{
+	color: #333;
+}
+
+
+li.mugshot div.caption,
+li.open-pix div.caption
+{
+	background-color: #e2e2e2;
+}
+
+#wrapper div#section-contents li.mugshot p.strap a,
+#wrapper div#highlights li.mugshot p.strap a,
+#wrapper div#section-contents li.open-pix p.strap a,
+#wrapper div#highlights li.open-pix p.strap a
+{
+	color: #000;
+}
+
+li.mugshot div.trail-text,
+li.open-pix div.trail-text
+{
+	background-color: #e2e2e2;
+}
+
+li.pixie.wide div.caption,
+#wrapper #main-trailblock #highlights li.pixie div.caption
+{
+	background-color: #a5a5a5;
+}
+
+li.pixie h3 a 
+{
+	color: #000;
+}
+
+#wrapper #main-trailblock li.pixie div.caption,
+#wrapper #second-trailblock li.pixie div.caption
+{
+	background-color: #d61d00; /* $zonePrimary */
+}
+
+#wrapper #main-trailblock li.pixie div.caption a.link-text,
+#wrapper #second-trailblock li.pixie div.caption a.link-text
+{
+	color: white;
+}
+
+#wrapper #main-trailblock li.pixie div.caption h3 a.link-text,
+#wrapper #second-trailblock li.pixie div.caption h3 a.link-text,
+#wrapper #main-trailblock li.pixie div.trail-text a,
+#wrapper #second-trailblock li.pixie div.trail-text a
+{
+	color: black;
+}
+
+}
+
+
+          /* ----------  accent.css ends here ----------- */
+          /* ---------- zone-navigation.css starts here ---------- */
+
+@media all{ 
+
+/*
+Zones Navigation - crumb navigation
+------------------------------------------------------------------------------*/
+
+/* Keywords related to tag */
+#nav-bar #local-nav .related-to-crumb1 li a:focus,
+#nav-bar #local-nav .related-to-crumb1 li a:active,
+#nav-bar #local-nav .related-to-crumb1 li:hover,
+#nav-bar #local-nav .related-to-crumb1 li a:hover
+{
+   	background-color: #d61d00; /* $zonePrimary */
+   	color: #fff;
+}  
+#nav-bar #local-nav .related-to-crumb2 li a:focus,
+#nav-bar #local-nav .related-to-crumb2 li a:active,
+#nav-bar #local-nav .related-to-crumb2 li:hover,
+#nav-bar #local-nav .related-to-crumb2 li a:hover
+{
+   	background-color: #801100; /* $zonePrimary */
+   	color: #fff;
+}
+#nav-bar #local-nav .related-to-crumb3 li a:focus,
+#nav-bar #local-nav .related-to-crumb3 li a:active,
+#nav-bar #local-nav .related-to-crumb3 li:hover,
+#nav-bar #local-nav .related-to-crumb3 li a:hover
+{
+   	background-color: #ab1700; /* $zonePrimary */
+   	color: #fff;
+}
+
+/* Crumb colours */
+
+#nav-bar #crumb-nav a
+{
+	color: #fff; /* $zonePrimary */
+}
+#nav-bar #crumb-nav #crumb1 a
+{  
+  	background-color: #d61d00; /* $zonePrimary */
+  	background-image: url('images/crumb1.gif');
+  	background-position: -50px -50px;
+  	background-repeat: no-repeat;
+}
+#nav-bar #crumb-nav #crumb2 a
+{
+  	background: #801100; /* $zonePrimary */
+  	background-image:  url('images/crumb2.gif');
+  	background-position: -50px -50px;
+  	background-repeat: no-repeat;
+}
+#nav-bar #crumb-nav #crumb3 a
+{
+  	background: #ab1700; /* $zonePrimary */
+  	background-image:  url('images/crumb3.gif'); 
+  	background-position: -50px -50px;
+  	background-repeat: no-repeat;
+}
+
+#nav-bar #crumb-nav #crumb1 a:focus,
+#nav-bar #crumb-nav #crumb1 a:active,
+#nav-bar #crumb-nav #crumb1 a:hover,
+#nav-bar #crumb-nav #crumb2 a:focus,
+#nav-bar #crumb-nav #crumb2 a:active,
+#nav-bar #crumb-nav #crumb2 a:hover,
+#nav-bar #crumb-nav #crumb3 a:focus,
+#nav-bar #crumb-nav #crumb3 a:active,
+#nav-bar #crumb-nav #crumb3 a:hover
+{
+   	background-color: #000;
+   	color: #fff;
+}  
+
+/* Position of background images (padding added in js-on.css)
+If you change the values here you need to change the javascript in nav-sizer, this is because background-position can not 
+be reliably returned for an element. The nav-resizer uses the class to decide how to manipulate the background once it has resized.
+------------------------------------------------------*/
+
+#nav-bar #crumb-nav #crumb1 a.first-hover-end,
+#nav-bar #crumb-nav #crumb2 a.first-hover-end,
+#nav-bar #crumb-nav #crumb3 a.first-hover-end
+{
+	background-position: 100% -114px;		
+}
+#nav-bar #crumb-nav #crumb1 a.first-end-hover,
+#nav-bar #crumb-nav #crumb2 a.first-end-hover,
+#nav-bar #crumb-nav #crumb3 a.first-end-hover
+{
+	background-position: 100% -215px;
+}
+
+#nav-bar #crumb-nav #crumb1 a.first-hover-second,
+#nav-bar #crumb-nav #crumb2 a.first-hover-second
+{
+	background-position: 100% -417px;
+}
+#nav-bar #crumb-nav #crumb1 a.first-second-hover,
+#nav-bar #crumb-nav #crumb2 a.first-second-hover
+{
+	background-position: 100% -518px;	
+}
+
+
+}
+          /* ----------  zone-navigation.css ends here ----------- */

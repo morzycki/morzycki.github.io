@@ -1,0 +1,1800 @@
+
+          /* ---------- large-type.css starts here ---------- */
+@media all {
+body.article .large-type #content,
+body.other .large-type #content
+{
+	 width: 480px;
+}
+
+
+body.keyword-page .large-type #content,
+ .large-type #section-contents ,
+ body.other .large-type #content
+{	
+	border-left: 1px solid;
+	padding-left: 10px;
+}
+
+body.article .large-type #article-header
+{
+	padding-left: 10px;
+	width: auto;
+}
+
+
+
+
+
+
+.large-type #content .narrow
+{
+	width: 200px;
+}
+
+.large-type #content .narrow p
+{
+	font-size: 0.8em;
+}
+
+
+
+.large-type #box
+{
+	width: 940px;
+}
+
+
+.large-type #section-contents
+{
+	width: 280px;
+	float: none;
+	width: auto;
+	clear: both
+}
+
+
+body.directory .large-type #content,
+body.directory .large-type div.countries .directory, 
+body.directory .large-type div.countries 
+{
+	width: auto;
+	float: none;
+	clear: both;
+}
+
+body.article .large-type #related,
+body.other .large-type #related
+{
+	width: 380px;
+}
+
+body.article .large-type #related
+{
+	border-left: 1px solid;
+	padding-left: 10px;
+}
+
+
+/*begin keyword ------------------------------------------------*/
+
+
+
+
+
+
+
+
+body.keyword-page .large-type #content
+{
+margin-left: 320px;
+width: 600px;
+}
+
+body.keyword-page .large-type #related
+{
+	margin-left: -920px;
+	width: 300px;
+}
+
+* html body.keyword-page .large-type #content /*only seen in IE pc */
+{
+margin-left: 160px;
+
+}
+
+
+.large-type #content ul#main-trailblock li,
+.large-type #content ul#main-trailblock li.major-heading h2
+{
+	width: auto
+}
+
+
+.large-type #content .breakdown .country ul
+{	
+	width: 100%;
+	clear: left;
+	float: left;
+	margin-top: 0;
+
+}
+
+.large-type #content .breakdown .country ul li
+{	
+	width: 100%;
+}
+/*underhigh contrast mode this gets the tips to look good why is the pc ie ignoring the text sizes?
+* html body.keyword-page #section-contents
+{
+
+font-size: 0.350em
+}
+
+*/
+
+/*end keyword ------------------------------------------------ */
+
+
+
+/*
+World regains
+------------------------------------------------------------------------------------------*/
+.directory-continent .large-type div.directory ol li
+{
+    width: 400px;
+
+}
+
+.large-type div.directory ol 
+{
+    width: 840px;
+    float: right;
+}
+
+
+body.triplet .large-type #content,
+.large-type .col
+{
+	float: left;
+	width: 440px;
+	margin-left: 0
+}
+
+
+
+
+body.front .large-type ul.trail li,
+body.keyword-page .large-type ul.trail li
+{
+	width: 280px;
+}
+
+
+.large-type #related-info div.section
+{ 
+	padding-left: 320px
+}
+
+* html .large-type #related-info h3
+{
+	width: 300px;
+	left: -300px;
+}
+
+.large-type #related-info
+{
+	width: 920px;
+margin-left: 0
+}
+
+.large-type #promo,
+.large-type #promo div.capsule
+{
+	width: 920px;
+	float: left
+}
+
+.large-type #promo .deal ul li,
+.large-type #promo .reader ul li,
+.large-type #promo div.auctions ul li,
+.large-type #promo .deal .right,
+.large-type #promo .reader .right,
+.large-type #promo div.auctions .right
+{
+width: 880px;
+float: left;
+}
+
+.large-type #promo .deal ul li, 
+.large-type #promo .reader ul li, 
+.large-type #promo div.auctions ul li, 
+.large-type #reader-offers li, 
+.large-type .sponsored-features ul.tri li,
+.large-type .sponsored-features ul.tri li div.trailtext,
+body.keyword-page .large-type .sponsored-features ul.tri li,
+body.keyword-page .large-type .sponsored-features ul.tri li div.trailtext
+{
+	width: auto;
+float: none;
+margin-left: 0
+}
+
+
+
+.large-type #promo .editorial-pick-small img,
+.large-type #promo .editorial-pick-large img
+{
+float: left;
+margin: 0;
+}
+
+.large-type #promo .editorial-pick-small p,
+.large-type #promo .editorial-pick-large p
+{
+width: 880px;
+}
+
+/*this is to make sure the promo capsule s turn up on the high contrast mode*/
+* html .large-type #promo .capsule
+{
+height: 1px;
+overflow: visible;
+
+}
+
+
+
+
+
+
+.large-type #radio-buttons
+{
+	position: static;
+
+	right: 0;
+}
+
+
+* html body #wrapper.large-type /*ie only*/
+{
+	font-size: 0.7em
+}
+
+
+/*
+Document header area
+
+------------------------------------------------------------------------------------------*/
+
+
+.large-type #header #web-search,
+.large-type #header #section-selector fieldset,
+.large-type #header #section-selector,
+.large-type #sitesearch
+{
+	float: none;
+	width: auto;
+	clear: both;
+	width: 98%;
+	text-align:left;
+}
+
+
+/*
+Alternate trail layout
+
+--------------------------------------------------------------------------*/
+
+.large-type #content ul.alternative div.trail-caption
+{
+	width: auto;
+	margin-left: 0;
+	float: none;
+	border-top: none;
+	clear: none;
+}
+
+
+.large-type ul.trailblock li.normal img
+{
+	margin: 10px 20px 0 0;
+	float: left
+}
+
+body.triplet .large-type ul.tri img,
+body.late-offers-front .large-type ul.tri img
+{
+	float: none;
+
+}
+
+.large-type #content ul.trailblock li.normal
+{
+	float: none;
+	width: auto;
+	margin-left: 0;
+	margin-top: 20px;
+	clear: left;
+	border-top: 1px dotted
+}
+
+.large-type #content ul.alternative li.wide
+{
+	clear: left;
+	float: left;
+	width: 460px;
+	margin-left: 0;
+}
+
+
+/*
+rss feed
+
+------------------------------------------------------------------------------*/
+body.keyword-page .large-type a.feed,
+body.other .large-type a.feed
+{
+
+	left: 620px;
+}
+
+body.keyword-page .large-type #article-header,
+body.other .large-type #article-header
+{
+	padding-right: 320px
+}
+
+/*
+Front
+---------------------------------------------------------------------------*/
+
+body.front #content .large-type li.portrait
+{
+	width: auto;
+	float: none;
+	clear: both;
+}
+
+body.front .large-type #box #content #main-trailblock li.portrait div.trailtext,
+body.front .large-type #box #content #main-trailblock li.portrait div.linktext,
+body.front .large-type #box #content #main-trailblock li.portrait,
+body.front .large-type ul.trailblock li.portrait .linktext h3
+{
+	float: none;
+	width: auto!important;
+}
+
+body.front .large-type div.cols,
+body.front .large-type ul.column,
+body.front .large-type ul.trailblock li,
+body.front .large-type ul.column li,
+body.front .large-type #main-trailblock ul.column,
+body.front .large-type #also-on-travel ul.column,
+body.front .large-type #content div.reader-tips ul.tips li
+{
+	width: 340px;
+	overflow: visible;
+}
+
+
+body.front .large-type div.reader-tips,
+body.front .large-type div.cols li,
+body.front .large-type ul.column li,
+body.front .large-type ul.tips
+{
+	width: auto!important;
+}
+
+body.front .large-type #mpu
+{
+	height: 250px;
+	position: static;
+}
+
+
+body.offers-front .large-type #box #content ul.auto-trail-block li ul.sublist li 
+{
+	width: 380px
+}
+
+body.offers-front .large-type #box #content ul.auto-trail-block li ul.sublist
+{
+    float: left;
+    width: 920px;
+}
+
+body.network div#wrapper.large-type,
+body.article div#wrapper.large-type
+{
+	background-image: none;
+}
+
+body.network div#wrapper.large-type .news {
+	padding-top: 1em;
+}
+
+body.network div#wrapper.large-type #content div#main-trailblock li.col
+{
+	width: 620px;
+}
+
+body.network div#wrapper.large-type #reader-offers {
+	width: 920px;
+}
+
+body.network div#wrapper.large-type div.commercial,
+body.network div#wrapper.large-type div#also-on 
+{
+	clear: both;
+	float: none;
+	width: auto;
+}
+
+body.network div#wrapper.large-type div#highlights,
+body.network div#wrapper.large-type #box div.commercial
+{
+	overflow: visible;
+	width: 300px;
+}
+
+body.network div#wrapper.large-type div.also-offers li
+{
+	float: none;
+	width: auto;
+}
+
+body.network div#wrapper.large-type ul.pixie li 
+{
+	height: 320px;
+}
+
+body.network div#wrapper.large-type ul.pixie li.textie 
+{
+	height: auto;
+}
+
+body.network div#wrapper.large-type li.pixie img 
+{
+	height: 260px;
+}
+
+body.network div#wrapper.large-type div.also-offers li.image,
+body.network div#wrapper.large-type div.also-offers li.image img
+{
+	position: static;
+}
+
+body.network div#wrapper.large-type .sponsored-features li,
+body.network div#wrapper.large-type div#main-offers 
+{
+	width: auto;
+}
+
+body.network div#wrapper.large-type ul#offers li.col ul 
+{
+	margin-left: 0;
+}
+
+body.network div#wrapper.large-type ul#offers li 
+{
+	width: auto;
+}
+
+body.network div#wrapper.large-type div#highlights 
+{
+	float: left;
+	width: 100px;
+}
+
+body.network div#wrapper.large-type #content div#main-trailblock .col,
+body.network div#wrapper.large-type #content div#main-trailblock li,
+body.network div#wrapper.large-type #content div#main-trailblock .more-news ul
+{
+	width: 620px;
+}
+
+body.network div#wrapper.large-type #highlights li.pixie img {
+	height: 200%;
+	width: 200%;
+}
+
+.offers-place .large-type #content #main-trailblock,
+.offers-place .large-type #content #main-trailblock li,
+.offers-place .large-type #content li.wide
+{
+	width: auto	
+}
+}
+          /* ----------  large-type.css ends here ----------- */
+          /* ---------- color.css starts here ---------- */
+@media all {
+
+body,
+html,
+#section-tools a,
+#footer,
+ul.tips h3,
+.directory #box #content p,
+ul.tips li strong,
+#nav ul li span,
+.copyright,
+#section-contents ul li ul li p.description,
+.commercial #promo .capsule,
+ul.credit li p.description,
+body.directory .count,
+#promo #finance-guides,
+body.video-series div#latest-series ul li h2,
+body.series-index div.trail-text span.date,
+body.contributor div.trail-text span.date,
+body.keyword-page div.trail-text span.date,
+body.interactive div.navigation ul#main-trailblock li div.strap,
+body.audio-canonical #article-header h2.series-title,
+body.audio-canonical #article-header #stand-first,
+body.audio-canonical .more-podcasts li h5,
+body.audio-canonical .more-podcasts li .trail-text .date,
+body.audio div#more-in-audio-series h2,
+#article-header h2#strap,
+body.sport #more-news h,
+#wrapper #results-trailblock h2,
+body.quiz div#quiz-answers ul.weighted-responses li em
+{
+	background-color: white;	
+	color: #333;
+}
+body.audio-canonical #subscribe-feeds
+{
+	background-color: #EDEDED;
+	border-color: #BCBCBC;
+}
+
+/* background of packages and manual tb on canonical pages */
+div#manual-trailblock
+{
+	background-color: #EDEDED;
+}
+
+body.audio div#more-in-series
+{
+	border-bottom-color: #e5e5e5;
+}
+
+body.audio .more-podcasts
+{
+	border-bottom-color: #fff;
+}
+
+#article-header h2
+{
+	color: #999;
+}
+
+#promo h4,
+#promo h4 label,
+#promo #reader-offers h4
+{
+
+	color: #333;
+	background-color: transparent;	
+}
+
+a,
+div#league-position a,
+body.sport div.ventures-slot-machine a
+{
+	color:#005689;
+}
+
+#find-job-container a:focus,
+#find-job-container a:active,
+div#promo div.latest-cif-posts a:focus,
+div#promo div.latest-cif-posts a:active
+{
+	outline: none;
+	background-color: #005689;
+	color: #fff; 
+}
+
+body.sport #wrapper #section-contents #onsite #sponsored-features li .linktext a
+{
+	color: #0a246a;
+}
+
+#find-job-container a,
+div#promo div.latest-cif-posts  a
+{
+	color: #005689;
+}
+
+
+a:focus,
+a:active
+{
+	outline: none;
+	background-color: #005689; /* to be removed when all the links made consistent site-wide */
+	color: #fff; /* to be removed when all the links made consistent site-wide */
+}
+
+
+
+*
+{
+	background-repeat: no-repeat;
+
+}
+
+#section-contents li,
+#box h2,
+#related #book-index h2,
+#article-header #biography h2,
+.bio,
+body.contributor #box #content h2,
+body.contributor #box #left-column h2,
+body.contributor #wrapper #box #content ul.trail li.major-heading h2,
+body.contributor #wrapper #box #section-contents ul.trail li.major-heading h2,
+#related ul li,
+body.article #content h3,
+#promo #finance-guides table tbody td,
+#promo #finance-guides table tbody th,
+#promo div#finance-guides,
+#book-index img.paper-thumb,
+body.article ul#article-toolbox,
+body.gallery ul#article-toolbox,
+body.most-popular div.most-top-ten,
+p#about-daylife,
+#sign-off
+{
+	border-color: #ccc;
+}
+
+
+
+#article-header h2
+{
+	border: none
+}
+
+#stand-first,
+div.series-navigation,
+body.video div.series-navigation,
+p.drop:first-letter,
+span.drop
+{
+	color: #666;
+}
+
+
+body.directory #box h2
+{
+	background-image: none
+}
+
+div.level-3,
+#box h2,
+#gallery-series-navigation h3
+{
+		background-position: bottom left;
+}
+
+#section-contents li li
+{
+	background-image: none;
+}
+
+
+
+
+.count,
+.page-number,
+li.horizontal, 
+ol.az-trips li p,
+body.video-series div#latest-series ul li,
+body.video-series div#box div#content ul li span,
+body.video-front .video-duration,
+#calendar td.not-this-month,
+#readers-tips ul.tips p.credit,
+body.keyword-page p#more-daylife 
+{
+	color: #999;
+}
+
+ul.toolset li a
+
+{
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+	background-color: transparent;
+}
+
+
+#promo h2,
+#promo h3,
+#booking fieldset.section,
+#booking fieldset.section span,
+#also-on ul.viewer li,
+#related h5,
+div#sub-header,
+body.keyword-page #content h2,
+#related #fact-box h2,
+body.article #box #content h2,
+body.article #box #content h3,
+body.article #related h3,
+body.poll #related h3,
+body.quiz div#related div.relatedlinks h3,
+body.quiz form.quiz ol li.question-container,
+body.quiz form.quiz ol,
+body.competition div#box div#related h3,
+div#wrapper div.related-content div.relatedlinks,
+div.related-content div.related-item p.noTrailPicture,
+#related-articles ul li,
+.services,
+ol.timeline li,
+div#box ul li,
+body.video-series div#box div#content ul.trailblock,
+#book-index ul li,
+body.series-index ul.auto-trail-block li p.date,
+body.series-index #content ul.auto-trail-block li h3.series-index-article,
+body.cartoon div#related ul.keywords li.series p,
+body.cartoon #wrapper #box div.linktext h3,
+body.cartoon div#relatedlinks h3,
+#related ul#article-toolbox-side li.resize,
+#section-contents ul#article-toolbox-side li.resize,
+body.audio-canonical #view-notes,
+body.audio-canonical #full-contents h2,
+body.audio-canonical ul.relatedlinks-keywords,
+ul.relatedlinks-keywords,
+body.audio div#more-in-audio-series .description,
+body.audio .more-podcasts h5.group-title,
+#box #content #blogging-section div.blog li h3,
+div#readers-tips li p.tip-header,
+div#readers-tips li.last,
+body.article div.related-item div.related-bottom-links,
+table.team-matches tr,
+table.league-position tr,
+div.jobsbox p.find-a-job,
+#wrapper div#promo div#offers ul li,
+#wrapper div.offerblock ul#offers li ul li,
+div.ventures-slot-machine p,
+div#secondary-trailblocks li .trail-caption,
+body.sport #wrapper #content #results-trailblock li.vertical,
+.tab-toggle a.inactive,
+#section-contents #most ol,
+div#most div#most-read-24hour ol,
+div#most div#most-read-24hour ol li,
+div#most div#most-read-7day ol,
+div#most div#most-read-7day ol li,
+.video-front div#content div#video-player ul.article-attributes,
+body.books div#section-contents div.best-sellers ol li,
+div.terms-and-conditions h4,
+form.competition ul.first,
+body.web-search div#box h2,
+body.web-search div#box h3,
+#user-reviews .Reviews_UserImage,
+#user-reviews .Reviews_TableRight
+{
+	border-color: #999;
+}
+
+body.audio-canonical #section-contents .keyword-list h2
+{
+	border-bottom-color: #999;
+}
+
+#related-info .section ul li,
+body.article #related-info ul.keylinks li,
+body.article #related-info ul.tips li,
+div#content ul.auto-trail-block li h2,
+div#section-contents ul.tips li,
+div#section-contents ul li,
+body.clippings div#section-contents ul,
+#section-contents ol.most-read li,
+div#related ul li,
+div #box div#content ul li h2,
+#related-info .section ul li,
+body.article #related-info ul.keylinks li,
+body.article #related-info ul.tips li,
+.article #related h3,
+ul.child-keyword li,
+.index .breakdown,
+.all-places .breakdown,
+.weather-country .breakdown,
+.weather-continent .breakdown,
+.index .country,
+#wrapper div#section-contents ul#editor-zone-3 li,
+#wrapper div#section-contents ul#editor-zone-4 li,
+#wrapper #box #content ul#editor-zone-5 li.vertical
+{
+	border-color: #999;
+}
+
+#related #relatedlinks h3
+{
+	border-color: #999!important;
+}
+
+ol.alphabet,
+body.directory-place .index,
+#content ul.auto-trail-block li,
+#keyword-trailblock li,
+ul.pagination,
+#content ul#main-trailblock li.normal,
+#related p.shower,
+body.front #wrapper #box #content div.cols ul li.major-heading h2,
+div.text
+{
+	border-color: #999;
+}
+
+#related .ed-zone li,
+#edited-offers a.caption,
+#content ul.tri li,
+ol.az-trips li,
+.capsule ul.tri li,
+ul.trailblock li.portrait .linktext h3,
+#section-contents ul li,
+#content .reader-tips ul.tips li,
+.trail-block-page #content ul#main-trailblock li,
+ul.no-pic,
+body.gallery #sponsor-picture,
+#content li.col h2,
+#content li.col h3,
+body.vss #content ul.credit,
+div#solo-trailblock h3,
+body.cartoon-index div#recent-trailblock ul li h3
+{
+	border-color: #999;
+}
+
+
+/*border different for promo column - but not when on front*/
+.front #promo h4,
+.front #yahoosm ul.links
+{
+	border-color: #999;
+}
+
+/*border different for promo column*/
+#promo h4,
+.commercial #wrapper #promo .sponsored-features,
+.commercial #wrapper #promo li,
+#promo .capsule ul.tri li,
+#yahoosm ul.links,
+body div#wrapper div#promo .slot p.linktext,
+body.article ul#article-toolbox,
+body div#wrapper div#promo .slot p.linktext
+{
+	border-color: #333;
+}
+
+#promo div.capsule,
+body.travel #wrapper div#edited-offers li.major-heading h3,
+body.commercial #wrapper #promo div.capsule,
+body.cartoon-index div#wrapper div#footer ul#footer-links,
+body.cartoon-index div#wrapper div#box ul#main-trailblock li h2,
+body.cartoon-index #wrapper div#box #recent-trailblock h2,
+body.cartoon-index #wrapper div#box div#related ul#editor-zone-1 li.major-heading h2,
+body.web-search div#footer,
+body.web-search div#results
+{
+    border-color: #d3d3d3;
+}
+
+body.front div#wrapper div#promo div.capsule
+{
+	background-color: transparent;
+}
+
+body.front #promo
+{
+	background-color: transparent;
+}
+
+
+body.education #page-header,
+#header,
+#also-on
+{
+	color: inherit;
+	background-color: white
+}
+
+table#calendar
+{
+	color: #333;
+	background-color: #ededed;
+}
+
+table#calendar tr.month-nav th,
+table#calendar,
+table#calendar td
+{
+	border-color: #c3c3c3;
+}
+
+#newsticker strong 
+{
+	color: #ce2e20;
+}
+
+/* = gallery -------------------------------------------------------------------------------*/
+
+
+body.gallery #topslot
+{
+	background-color: #dedede;
+}
+
+body.cartoon #topslot
+{
+	background-color: transparent;
+}
+/*
+=related (article links etc)
+
+-------------------------------------------------------------------------------*/
+
+#relatedlinks
+{
+	position: relative;
+}
+
+
+/*
+header topslot
+--------------------------------------------------------------------------------*/
+
+#topslot,
+#sub-header,
+div#local-info,
+ul.user-details li
+{
+	border-color: #bebebe;
+}
+/*
+Zones Navigation
+--------------------------------------------------------------------------------*/
+#nav-bar a
+{
+  	 background-color: #ededed;
+}
+#zones-nav #local-nav ul li a,
+div#advertiser-container p#ads-intro
+{
+    color: #005689;
+}
+
+#zones-nav #nav-bar #crumb-nav ul,
+#zones-nav #nav-bar #local-nav ul,
+#zones-nav #nav-bar
+{
+  background-color: #ededed;
+}
+
+#zones-nav #global-nav ul li a,
+#zones-nav #crumb-nav ul li a,
+#zones-nav #local-nav ul li a
+{
+	border-right:1px solid #bebebe;
+}
+
+/* Global link colours */
+#header #wrapper #zones-nav #global-nav li a
+{
+    color: #333;
+    background-color: #fff;
+}
+
+#header #wrapper #zones-nav #global-nav li a:focus,
+#header #wrapper #zones-nav #global-nav li a:active,
+#header #wrapper #zones-nav #global-nav li:hover,
+#header #wrapper #zones-nav #global-nav li a:hover
+{
+    color: #fff;
+    background-color: #333;
+}
+
+#global-nav li.news a
+{
+	color:#d61d00;
+}
+
+#global-nav li.news a:focus,
+#global-nav li.news a:active,
+#global-nav li.news:hover,
+#global-nav li.news a:hover
+{
+	color: #fff;
+	background-color:#d61d00;
+}
+#global-nav li.sport a
+{
+	color:#008000;
+}
+
+#global-nav li.sport a:focus,
+#global-nav li.sport a:active,
+#global-nav li.sport:hover,
+#global-nav li.sport a:hover
+{
+ 	color: #fff;
+	background-color:#008000;
+}
+
+#global-nav li.comment a
+{
+	color:#0061a6;
+}
+
+#global-nav li.comment a:focus,
+#global-nav li.comment a:active,
+#global-nav li.comment:hover,
+#global-nav li.comment a:hover
+{
+	color: #fff;
+	background-color:#0061a6;
+}
+#global-nav li.culture a
+{
+	color:#d1008b;
+}
+
+#global-nav li.culture a:focus,
+#global-nav li.culture a:active,
+#global-nav li.culture:hover,
+#global-nav li.culture a:hover
+{
+	color: #fff;
+	background-color:#d1008b;
+}
+#global-nav li.business a
+{
+	color:#3246ab;
+}
+
+#global-nav li.business a:focus,
+#global-nav li.business a:active,
+#global-nav li.business:hover,
+#global-nav li.business a:hover
+{
+	color: #fff;
+	background-color:#3246ab;
+}
+
+#global-nav li.money a
+{
+	color:#8f1ab6;
+}
+
+#global-nav li.money a:focus,
+#global-nav li.money a:active,
+#global-nav li.money:hover,
+#global-nav li.money a:hover
+{
+	color: #fff;
+	background-color:#8f1ab6;
+}
+#global-nav li.life-style a
+{
+	color:#ad532f;
+}
+
+#global-nav li.life-style a:focus,
+#global-nav li.life-style a:active,
+#global-nav li.life-style:hover,
+#global-nav li.life-style a:hover
+{
+	color: #fff;
+	background-color:#ad532f;
+}
+#global-nav li.travel a
+{
+	color:#066ec9;
+}
+
+#global-nav li.travel a:focus,
+#global-nav li.travel a:active,
+#global-nav li.travel:hover,
+#global-nav li.travel a:hover
+{
+	color: #fff;
+	background-color:#066ec9;
+}
+#global-nav li.environment a
+{
+	color:#4a7801;
+}
+
+#global-nav li.environment a:focus,
+#global-nav li.environment a:active,
+#global-nav li.environment:hover,
+#global-nav li.environment a:hover
+{
+	color: #fff;
+	background-color:#4a7801;
+}
+
+#global-nav li.blogs a,
+#global-nav li.jobs a,
+#global-nav li.a-z a
+{
+	color:#333;
+}
+
+#global-nav li.blogs a:focus,
+#global-nav li.blogs a:active,
+#global-nav li.blogs:hover,
+#global-nav li.blogs a:hover,
+#global-nav li.jobs a:focus,
+#global-nav li.jobs a:active,
+#global-nav li.jobs:hover,
+#global-nav li.jobs a:hover,
+#global-nav li.a-z a:focus,
+#global-nav li.a-z a:active,
+#global-nav li.a-z:hover,
+#global-nav li.a-z a:hover
+{
+	color: #fff;
+	background-color:#333;
+}
+
+
+
+/*
+= Navigation #nav
+
+-------------------------------------------------------------------------------*/
+
+
+
+ul.credit,
+#related-info ul.tips p.credit,
+#header #nav ul,
+.explainer,
+span.credit,
+#big-picture-holder p.caption
+{
+	color: #999/*another grey - look into AB */
+
+}
+
+h1 span.date
+{
+	color: #888; /*another grey - look into AB -we don't want to do this too often */
+
+}
+
+
+/*
+=tertiary section navigation
+
+
+
+------------------------------------------------------------------------------*/
+
+
+
+span.pullout,
+div.page-heading p.linktext,
+p.trailstrap,
+.trail-text .date,
+div.strap,
+#yahoosm ul.links li,
+ul.commercial-links li,
+ul.pagination,
+p span.caption,
+body.video-front .trail-video-section,
+#last-updated
+{
+	color: #666;
+}
+
+
+div.image p.caption
+{
+	color: #999;
+}
+
+#last-updated .date
+{
+	color: #333;
+}
+
+#content .regionplaceholder p,
+body.front #edited-offers ul li,
+#edited-offers a.caption,
+body.directory-place #content .countries p.first,
+#book-index ul li ul,
+#book-index ul li ul li,
+div#section-contents ul.find-that-job li.header,
+div#promo ul.find-that-job li.header,
+#wrapper ul#more-news li.col ul li,
+#wrapper ul#more-news h3
+{
+	border-color: #999;
+}
+
+body.competition form.competition, 
+body.competition p.closed,
+#promo div.capsule, .commercial #wrapper #promo .sponsored-features
+{
+
+background-color: #f3f3f3;
+}
+
+a.webfeedlink 
+{
+	background-image: url(images/icon_rss.gif);
+	background-position: 0 50%;
+	display: block;
+	height: 14px;
+	padding-left: 18px;
+	padding-top: 1px;
+}
+
+/*
+styling for beta
+
+-------------------------------------------------------------------------*/
+#wrapper h2.beta
+{
+	font-size: 6em;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	color: red
+}
+
+
+/*
+Pixies
+
+-------------------------------------------------------------------------*/
+
+ul.pixie a,
+.pixie div,
+ul.pixie li.textie p.strap a,
+ul.pixie li.mugshot p.strap a,
+#wrapper ul.pixie li.mugshot p.strap a,
+ul.pixie li.open-pix p.strap a,
+#wrapper ul.pixie li.open-pix p.strap a,
+div.temp p
+{
+	color: #fff;
+}
+
+ul.pixie div.trail-text a
+{
+	color: #000;
+}
+
+
+
+#wrapper li.pixie div.trail-text
+{
+	color: #333;
+	background-color: transparent;
+	background-image: url(images/grey-bg.png);
+	background-repeat: repeat;
+}
+
+#pullout li.pixie div.trail-text
+{
+	color: #333;
+	background-color: transparent;
+	background-image: url(images/grey-bg.png);
+	background-repeat: repeat;
+}
+
+#wrapper div.news li.pixie div.trail-text
+{
+	color: #333;
+	background-image: url(images/grey-bg.png);
+	background-repeat: repeat;
+}
+
+#wrapper li#pullout.pixie div.trail-text
+{
+	color: #333;
+	background-color: transparent;
+	background-image: url(images/grey-bg.png);
+	background-repeat: repeat;
+}
+
+#highlights li.pixie div.caption
+{
+	background-color: #a5a5a5;
+}
+
+
+#highlights li.textie div.caption
+{
+	background-color: #a5a5a5;
+}
+
+body.video #content #videos-third-column h2,
+body.video #videos-third-column ul li,
+body.video #related div.more-videos ul,
+body.video #box #related .capsule h3, 
+body.video div#wrapper div#promo div.capsule 
+{
+	border-color:#999;
+}
+
+
+body.video-front #nav a.current
+{
+	color:#005689;
+}
+
+body.video #content li.date, 
+body.video #content li.credit
+{
+	color:#666;
+}
+
+div #box div#content div.latest ul li.News h2
+{
+	border-color: #04669c;
+}
+
+div#section-contents div#find-job-container
+{
+	background-color: #fff;
+}
+
+body.video div#wrapper div#find-job-container,
+body.interactive div#wrapper div#find-job-container,
+body.quiz div#wrapper div#find-job-container
+{
+	float: left;
+	margin-right: 20px;
+	background-color: #fff;
+}
+
+/* poll colours */
+
+table.poll-results td.total-responses
+{
+	color: #999;
+}
+
+span.poll-result-bg
+{
+	background-color: #b6b6b6; 
+}
+
+span.poll-result-figure
+{
+	background-color: #f3f3f3;
+	border-left-color: #f3f3f3;
+}
+/* end poll colours */
+/* mini weather in fronts starts */
+div.temp p
+{
+	border-color: #fff;
+}
+
+/* mini weather in fronts ends */
+
+/* beautiful boss starts */
+
+body.beautiful-boss div#promo,
+body.beautiful-boss div#box
+{
+	border-bottom-color: white;
+}
+	
+body.beautiful-boss div#wrapper
+{
+	background-image: url(images/beautiful-boss-bg-inner.gif);
+}
+
+body.beautiful-boss div#article-header,
+body.beautiful-boss div#beautiful-boss-trail h2.first,
+body.beautiful-boss div#content h2.first,
+body.beautiful-boss div#recent li,
+div#beautiful-boss-trail div#main-trailblock li.image
+{
+	background-color: white;
+}
+
+div#beautiful-boss-trail
+{
+	border-bottom-color: white;
+}
+
+div.hero-panel h2,
+div.hero-panel div.trailtext
+{
+	background: #fff;
+	color: black;
+	opacity: 0.8;
+}
+
+body.beautiful-boss div#related
+{
+	border-top-color: white;
+}
+
+/* beautiful boss ends */
+/* Video, Audio and Gallery fronts forced to be News colour instead of Global colour */
+
+body.video-front div#content,
+body.video-front div#content h2,
+body.video-front div#content #editors-heading h2,
+body.video-front div#box div#content div.latest li h2,
+body.video-front div#wrapper div#box div#more li.major-heading h2,
+body.video-front #footer,
+body.audio-front div#wrapper div#box div#more li.major-heading h2,
+body.audio-front div#wrapper div#box div#promo-a h2,
+body.audio-front div#wrapper div#box div#audio-pick h2,
+body.audio-front div#wrapper div#article-header,
+body.audio-front #footer,
+body.content-index div#wrapper div#box div#content ul#main-trailblock li.major-heading h2,
+body.content-index div#content h3.first,
+body.content-index div#wrapper div#box div#related div.capsule ul li.major-heading h2,
+body.content-index div#box div#content h2.first,
+body.content-index div#wrapper div#footer
+{
+	border-color:#D61D00;
+}
+
+/* Video Front sections start*/
+
+#wrapper #box ul li.News h2, 
+#wrapper #box ul li.News h3 
+{
+	border-color: #d61d00;
+}
+
+#wrapper #box ul li.Sport h2, 
+#wrapper #box ul li.Sport h3 
+{
+	border-color: #008000;
+}
+
+#wrapper #box ul li.Politics h2, 
+#wrapper #box ul li.Politics h3 
+{
+	border-color: #d61d00;
+}
+
+#wrapper #box ul li.Travel h2,
+#wrapper #box ul li.Travel h3 
+{
+	border-color: #6bbde9;
+}
+
+#wrapper #box ul li.Science h2, 
+#wrapper #box ul li.Science h3 
+{
+	border-color: #d61d00;
+}
+
+#wrapper #box ul li.Media h2,
+#wrapper #box ul li.Media h3 
+{
+	border-color: #d61d00;
+}
+
+/* vivid front section accents */
+
+#wrapper #box ul li.News h2, 
+#wrapper #box ul li.News h3 {
+	border-color: #ce2e20;
+}
+
+#wrapper #box ul li.sport h2, 
+#wrapper #box ul li.sport h3,
+#wrapper #box ul li.Sport h2, 
+#wrapper #box ul li.Sport h3 {
+	border-color: #9c3;
+}
+
+#wrapper #box ul li.Politics h2, 
+#wrapper #box ul li.Politics h3 {
+	border-color: #da0034;
+}
+
+#wrapper #box ul li.Science h2, 
+#wrapper #box ul li.Science h3 {
+	border-color: #2bbafe;
+}
+
+#wrapper #box ul li.travel h2,
+#wrapper #box ul li.travel h3,
+#wrapper #box ul li.Travel h2,
+#wrapper #box ul li.Travel h3 {
+	border-color: #11b1ff;
+}
+
+#wrapper #box #blogging-section h2,
+#wrapper #box ul li.blogs h3 {
+	border-color: #ce2e20;
+}
+
+#wrapper #box ul li.lifeandstyle h2,
+#wrapper #box ul li.lifeandstyle h3 {
+	border-color: #ffd200;
+}
+
+#wrapper #box ul li.arts h2,
+#wrapper #box ul li.arts h3 {
+	border-color: #f8298b;
+}
+
+#wrapper #box ul li.media-professional h2,
+#wrapper #box ul li.media-professional h3,
+#wrapper #box ul li.Media h2,
+#wrapper #box ul li.Media h3 {
+	border-color: #ff8400;
+}
+
+#wrapper #box ul li.business-money h2,
+#wrapper #box ul li.business-money h3 {
+	border-color: #8388e4;
+}
+
+#wrapper #box ul li.comment h2,
+#wrapper #box ul li.comment h3 {
+	border-color: #ce2e20;
+}
+
+
+#wrapper #box ul li.jobs h2,
+#wrapper #box ul li.jobs h3 
+{
+	border-color: #a6d1e2;
+}
+
+
+#wrapper #box ul li.news h2,
+#wrapper #box ul li.news h3 
+{
+	border-color: #ce2e20;
+}
+
+
+#wrapper #box ul li.shops-services h2,
+#wrapper #box ul li.shops-services h3 {
+	border-color: #266f9b;
+}
+
+#wrapper #box ol.most-read li.first h2,
+#wrapper #box ol.most-read li.first h3 {
+	border-color: #266f9b;
+}
+
+/* end of vivid front section accents */
+
+
+/* Network Front and Audio Front section heading colours */
+#wrapper #box div#content ul li.sport h2, 
+#wrapper #box div#content ul li.sport h3 {
+	border-color: #9c3;
+}
+
+body.tournament #wrapper #content #results-trailblock .major-heading h2
+{
+	border-color: #000;
+}
+body.tournament #wrapper #content #results-trailblock .trail h3
+{
+	border-color: #333;
+}
+
+#wrapper #box div#content ul li.travel h2,
+#wrapper #box div#content ul li.travel h3 {
+	border-color: #11b1ff;
+}
+
+#wrapper #box div#content #blogging-section h2,
+#wrapper #box div#content ul li.blogs h3 {
+	border-color: #ce2e20;
+}
+
+#wrapper #box div#content ul li.lifestyle h2,
+#wrapper #box div#content ul li.lifestyle h3 {
+	border-color: #ffd200;
+}
+
+#wrapper #box div#content ul li.arts-culture h2,
+#wrapper #box div#content ul li.arts-culture h3 {
+	border-color: #f8298b;
+}
+
+#wrapper #box div#content ul li.media-professional h2,
+#wrapper #box div#content ul li.media-professional h3 {
+	border-color: #ff8400;
+}
+
+#wrapper #box div#content ul li.business-money h2,
+#wrapper #box div#content ul li.business-money h3 {
+	border-color: #8388e4;
+}
+
+#wrapper #box div#content ul li.comment h2,
+#wrapper #box div#content ul li.comment h3 {
+	border-color: #ce2e20;
+}
+
+
+#wrapper #box div#content ul li.jobs h2,
+#wrapper #box div#content ul li.jobs h3 {
+	border-color: #a6d1e2;
+}
+
+
+#wrapper #box div#content ul li.news h2,
+#wrapper #box div#content ul li.news h3 {
+	border-color: #ce2e20;
+}
+
+
+#wrapper #box div#content ul li.shops-services h2,
+#wrapper #box div#content ul li.shops-services h3 {
+	border-color: #266f9b;
+}
+
+#wrapper #box div#content ol.most-read li.first h2,
+#wrapper #box div#content ol.most-read li.first h3 {
+	border-color: #266f9b;
+}
+/* End Network Front and Audio Front colours */
+
+/* buzz page colours */
+
+div#buzz-block h3,
+body.buzz p#more-daylife,
+div#buzz-pictures
+{
+	border-color: #ccc;
+}
+
+div#buzz-quotes blockquote
+{
+	border-color: #999;
+}
+
+body.education #promo,
+div.main-image-container,
+div.thumb.even
+{
+	border-color: white;
+}
+
+p.time-since
+{
+	color: #ff3a00;
+}
+
+/* end buzz page colours */
+
+/* commercial borders for Zones start */
+
+body.video-front div#promo div.capsule,
+body.audio-front div#promo div.capsule
+{
+	border-color: #666;
+}
+
+/* Pluck comments */
+
+.pluck-comment-block .pluck-content
+{
+	border-color: #666;
+}
+
+/* commercial borders for Zones end */
+
+/* zones in pickables start */
+#box div.pickabletag  li h2,
+#box div#content div.pickabletag  ul li h2
+{
+	border-color: #d61d00;
+}
+
+#box div.pickabletag  li h2.sport,
+#box div#content div.pickabletag  ul li h2.sport
+{
+	border-color: #008000;
+}
+
+#box div.pickabletag  li h2.comment,
+#box div#content div.pickabletag  ul li h2.comment
+{
+	border-color: #0061a6;
+}
+
+#box div.pickabletag  li h2.culture,
+#box div#content div.pickabletag  ul li h2.culture
+{
+	border-color: #d1008b;
+}
+
+#box div.pickabletag  li h2.business,
+#box div#content div.pickabletag  ul li h2.business
+{
+	border-color: #4a64d9;
+}
+
+#box div.pickabletag  li h2.money,
+#box div#content div.pickabletag  ul li h2.money
+{
+	border-color: #8f1ab6;
+}
+
+#box div.pickabletag  li h2.lifeandstyle,
+#box div#content div.pickabletag  ul li h2.lifeandstyle
+{
+	border-color: #ffc202;
+}
+
+#box div.pickabletag  li h2.travel,
+#box div#content div.pickabletag  ul li h2.travel
+{
+	border-color: #65c5fb;
+}
+
+#box div.pickabletag  li h2.environment,
+#box div#content div.pickabletag ul li h2.environment
+{
+	border-color: #7bbb00;
+}
+
+/* zones in pickables end */
+
+/* Promo
+--------------------------------------*/
+
+#promo a,
+.commercial #promo .commercial li a,
+body.front .commercial li a,
+div.jobsbox a,
+div.ventures-slot-machine a   
+{
+    color: #436A90;
+    background-color: transparent;
+ }
+
+#promo a:focus,
+#promo a:active,
+body.front .commercial a:focus,
+body.front .commercial a:active
+{
+    background-color: #436A90;
+    color: #fff;
+}
+
+body.sport #onsite .commercial a:focus,
+body.sport #onsite .commercial a:active
+{
+	background-color: #008000;
+}
+
+/* End Promo */
+
+/*lightbox special case*/
+body.gallery div.lightbox ol li a:hover
+{
+    background-color: #060;
+    color: #fff;
+}
+
+body.gallery div#box div#overlay a
+{
+	color: #00c7ff;
+}
+
+body.quiz div#quiz-answers em,
+body.quiz p.quiz-error,
+body.competition p.competition-error,
+body.competition p.closed
+{
+	color: #FF0000;
+}
+
+}
+          /* ----------  color.css ends here ----------- */

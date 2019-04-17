@@ -1,0 +1,114 @@
+%: Created 31 October 2010 at 23:00.
+
+\documentclass[]{beamer}
+
+% Setup appearance:
+
+\usetheme{Darmstadt}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+
+
+% Standard packages
+
+\usepackage[english]{babel}
+\usepackage{helvet}
+
+% Author, Title, etc.
+
+\usepackage{multimedia}
+
+\title[Block Partitioning and Perfect Phylogenies] 
+{%
+  On the Complexity of SNP Block Partitioning Under the Perfect
+  Phylogeny Model%
+}
+
+\author[Gramm, Hartman, Nierhoff, Sharan, Tantau]
+{
+  Jens~Gramm\inst{1} \and
+  Tzvika~Hartman\inst{2} \and
+  Till~Nierhoff\inst{3} \and
+  Roded~Sharan\inst{4} \and
+  \textcolor{green!50!black}{Till~Tantau}\inst{5}
+}
+
+\institute[Tübingen and others]
+{
+  \inst{1}%
+  Universität Tübingen, Germany
+  \and
+  \vskip-2mm
+  \inst{2}%
+  Bar-Ilan University, Ramat-Gan, Israel
+  \and
+  \vskip-2mm
+  \inst{3}%
+  International Computer Science Institute, Berkeley, USA
+  \and
+  \vskip-2mm
+  \inst{4}%
+  Tel-Aviv University, Israel
+  \and
+  \vskip-2mm
+  \inst{5}%
+  Universität zu Lübeck, Germany
+}
+
+\date[WABI 2006]
+{Workshop on Algorithms in Bioinformatics, 2006}
+
+
+
+% The main document
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+
+\section{Introduction}
+
+\subsection{The Model and the Problem}
+
+\begin{frame}{What is haplotyping and why is it important?}
+
+%\hyperlinksound[]{thesound}{label goes here}
+%\sound[]{sound}{scottishwoman.wav}
+%\movie[showcontrols=true]{basjhf kjsdh lkjdfs}{./scottishwoman.wav}
+\movie[externalviewer]{basjhf kjsdh lkjdfs}{./scottishwoman.wav}
+
+  You hopefully know this after the previous three talks\dots
+\end{frame}
+
+\begin{frame}[t]{General formalization of haplotyping.}
+
+\hyperlinkmovie[showcontrols=true]{foob}{scottishwoman.wav}
+
+  \begin{block}{Inputs}
+    \begin{itemize}
+    \item A \alert{genotype matrix} $G$.
+    \item The \alert{rows} of the matrix are \alert{taxa / individuals}.
+    \item The \alert{columns} of the matrix are \alert{SNP sites /
+        characters}. 
+    \end{itemize}
+  \end{block}
+  \begin{block}{Outputs}
+    \begin{itemize}
+    \item A \alert{haplotype matrix} $H$.
+    \item Pairs of rows in $H$ \alert{explain} the rows of $G$.
+    \item The haplotypes in $H$ are \alert{biologically plausible}. 
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\end{document}
+
+

@@ -1,0 +1,200 @@
+P {
+	PADDING-LEFT: 5px; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1 {
+	PADDING-LEFT: 15px; FONT-SIZE: 22px; COLOR: #FFFFFF; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	PADDING-LEFT: 5px; FONT-SIZE: large; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	PADDING-LEFT: 5px; FONT-SIZE: medium; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H4 {
+	PADDING-LEFT: 5px; FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H5 {
+	PADDING-LEFT: 5px; FONT-SIZE: medium; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #006633; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #006633; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none;
+	color: #7e2208;
+}
+A.white:link {
+	color: #FFFFFF; text-decoration:none
+}
+A.white:visited {
+	color:#FFFFFF; text-decoration:none
+}
+A.white:hover {
+	color:#FFFFFF; text-decoration:none
+}
+A img {
+	border-style:none;
+	color: #FFFFFF; /* hide border in NS 4 */
+}
+.footer {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: x-small; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif
+	color: #CC0000;
+	text-decoration: none;
+}
+.spotlightevents {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.blktext {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltype {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 75%; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.copyright {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 65%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.left {
+	BORDER-TOP: thin; BORDER-LEFT: #cccccc thin solid
+}
+.bottom {
+	BORDER-BOTTOM: #cccccc thin solid
+}
+.top {
+	PADDING-RIGHT: 0px; BORDER-TOP: #cccccc thin solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: thin
+}
+.u {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #cccccc thin; BORDER-LEFT: #cccccc thin solid; BORDER-BOTTOM: #cccccc thin solid
+}
+.rightcorner {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #cccccc thin solid; BORDER-BOTTOM-WIDTH: thin; BORDER-BOTTOM-COLOR: #cccccc; BORDER-LEFT: #cccccc thin
+}
+.topbottom {
+	BORDER-RIGHT: #cccccc thin; BORDER-TOP: #cccccc thin solid; BORDER-LEFT: #cccccc thin; BORDER-BOTTOM: #cccccc thin solid
+}
+.square {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #cccccc thin solid; BORDER-LEFT: #cccccc thin solid; BORDER-BOTTOM: #cccccc thin solid
+}
+.right {
+	BORDER-RIGHT: thin solid; BORDER-TOP-COLOR: #cccccc
+}
+.leftcorner {
+	BORDER-TOP: #cccccc thin solid; BORDER-LEFT: thin solid; BORDER-RIGHT-COLOR: #cccccc
+}
+.quote {
+	FONT-SIZE: xx-small; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.006633 {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #006633; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FFFFFF {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.000000 {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.msutodayheader {
+	FONT-WEIGHT: bold; FONT-SIZE: small; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.msutodaytitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cccc99
+}
+.eventsdate {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: x-small; FONT-FAMILY: Arial, Helvetica, san-serif
+}
+.whtsmall {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: x-small; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.leftright {
+	BORDER-TOP-WIDTH: thin; BORDER-RIGHT: #cccccc thin solid; BORDER-BOTTOM-WIDTH: thin; BORDER-BOTTOM-COLOR: #cccccc; BORDER-LEFT: #cccccc thin solid; BORDER-TOP-COLOR: #cccccc
+}
+.arc {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #cccccc thin solid; BORDER-LEFT: #cccccc thin solid; BORDER-BOTTOM: #cccccc thin
+}
+.whitesquare {
+	BORDER-RIGHT: #ffffff thin ridge; BORDER-TOP: #ffffff thin ridge; BORDER-LEFT: #ffffff thin ridge; BORDER-BOTTOM: #ffffff thin ridge
+}
+.topicnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topicnavcolor {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #7e2208; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topicnavgreen {
+	Font-Weight: bold; font-size: 75%; color: #006633; font-style: normal; font-family: Arial, Helvetica, sans-serif
+}	
+
+.italicgreen {
+	 font-size: 75%; color: #006633; font-style: normal; font-family: Arial, Helvetica, sans-serif color: #006633;	font-style: italic;
+}
+.newsevents {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.portalnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.greenbottom {
+	BORDER-BOTTOM: #006633 thin solid
+}
+.greentopbottom {
+	BORDER-TOP: #006633 thin solid; BORDER-BOTTOM: #006633 thin solid
+}
+.greygreen {
+	BORDER-RIGHT: #cccccc thin solid; BORDER-TOP: #006633 thin solid; BORDER-LEFT: #cccccc thin solid; BORDER-BOTTOM: #006633 thin solid
+}
+.fullstorymore {
+	PADDING-LEFT: 5px; FONT-SIZE: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.footlinks {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topnavcolor {
+	BACKGROUND-COLOR: #cccc99
+}
+.date {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif
+}
+.eventsTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cccc99
+}
+.morenews {
+	FONT-WEIGHT: normal; FONT-SIZE: 85%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topicheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; COLOR: #7e2208; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topicsubheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #7e2208; LINE-HEIGHT: 120%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topicsubheadred{
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #006633; LINE-HEIGHT: 120%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topiclink {
+	FONT-WEIGHT: bold; FONT-SIZE: 125%; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topiclinksmall {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.topictertiaryheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI {
+	PADDING-LEFT: 5px; FONT-SIZE: 75%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smallSearchType {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 65%; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.portalnavwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; LINE-HEIGHT: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.quicklinkslabel {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: xx-small; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FFFFFF; PADDING-LEFT: 15PX;
+}
+

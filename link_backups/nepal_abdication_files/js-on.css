@@ -1,0 +1,863 @@
+@media all {
+#more-article,
+#more-nonplace,
+#more-parent,
+#more-related-articles,
+#more-keywords,
+ul.sub-list,
+.meta-data .tags,
+.meta-data form
+{
+	display: none;
+}
+
+a.shower
+{
+	display: inline;
+}
+
+p.shower .first-selection, .first-selection
+{
+    display: none
+}
+
+a.open .remaining
+{
+    display: none
+}
+
+a.open .first-selection
+{
+    display: inline
+}
+
+p.shower,
+li.shower,
+div.shower
+{
+	display: block;
+}
+li.js-shower
+{
+	display: inline;
+}
+
+.js-hider
+{
+	display: none;
+}
+
+/* Navigation and zones crumb rollover 
+   padding here to avoid view jump on load 
+----------------------------------------------------------------*/
+#zones-nav #crumb-nav ul li a
+{
+	border-right:none;
+}
+
+#nav-bar #crumb-nav #crumb1 a,
+#nav-bar #crumb-nav #crumb2 a,
+#nav-bar #crumb-nav #crumb3 a
+{  
+	padding-right:15px;
+}
+#nav-bar #crumb-nav #crumb2 a,
+#nav-bar #crumb-nav #crumb3 a
+{
+  	padding-left:3px; /* total of 5px with bgimage */
+}
+#nav-bar #local-nav .first a
+{
+	padding-left:3px; /* total of 5px with bgimage */
+}
+
+#nav-bar #crumb-nav #crumb1 a.first-end,
+#nav-bar #crumb-nav #crumb2 a.first-end,
+#nav-bar #crumb-nav #crumb3 a.first-end
+{
+	background-position: 100% -13px;
+}
+
+#nav-bar #crumb-nav #crumb1 a.first-second,
+#nav-bar #crumb-nav #crumb2 a.first-second
+{
+	background-position: 100% -316px;	
+}
+
+
+/*----------------------------------------------------------------*/
+
+#more-biography
+{
+	display:none;
+}
+
+#booking #booker-hotel p,
+#booking #booker-car p
+{
+	width: 290px
+}
+
+#booking #booker-hotel,
+#booking #booker-car
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	color: inherit;
+	z-index: 20;
+}
+
+#booking #booker-car
+{
+	z-index: 10
+}
+
+#booking #booker-flights
+{
+	position: relative;
+	z-index: 100;
+	background-color: white;
+	color: inherit;
+	
+}
+
+
+
+#booking #booker-hotel span
+{
+	left: 60px;
+	
+}
+
+#booking #booker-car span
+{
+
+	left: 105px;
+}
+
+#booking #booker-flights span
+{
+	left: 0;
+}
+
+#booking fieldset.section
+{
+
+	margin-top: 0
+}
+#booking
+{
+	margin-top: 30px;
+	z-index: 0;
+}
+
+
+ul.controller li
+{
+	display: inline;
+}
+
+
+
+div#overlay-wrapper
+{
+	display: none;
+}
+
+body.gallery div#overlay-wrapper .gallery-off
+{
+	overflow:hidden;
+	height: 1.2em;
+	width: 0.25em;
+
+}
+
+
+body.gallery div#overlay-wrapper
+{
+	overflow:hidden;
+}
+
+.gallery-off .maximize,
+.gallery-on .minimize
+{
+	display:inline;
+}
+
+
+.gallery-off .minimize,
+.gallery-on .maximize
+{
+	display: none;
+}
+
+
+
+/*
+Blog switch on the front
+------------------------------------------------------------------------------*/
+ul.entries.visible
+{
+	display: block
+}
+
+ul.hidden
+{
+	display: none
+}
+
+#larger,
+#most-viewed-7,
+#most #most-viewed
+{
+	display: none;
+}
+
+#smaller 
+{
+	display: none;
+}
+
+#blogging-section
+{
+	position: relative 
+}
+
+#blogging-section div.blog span
+{
+	border-bottom: 1px solid;
+	font-size: 95%;
+	top: 5.8em;
+	right: 0;
+	padding: 4px 10px 2px 10px;
+	position: absolute;
+	margin-right: 10px;
+	min-height: 14px;
+	z-index: 5;
+}
+
+#blogging-section div.blog span b /* this puts the right corner on the blog tabs 
+
+*/
+{
+	display: block;
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#blogging-section div.blog #most-commented-entries
+{
+	right: 4.8em
+}
+
+#blogging-section div.blog span
+{
+	background-color: #e4e4e4;
+	background-image: url(images/tabs/tab-news-inactive-left.gif);
+	background-position: top left;
+	border-color: #999;
+	color: #fff;
+}
+
+#tab-section div.blog span
+{
+	border-width: 0;
+}
+
+#blogging-section div.blog span.active
+{
+	background-color: #fff;
+	background-image: url(images/tabs/tab-active-left.gif);
+	background-position: top left;
+	border-width: 1px;
+	border-color: #fff;
+	color: #333;
+}
+
+#blogging-section div.blog span b
+{
+	background-image: url(images/tabs/tab-news-inactive-right.gif);
+	background-position: top right;
+}
+
+#blogging-section div.blog span.active b
+{
+	background-image: url(images/tabs/tab-active-right.gif);
+	background-position: top right;
+}
+
+#blogging-section div.blog span
+{
+	cursor: pointer;
+	position: absolute;
+}
+
+
+#blogging-section div.blog span.active
+{
+	cursor: default;
+}
+
+
+/* mortgage calculator styles */
+
+div#tools-header,
+div#mortgage-calculator
+{
+	display: block;
+}
+
+#mortgage-calculator li
+{
+	padding-top: 5px;
+}
+
+#mortgage-calculator p
+{
+	text-align: right;
+}
+
+#onsite #mortgage-calculator p
+{
+	text-align: left;
+}
+
+#mortgage-calculator h4
+{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#mortgage-calculator p label
+{
+	float: left;
+	padding-top: 5px;
+}
+
+#mortgage-result,
+#mortgage-calculator p#results
+{
+	margin-top: 5px;
+}
+
+#mortgage-result p
+{
+	background-color: #fff;
+	padding: 5px 3px;
+	text-align: left;
+}
+
+#mortgage-calculator input
+{
+	margin-bottom: 3px;
+}
+
+#mortgage-calculator p span
+{
+	position: relative;
+	top: -5px;
+}
+
+#mortgage-calculator #mortgage-result p span
+{
+	font-weight: bold;
+	top: 0;
+}
+
+/* find a property styles */
+
+#find-a-property p#property-tabs,
+#stock-toggle-nav
+.tab-toggle
+{
+	display: block;
+	padding-right: 7px;
+	position: relative;
+	top: 1px;
+	text-align: right;
+}
+div.combined-forecasts-pane #next-four-days-forecast table tbody tr.first,
+div.combined-forecasts-pane #next-four-days-forecast table tbody tr.first th
+{
+	border-top: none;
+}
+div.combined-forecasts-pane #next-four-days-forecast
+{
+	border-top: 1px solid #c4c3dd;
+}
+#promo p#property-tabs
+{
+	top: -2px;
+	padding-top: 14px;
+}
+
+#stock-toggle-nav
+{
+	position: relative;
+	top: 2px;
+}
+
+.initially-off
+{
+	display: none;
+}
+
+#find-a-property form
+{
+	border-top: 1px solid #bebebe;
+}
+
+#stock-toggle-nav a,
+div#wrapper .tab-toggle a
+{
+	background-color: #fff;	
+	background-image: url(images/tabs/tab-active-left.gif);
+	background-position: top left;
+	border-bottom: 1px solid #fff;
+	color: #000;
+	cursor: default;
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	position: relative;
+	text-decoration: none;
+}
+
+div#wrapper div#promo .tab-toggle a
+{
+	background-image: url(images/tabs/promo/p-tab-active-left.gif);
+}
+
+div#wrapper div#promo .tab-toggle a b
+{
+	background-image: url(images/tabs/promo/p-tab-active-right.gif);
+}
+
+body.news div#wrapper ul.tab-toggle a.inactive
+{
+	background-image: url(images/tabs/tab-news-inactive-left.gif);
+}
+
+body.news div#wrapper ul.tab-toggle a.inactive b
+{
+	background-image: url(images/tabs/tab-news-inactive-right.gif);
+}
+
+body.sport div#wrapper ul.tab-toggle a.inactive,
+body#sports-popup div#wrapper ul.tab-toggle a.inactive
+{
+	background-color: transparent;
+	background-image: url(images/tabs/tab-sport-inactive-left.gif);
+}
+
+body.sport div#wrapper ul.tab-toggle a.inactive b,
+body#sports-popup div#wrapper ul.tab-toggle a.inactive b
+{
+	background-image: url(images/tabs/tab-sport-inactive-right.gif);
+}
+
+body#sports-popup div#wrapper #content ul.tab-toggle a.active
+{
+	background-image: url(images/tabs/tab-black-inactive-left.gif);
+	border-bottom: 1px solid #000;
+	color: #fff; 
+}
+
+body#sports-popup div#wrapper #content ul.tab-toggle a.active b
+{
+	background-image: url(images/tabs/tab-black-inactive-right.gif);
+	color: #fff; 
+}
+
+#finance-guides-nav a:focus,
+#finance-guides-nav a:active,
+#finance-guides-nav a,
+body.news ul.tab-toggle a:active
+{
+	color: #333;
+	text-decoration: none;
+}
+
+#stock-toggle-nav a b,
+div#wrapper .tab-toggle a b
+{
+	background-image: url(images/tabs/tab-active-right.gif);
+	background-position: top right;
+	font-weight: normal;
+	display: block;
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#stock-toggle-nav a.inactive,
+#stock-toggle-nav a.inactive b,
+div#wrapper .tab-toggle a.inactive,
+div#wrapper .tab-toggle a.inactive b
+{
+	border-bottom-color: #999;
+	color: #fff;
+	cursor: pointer;
+}
+
+div#wrapper .tab-toggle a.inactive
+{
+	background-image: url(images/tabs/tab-inactive-left.gif);
+	background-position: top left;
+}
+
+div#wrapper .tab-toggle a.inactive b
+{
+	background-image: url(images/tabs/tab-inactive-right.gif);
+	background-position: top right;
+}
+
+#finance-guides-nav a.inactive,
+#find-a-property p#property-tabs a.inactive
+{
+	background-image: url(images/tabs/tab-money-inactive-left.gif);
+	background-position: top left;
+}
+
+#find-a-property p#property-tabs a.inactive b,
+#finance-guides-nav a.inactive b
+{
+	background-image: url(images/tabs/tab-money-inactive-right.gif);
+	background-position: top right;
+}
+
+div#wrapper div#promo .tab-toggle a.inactive
+{
+	background-image: url(images/tabs/promo/p-tab-money-inactive-left.gif);
+}
+
+div#wrapper div#promo .tab-toggle a.inactive b
+{
+	background-image: url(images/tabs/promo/p-tab-money-inactive-right.gif);
+}
+
+#stock-toggle-nav a.inactive
+{
+	background-image: url(images/tabs/tab-business-inactive-left.gif);
+	background-position: top left;
+}
+
+#stock-toggle-nav a.inactive b
+{
+	background-image: url(images/tabs/tab-business-inactive-right.gif);
+	background-position: top right;
+}
+
+div#wrapper ul#forecast-nav a.inactive b
+{
+	background-image: url(images/tabs/tab-news-inactive-right.gif);
+	background-position: top right;
+}
+
+div#wrapper ul#forecast-nav a.inactive
+{
+	background-image: url(images/tabs/tab-news-inactive-left.gif);
+	background-position: top left;
+}
+
+#find-a-property legend,
+img.stock-chart
+{
+	display: none;
+}
+
+/* stock charts */
+
+img#stock-chart-1
+{
+	display: block;
+}
+
+p#stock-charts-nav
+{
+	font-size: 0.95em;
+}
+
+ul#stock-toggle-nav
+{
+	margin-right: 20px;
+	top: -1px;
+}
+
+body.keyword-page ul#stock-toggle-nav
+{
+	top: -2px;
+}
+
+div#stock-table
+{
+	border: 1px solid #b5b7bf;
+	padding: 10px;
+}
+
+div#stock-charts
+{
+	border: 1px solid #b5b7bf;
+}
+
+div#stock-charts p#stock-charts-nav
+{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+div#stock-charts img
+{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+div#stock-charts p
+{
+	padding-left: 10px;
+}
+
+/* finance guides */
+
+.finance-pane,
+div#stock-table
+{
+	display: none;
+}
+
+#finance-guides div.active-pane,
+body.money #finance-pane-0
+{
+	display: block;
+}
+
+
+#finance-guides-nav,
+ul.tab-toggle
+{
+	line-height: 0;
+	margin: 0 50px 0 0;
+	padding: 0;
+	position: relative;
+	top: -6px;
+	text-align: right;
+}
+
+#promo #finance-guides-nav
+{
+	left: 0;
+	margin-top: 10px;
+	padding-top: 18px;
+}
+
+#promo #finance-guides table
+{
+	border-collapse: collapse;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#promo div.finance-pane ul
+{
+	border-color: #999;
+	padding-top: 0;
+	margin-top: -10px;
+}
+
+#promo #finance-guides
+{
+	padding: 5px;
+	border-top: 1px solid;
+}
+
+#promo #finance-guides table td,
+#promo #finance-guides table th,
+#promo #finance-guides table th.finance-row
+{
+	padding-top: 5px;
+	padding-bottom: 9px;
+	vertical-align: top;
+}
+
+#promo #finance-guides table tbody td,
+#promo #finance-guides table tbody th,
+#promo #finance-guides ul
+{
+	border-top: 1px dotted;
+}
+
+#promo #finance-guides li
+{
+	border-top: none;
+}
+
+#promo #finance-guides table th
+{
+	font-weight: bold;
+	padding: 0 0 9px 0;
+}
+
+#promo #finance-guides table th.finance-row
+{
+	font-weight: normal;
+}
+
+
+#finance-guides th
+{
+	text-align: left;
+}
+
+#finance-guides-nav li,
+#stock-toggle-nav li,
+.tab-toggle li
+{
+	display: inline;
+	font-size: 1em;
+}
+
+#warning
+{
+	color: #C82F2F;
+	clear: left;
+	font-style: italic;
+}
+
+.warning
+{
+	padding-left:20px;
+	background: url(images/icon_message.gif) left top no-repeat;
+}
+
+/* end */
+
+body.news div#media-2,
+body.news div#media-3,
+body.news div#media-4,
+body.news div#media-5
+{
+	display: none;
+}
+
+body.news div#media-1,
+body.news div#content ul.tab-toggle
+{
+	display: block;
+}
+
+body.article div.send
+{
+	clear:left; 
+	position: relative; 
+	top: -27px;
+}
+
+#content ul.article-attributes li.history
+{
+	display: block;
+	margin-bottom: 0;
+}
+
+body.article ul#article-toolbox li.article-history
+{
+	display: inline;
+}
+body.article .article-history a#historylink 
+{
+	display: inline;
+}
+ 
+.article-history .send
+{
+	display: none;
+	border: none;
+	position: relative;
+	top: 30px;
+	left:0;
+	background-color: #fff;
+	z-index: 999;
+}
+
+li.article-history .share-top
+{
+	float:left;
+	background: #e5e4e5;
+	overflow: hidden;
+	width: 100%;
+}
+
+.share-top span
+{
+	display: block;
+}
+
+.article-history .send div.send-inner
+{
+	position: absolute;
+	border: 9px solid #cdcdcd;
+	top:30px;
+}
+
+body #box li.article-history div.send h3
+{
+	float: left;
+	width: 200px;
+}
+
+body #box li.article-history div.send h3:after
+{
+	content: "";
+}
+.article-history .send div.send-inner div.section
+{
+	display: block;
+	position: static;
+	top: 5px;
+}
+body.fixtures-and-results div#section-contents ul.keywords li
+{
+	margin-bottom: 0;
+}
+body.fixtures-and-results div#section-contents ul.keywords li h3 a.shower
+{
+	color: inherit;
+	cursor: pointer;
+	background-image: url(images/icon_triangle12_right.gif);
+	padding-left: 14px;
+	color: #005689;
+}
+body.fixtures-and-results div#section-contents ul.keywords li h3 a.shower.open
+{
+	background-image: url(images/icon_triangle12_down.gif);
+}
+body.fixtures-and-results div#section-contents ul.keywords li ul li
+{
+	padding-left: 14px;
+}
+body.fixtures-and-results div#section-contents ul.keywords li ul li:last-child
+{
+	padding-bottom: 0;
+}
+.javascript-off-error
+{
+	display: none;
+}
+.pluck-off-error
+{
+	display: block;
+}
+.javascript-on
+{
+	display: block;
+}
+.pluck-on
+{
+	display: none;
+}
+}

@@ -1,0 +1,1394 @@
+/******************* GLOBAL *******************/
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:70%;  /* Tip: Treat this as 10pt. */
+	line-height:1.0em;
+	text-align:center;
+	color:#000;
+	background:#fff url(../img/global/bg-page.gif) repeat-y top;
+}
+.access-text {
+	display:none;
+}
+.clear {
+	overflow:hidden;
+	clear:both;
+	height:1px;
+	margin:-1px 0px 0px 0px;
+	font-size:1px;
+}
+.clear-simple {
+	clear:both;
+}
+.display-inline {
+	display:inline;
+}
+.float-left {
+	float:left;
+	display:inline;
+}
+.float-right {
+	float:right;
+	display:inline;
+}
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align:right;
+}
+.text-center {
+	text-align:center;
+}
+p.where-am-i {
+	float:left;
+	display:inline;
+	padding:0px 9px;
+	color:#666;
+}
+img { 
+	border:0px; 
+}
+/*** Print Friendly ***/
+body.print-friendly {
+	background:none;
+}
+#region-print-friendly {
+	margin:10px 15px;
+	padding-bottom:10px;
+	text-align:left;
+}
+/******************* REGIONS *******************/
+#shell {
+}
+#page {
+	margin:auto;
+	width:996px;
+	text-align:left;
+	padding:5px 0px 10px 0px; /* Tip: 10px bottom padding as the footer "source-and-global-links-container" creates 10px bottom spacing already. */
+}
+#region-top-ad {
+	display:block;
+	width:956px;
+	margin:0px 20px;
+	padding-bottom:15px;
+	border-bottom:1px solid #d9d9d9;
+}
+#region-nav {
+	position:relative;
+	left:20px;
+	width:956px;
+	margin:0px;
+	padding:0px;
+}
+#region-content {
+	display:block;
+	width:956px;
+	margin:0px 20px 0px 20px;
+}
+#region-body-and-footer {
+	margin:0px;
+	padding:0px;
+}
+#region-footer {
+	clear:both;
+	display:block;
+	margin-top:-1px;
+	padding-top:1px;
+}
+/*** Column 4 (Based on graphic design master grid) ***/
+#grid-column4 {
+	float:right;
+}
+#grid-column4-non-grey {
+	width:356px;
+	margin:0px;
+}
+#grid-column4-grey {
+	background:#f0f0f0;
+	margin:0px 0px 15px 0px;
+	padding:10px 10px 0px 10px;
+	width:356px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:336px; /* Tip: Non IE 5.5 browsers. */
+}
+#grid-column4-grey-1 {
+	background:#f0f0f0;
+	margin:0px 0px 15px 0px;
+	padding:10px 10px 0px 10px;
+	width:356px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:336px; /* Tip: Non IE 5.5 browsers. */
+}
+#google-ad {
+	border:1px solid #d9d9d9;
+	margin:0px 0px 15px 0px;
+	padding:9px;
+	width:356px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:334px; /* Tip: Non IE 5.5 browsers. */
+}
+/*** Layout 0 ***/
+#region-column1and2-layout0 {
+	display:inline;
+	float:left;
+	width:956px;
+	margin:0px;
+	padding:0px;
+}
+#region-column1-layout0 {
+	display:inline;
+	float:left;
+	width:585px;
+	margin:0px 15px 0px 0px;
+	padding:0px;
+}
+/*** Layout 1 - CSS removed as no pages uses this layout anymore. ***/
+/*** Layout 2 ***/
+#region-column1and2-container-layout2 {
+	display:inline;
+	float:left;
+	width:600px;
+}
+#region-column1and2-layout2 {
+	display:inline;
+	float:left;
+	width:585px;
+	margin:0px 15px 0px 0px;
+	padding:0px;
+}
+#region-column1-layout2 {
+	display:inline;
+	float:left;
+	width:385px;
+	margin:0px 15px 0px 0px;
+	padding:0px;
+	overflow: visible
+}
+#region-column2-layout2 {
+	display:inline;
+	float:left;
+	width:185px;
+	margin:-1px 15px 0px 0px;
+	padding:0px;
+}
+/*** Layout 3 ***/
+#region-column1-layout3 {
+	display:inline;
+	float:left;
+	width:756px;
+	margin:0px 15px 0px 0px;
+	padding:0px;
+}
+#region-column2-top-layout3 {
+	width:185px;
+	margin:0px 0px 15px 0px;
+}
+#region-column2-middle-layout3 {
+	background:#f0f0f0;
+	margin:0px 0px 15px 0px;
+	padding:13px 12px 13px 13px;
+	width:185px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:160px; /* Tip: Non IE 5.5 browsers. */
+}
+#region-column2-bottom-layout3 {
+	width:185px;
+	margin:0px 0px 15px 0px;
+}
+/******************* GLOBAL MODULES *******************/
+#ad-top {
+	width:956px;
+}
+.prop-90 {
+	height:90px;
+    float:right;
+    width:1px;
+}
+.ad-top-right {
+	float:right;
+	padding:10px;
+	height:90px;
+	width:213px; /* Tip: For IE 5.5 browser only. */
+	voice-family: "\"}\"";
+	height:70px;
+	width:193px; /* Tip: For non IE 5.5 browsers. */
+}
+#header {
+	clear:both;
+}
+.footer-nav-container {
+	clear:both;
+	border-top:2px solid #666;
+	background:#f0f0f0;
+}
+#logo-and-quote-container {
+	width:100%;
+}
+.header-quote-container {
+	width:356px;
+}
+.header-quote-left {
+	float:left;
+	padding-right:10px;
+}
+.header-quote-right {
+	display:inline;
+}
+.nav-primary {
+	clear:both;
+	float:left;
+	width:100%;
+	background:#d9d9d9;
+}
+.nav-secondary {
+	clear:both;
+	float:left;
+	width:100%;
+	background:#666;
+}
+.crumbtrail-and-search {
+	clear:both;
+	float:left;
+	width:100%;
+	background:#f0f0f0;
+}
+p.global-search-prefix {
+	padding:5px 0px 5px 1px;
+	float:left;
+}
+.global-search-sponsored-by {
+	position:relative;
+	top:-3px;
+}
+.global-search-go {
+	float:left;
+	margin:5px 8px 0px 0px;
+}
+.crumbtrail-prefix {
+	float:left;
+	padding:7px 0px 0px 0px;
+}
+.source-and-global-links-container {
+	clear:both;
+	float:left;
+	width:100%;
+	padding:8px 0px;
+}
+.global-links-seperator {
+	padding:0px 9px 0px 7px;
+	border-right:1px solid #b1b1b1;
+}
+.global-links-seperator-last {
+	padding:0px 0px 0px 7px;
+}
+.position-relative {
+	position:relative;
+}
+/******************* IMAGES *******************/
+img.header-quote-open {
+	margin:0px 4px 0px 0px;
+}
+img.header-quote-close {
+	margin:0px 8px 0px 4px;
+}
+/******************* LISTS *******************/
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+li {
+	display:inline;
+}
+li.block {
+	display:block;
+}
+ol { 
+	list-style-type:decimal;
+	list-style:inside;
+	margin:0px;
+	padding:0px;
+}
+/******************* FORMS *******************/
+form {
+	margin:0px;
+	padding:0px;
+}
+input, textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+}
+input.checkbox {
+	margin-left:0px! important; /* Tip: Not understood by IE */
+	margin-left:-4px;
+}
+.checkbox-label {
+	float:left;
+	display:inline;
+	padding:2px 0px 0px 1px! important; /* Tip: Not understood by IE */
+	padding:3px 0px 0px 1px;
+}
+.width-input-79 {
+	width:79px;
+	voice-family: "\"}\"";
+	width:74px! important;
+	width:72px;
+	margin-top:1px! important;
+	margin-top:0px;
+}
+.width-input-105 {
+	width:105px;
+	voice-family: "\"}\"";
+	width:100px! important;
+	width:98px;
+}
+.width-input-142 {
+	width:142px;
+	margin-top:-1px;
+	voice-family: "\"}\"";
+	width:138px! important;
+	width:136px;
+	margin-top:0px;
+}
+.width-input-152 {
+	width:152px;
+	margin-top:-1px;
+	voice-family: "\"}\"";
+	width:148px! important;
+	width:146px;
+	margin-top:0px;
+}
+.width-input-154 {
+	width:154px;
+	margin-top:-1px;
+	voice-family: "\"}\"";
+	width:150px! important;
+	width:148px;
+	margin-top:0px;
+}
+.width-input-158 {
+	width:163px;
+	voice-family: "\"}\"";
+	width:158px;
+}
+.width-input-295 {
+	width:295px;
+}
+.width-input-495 {
+	width:495px! important;
+	width:493px;
+}
+.width-select-50 {
+	width:47px;
+	voice-family: "\"}\"";
+	width:50px;
+}
+.width-select-67 {
+	width:67px;
+	voice-family: "\"}\"";
+	width:61px;
+}
+.width-select-167 {
+	width:167px;
+}
+/******************* COLUMN 1, 2 AND 3 MODULES *******************/
+/*** M81 - Puff Carousel (3 Columns) ***/
+.carousel-3-teaser-container {
+	float:left;
+	padding:0px 14px 0px 14px;
+	margin:0px 0px 5px 0px;
+	background:url(../img/global/border/carousel-divider-585.gif) repeat-y top left;
+}
+.carousel-navigation {
+	clear:both;
+	margin-top:1px; /* Tip: Leave this in, otherwise the top border doesn't appear in Firefox on OSX. */
+	border-top:1px solid #d9d9d9;
+	text-align:center;
+	padding:2px 0px 5px 0px;
+}
+.browser-left-and-right {
+	position:relative;
+	top:3px;
+	padding:0px 5px;
+}
+/*** M87g Homepage Editors Choice ***/
+.midline-white-230 {
+	background:url(../img/global/border/midline-white-230.gif) repeat-y;
+}
+.midline-white-393 {
+	background:url(../img/global/border/midline-white-393.gif) repeat-y;
+}
+/******************* COLUMN 1 AND 2 MODULES *******************/
+/*** Portrait article image ***/
+.article-author {
+	border-bottom:1px solid #d9d9d9;
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 5px 0px;
+}
+.reader-rating {
+	margin:2px 0px -2px 1px;
+}
+.article-portrait-image {
+	background:#f0f0f0;
+	width:185px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 5px 0px;
+}
+.article-portrait-image-pair {
+	background:#fff;
+	width:185px;
+	margin:0px 0px 5px 0px;
+}
+.article-portrait-image-text-container {
+	width:185px;
+	background:#f0f0f0;
+}
+/*** Landscape article image ***/
+.article-landscape-image-text-container {
+	width:385px;
+	background:#f0f0f0;
+}
+/*** Panorama article image ***/
+.article-panorama-image-text-container {
+	width:585px;
+	background:#f0f0f0;
+}
+/*** Pagination container ***/
+.pagination-container {
+ 	clear:both;
+	float:left;
+	width:100%;
+	background:#f0f0f0;
+	text-align:center;
+}
+/*** Image Navigation ***/
+.image-navigation {
+	border-top:1px solid #d9d9d9;
+	padding:5px 0px 3px 0px;
+}
+/*** Related topics ***/
+.puff-sides-385 {
+	background:url(../img/global/border/puff-sides-385.gif) repeat-y top left;
+}
+/*** M81 - Puff Carousel (2 Columns) ***/
+.carousel-2-teaser-container {
+	float:left;
+	padding:0px 14px 0px 14px;
+	margin:0px 0px 5px 0px;
+	background:url(../img/global/border/carousel-divider-385.gif) repeat-y top left;
+}
+/*** M63 - Article Related Attachements ***/
+.related-attachements-container {
+	width:165px;
+	margin:0px 16px 10px 0px;
+	padding:4px 0px 0px 0px;
+}
+.related-attachements-top {
+	background:transparent url(../img/global/border/related-attachements-top.gif) no-repeat top left;
+	padding:0px 20px 0px 0px;
+}
+.related-attachements-top h3.section-heading {
+	margin:0px;
+	padding:0px;
+}
+.related-attachements-side {
+	background:transparent url(../img/global/border/related-attachements-side.gif) repeat-y top left;
+}
+.related-attachements-bottom {
+	background:transparent url(../img/global/border/related-attachements-bottom.gif) repeat-y top left;
+}
+.poll-result-label {
+	/*width:30px;*/
+	width:60px;
+}
+.bg-poll {
+	background:transparent url(../img/global/poll-blank-bar.gif) repeat-x 0px 6px;
+}
+/*** Tip: No specific module, was originally for a quote box. Now used for 50%. ***/
+.quote-box-left {
+	float:left;
+	display:inline;
+	width:46.27%; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:49.85%; /* Tip: Non IE 5.5 browsers. */
+}
+/*** M41 - Article pagination ***/
+.pagination-left {
+	float:left;
+	margin-top:-1.2em;
+}
+.pagination-center {
+	text-align:center;
+}
+.pagination-right {
+	float:right;
+	margin-top:-1.2em;
+}
+/*** M90 - Index Divider (2 Columns) ***/
+.dotted-385-2col-divider {
+	background:transparent url(../img/global/border/index-divider-2-col-385.gif) top left repeat-y;
+}
+/*** M153 & M138 Labeled Maps ***/
+.bg-grey-line-left {
+	background:transparent url(../img/global/grey-line.gif) repeat-y top left;
+}
+.bg-grey-line-right {
+	background:transparent url(../img/global/grey-line.gif) repeat-y top right;
+}
+/*** Site Search ***/
+.search-pagination-adjust {
+	margin-top:-1.7em;
+}
+/******************* COLUMN 3 MODULES *******************/
+/* Editors pick box */
+#editors-box {
+	background:#06c;
+	padding:6px 10px 6px 10px;
+}
+/*** M8 - Nav Level 3 ***/
+#nav-level-3 {
+	background-color:#666;
+	padding:6px 10px 6px 10px;
+}
+/*** M57 - Puff and Super Puff (Narrow) (3rd column of 185px wide.) ***/
+.puff-container {
+	background:url(../img/global/border/puff-bottom.gif) no-repeat bottom left;
+	padding-bottom:13px;
+	margin-bottom:15px;
+}
+.puff-top {
+	background:url(../img/global/border/puff-top.gif) repeat-x top left;
+}
+.puff-sides {
+	background:url(../img/global/border/puff-sides.gif) repeat-y top left;
+}
+.puff-padding {
+	padding:6px 10px 0px 10px;
+}
+/*** M50 - Picture Gallery ***/
+.bg-picture-gallery-top {
+	background:transparent url(../img/global/bg-picture-gallery-top.gif) no-repeat top left;
+	padding:6px 10px 0px 10px;
+}
+.bg-picture-gallery-bottom {
+	background:transparent url(../img/global/bg-picture-gallery-bottom.gif) no-repeat top left;
+	height:20px;
+	margin:-8px 0px 15px 0px; /* Tip: Any higher than -8px results in last link in list not hover-able in IE. */
+}
+/*** M90 - Index Divider (3 Columns) ***/
+.dotted-585-right {
+ 	background:transparent url(../img/global/border/index-divider-585-right.gif) top left repeat-y;
+}
+.dotted-585-left {
+	background:transparent url(../img/global/border/index-divider-585-left.gif) top left repeat-y;
+}
+.dotted-585-both {
+	background:transparent url(../img/global/border/index-divider-585-both.gif) top left repeat-y;
+}
+/******************* COLUMN 4 MODULES *******************/
+/*** Long Advertisment ***/
+.advert-long-container {
+	float:right;
+	width:160px;
+}
+/*** M29 - Reports (Version A (Width 336px)) ***/
+.reports-container {
+	margin:0px 0px 10px 0px;
+	border:1px solid #d9d9d9;
+	background:#fff;
+	padding:5px 9px 4px 9px;
+	width:336px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:316px; /* Tip: Non IE 5.5 browsers. */
+}
+.reports-container h3.section-heading {
+	padding:0px;
+}
+/*** M29 - Reports (Version B (Width 160px)) ***/
+.reports-long-container {
+	float:left;
+	display:inline;
+	background:#fff;
+	border:1px solid #d9d9d9;
+	padding:0px;
+	width:160px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:158px; /* Tip: Non IE 5.5 browsers. */
+}
+.reports-long-container h3.section-heading {
+	padding:5px 9px 7px 9px;
+}
+/*** M58 - Puff & Super Puff (Wide) ***/
+.puff-square {
+	margin-bottom:10px;
+	float:left;
+	border:1px solid #d9d9d9;
+	background:#fff;
+	width:336px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:334px; /* Tip: Non IE 5.5 browsers. */
+}
+.puff-square-non-grey {
+	margin-bottom:10px;
+	float:left;
+	border:1px solid #d9d9d9;
+	background:#fff;
+	width:356px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:354px; /* Tip: Non IE 5.5 browsers. */
+}
+.puff-square-high-impact {
+	margin-bottom:10px;
+	float:left;
+	width:336px;
+	background:#06c;
+}
+.puff-square-high-impact-non-grey {
+	margin-bottom:10px;
+	float:left;
+	width:356px;
+	background:#06c;
+}
+#grid-column4-non-grey .puff-square-high-impact
+{
+	width:355px;
+}
+.superpuff-bottom {
+	float:left;
+	width:356px;
+	height:13px;
+	margin-top:-14px;
+	background:url(../img/global/border/puff-bottom-356.gif) no-repeat bottom right;
+}
+/*** M30 - Quicklinks Teaser Module ***/
+.quick-links-container {
+	background:#fff;
+	border:1px solid #d9d9d9;
+	margin-bottom:10px;
+}
+a.lowercase-white-tab, a.lowercase-white-tab:active, a.lowercase-white-tab:visited {
+	color:#06c;
+	padding:0px 12px 0px 0px;
+	margin:0px;
+	cursor:pointer;
+}
+a.lowercase-white-tab:hover {
+	text-decoration:underline;
+}
+a.lowercase-white-tab-selected, a.lowercase-white-tab-selected:active, a.lowercase-white-tab-selected:visited, a.lowercase-white-tab-selected:hover  {
+	color:#666;
+	background:#fff url(../img/global/quicklinks-marker.gif) no-repeat center right;
+	padding:0px 12px 0px 0px;
+	margin:0px;
+	text-decoration:none;
+	cursor:text;
+}
+/*** M42 - Classifieds Quick Search (336px wide) ***/
+.classifieds-container {
+	background:transparent url(../img/global/border/sketch-top-336.gif) no-repeat left top;
+}
+.classifieds-sides {
+	background:transparent url(../img/global/border/sketch-sides-336.gif) repeat-y left top;
+}
+.classifieds-sides-fff {
+	margin-top:-1px; /* Netscape fix */
+	background:transparent url(../img/global/border/classifieds-sides-336-fff.gif) repeat-y left top;
+}
+.classifieds-bottom {
+	background:transparent url(../img/global/border/sketch-bottom-336.gif) no-repeat left top;
+}
+.classifieds-vertical {
+	background:transparent url(../img/global/border/puff-vertical.gif) repeat-y left top;
+}
+.classifieds-vertical-right {
+	background:transparent url(../img/global/border/puff-vertical.gif) repeat-y right top;
+}
+.classifieds-width-70 {
+	width:75px! important;
+	width:70px;
+}
+.classifieds-links {
+	border-bottom:1px solid #d9d9d9;
+	padding:0px 0px 0px 0px;
+	margin-right:1px;
+}
+/*** M42 - Classifieds Quick Search (160px wide) ***/
+.classifieds-long-container {
+	width:160px;
+	background:transparent url(../img/global/border/sketch-top-160.gif) no-repeat left top;
+}
+.classifieds-long-sides {
+	background:transparent url(../img/global/border/sketch-sides-160.gif) repeat-y left top;
+}
+.classifieds-long-bottom {
+	background:transparent url(../img/global/border/sketch-bottom-160.gif) no-repeat left top;
+}
+.classifieds-long-sides .classifieds-long {
+	width:65px;
+}
+/*** M74 - Classifieds teaser narrow (185px wide) ***/
+.classifieds-narrow-container {
+	background:transparent url(../img/global/border/sketch-top-185.gif) no-repeat left top;
+	margin:0px 0px 10px 0px;
+}
+.classifieds-narrow-sides {
+	background:transparent url(../img/global/border/sketch-sides-185.gif) repeat-y left top;
+}
+.classifieds-narrow-bottom {
+	background:transparent url(../img/global/border/sketch-bottom-185.gif) no-repeat left top;
+}
+.classifieds-narrow-sides .classifieds-narrow {
+	width:80px;
+}
+/*** M43 - Classifieds Quicksearch Single ***/
+.classifieds-single-container {
+	margin:0px 0px 5px 0px! important; /* Tip: Not understood by IE */
+	margin:0px;
+}
+.classifieds-label {
+	text-align:right;
+	width:108px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:100px; /* Tip: Non IE 5.5 browsers. */
+}
+.classifieds-label-mini {
+	text-align:right;
+	width:43px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:37px; /* Tip: Non IE 5.5 browsers. */
+}
+.classifieds-single-container select {
+	width:142px
+}
+.classifieds-single-container .mini select {
+	width:80px
+}
+.classifieds-shadow-top {
+	height:13px! important; /* Tip: Not understood by IE */
+	height:5px;
+	background:transparent url(../img/global/border/classifieds-shadow-top.gif) 0px 0px no-repeat;
+	margin-bottom:-3px;
+}
+.classifieds-shadow-sides {
+	background:transparent url(../img/global/border/classifieds-shadow-sides.gif) 0 0 repeat-y;
+	padding-right:12px;
+}
+.classifieds-shadow-sides-fff {
+	background:transparent url(../img/global/border/classifieds-shadow-sides-fff.gif) 0 0 repeat-y;
+	padding-right:12px;
+}
+.classifieds-shadow-bottom {
+	height:6px;
+	background:transparent url(../img/global/border/classifieds-shadow-bottom.gif) 0px 0px no-repeat;
+	margin-bottom:0px;
+}
+/*** M150 - Travel Search. NOTE: This MUST appear AFTER  .classifieds-single-container select ***/
+select.width-input-100 { /* To fit 100 pixels wide */
+	width:99px;
+	voice-family: "\"}\"";
+	width:94px! important;
+	width:98px;
+}
+input.width-input-100 { /* To fit 100 pixels wide */
+	width:99px;
+	voice-family: "\"}\"";
+	width:94px! important;
+	width:92px;
+}
+/*** M87h - Scheduler ***/
+#scheduler-links {
+	padding-top:0px! important; /* Tip: Not understood by IE */
+	padding-top:2px;
+}
+.puff-sides-356 {
+	background:url(../img/global/border/puff-sides-356.gif) repeat-y top left;
+}
+.puff-sides-336 {
+	background:url(../img/global/border/puff-sides-336.gif) repeat-y top left;
+}
+/******************* DEBATE AND COMMENTS *******************/
+.debate-quote-container {
+	background:url(../img/global/border/puff-debate-bottom.gif) no-repeat bottom right;
+	padding-bottom:15px;
+}
+.author-box {
+	border:1px solid #d9d9d9;
+	padding:2px 3px 2px 3px;
+}
+.midline-grey-393 {
+	background:url(../img/global/border/midline-grey-393.gif) repeat-y;
+}
+/******************* POPUPS *******************/
+/*** M123 Picture Gallery ***/
+.gallery-image-background {
+	height:385px;
+	background:transparent url(../img/global/border/picture-gallery.gif) no-repeat top left;
+}
+.gallery-image-background img {
+	position:relative;
+	top:0px;
+	left:0px;
+}
+.grey-filter {
+	margin-left:2px;
+	margin-right:2px;
+	height:50px;
+	width:50px;
+}
+.gallery-target {
+	background:transparent url(../img/global/gallery-target.gif) no-repeat top left;
+	height:52px;
+	width:52px;
+}
+.gallery-target img {
+	margin:1px;
+}
+.popup-skyscraper {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+.popup-variable-width {
+	margin-right:175px;
+}
+/******************* TABS *******************/
+/*** Dark Tabs used on M31 Behavioural and M25 Judgemental Modules ***/
+.dark-tab-links {
+	border-bottom:1px solid #666;
+	padding:0px 0px 0px 0px;
+	margin-right:4px;
+}
+/* Tip: Following 3 classes used to display drop shadow on "M25 Judgemental nav" and "M31 Behavioural nav" Modules if normal version is used */
+.dark-shadow-segment {
+	background:transparent url(../img/global/border/shadow-sides-336.gif) 0 0 repeat-y;
+}
+.dark-shadow-header {
+	background:transparent url(../img/global/border/shadow-header-336.gif) 0px 0px repeat-y;
+}
+.dark-shadow-footer {
+	background:transparent url(../img/global/border/shadow-footer-336.gif) 0px 0px no-repeat;
+}
+.dark-tab-links-wide {
+	border-bottom:1px solid #999;
+	padding:0px 0px 0px 0px;
+	margin-right:5px;
+}
+/* Tip: Following 3 classes used to display drop shadow on "M31 Behavioural nav" Modules if wide version is used */
+.dark-shadow-segment-wide {
+	background:transparent url(../img/global/border/shadow-sides-wide-356.gif) 0px 0px repeat-y;
+}
+.dark-shadow-header-wide {
+	background:transparent url(../img/global/border/shadow-header-wide-356.gif) 0px 0px repeat-y;
+}
+.dark-shadow-footer-wide {
+	background:transparent url(../img/global/border/shadow-footer-wide-356.gif) 0px 0px no-repeat;
+}
+/* Tip: Following 3 classes are used to display the dark tab effect */
+.dark-tab {
+	color:#000;
+	background:#d9d9d9;	
+	margin:0px 5px 0px 0px;
+	padding:6px 6px 3px 7px;
+	float:left;
+	border:1px solid #d9d9d9;
+	border-bottom:0px;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	cursor:pointer; /* Tip: Non IE 5.5 browsers. */
+}
+.dark-tab-simulated {
+	color:#fff;
+	background:#999;	
+	margin:0px 5px 0px 0px;
+	padding:6px 6px 3px 7px;
+	float:left;
+	border:1px solid #999;
+	border-bottom:0px;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	cursor:pointer; /* Tip: Non IE 5.5 browsers. */
+}
+.dark-tab-selected {
+	color:#000;
+	background:#fff;	
+	margin:0px 5px -1px 0px;
+	padding:6px 6px 4px 7px;
+	float:left;
+	border:1px solid #999;
+	border-bottom:0px;
+}
+/*** Light Tabs used on M42 CLassifieds (a) Module ***/
+.light-links {
+	border-bottom:1px solid #d9d9d9;
+	padding:0px 0px 0px 0px;
+	margin-right:1px;
+}
+/* Tip: Following 3 classes are used to display the light tab effect */
+.light-tab {
+	color:#000;
+	background:#d9d9d9;	
+	margin:0px 5px 0px 0px;
+	padding:6px 8px 3px 9px;
+	float:left;
+	border:1px solid #d9d9d9;
+	border-bottom:0px;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	cursor:pointer; /* Tip: Non IE 5.5 browsers. */
+}
+.light-tab-simulated {
+	color:#fff;
+	background:#999;	
+	margin:0px 5px 0px 0px;
+	padding:6px 8px 3px 9px;
+	float:left;
+	border:1px solid #999;
+	border-bottom:0px;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	cursor:pointer; /* Tip: Non IE 5.5 browsers. */
+}
+.light-tab-selected {
+	color:#000;
+	background:#fffef5;	
+	margin:0px 5px -1px 0px;
+	padding:6px 8px 4px 9px;
+	float:left;
+	border:1px solid #d9d9d9;
+	border-bottom:0px;
+}
+/*** White Tabs used on M42 CLassifieds (b) Module ***/
+/* Tip: Following 3 classes are used to display the white tab effect */
+.white-tab {
+	color:#000;
+	background:#d9d9d9;
+	padding:6px 0px 5px 4px! important;
+	padding:6px 0px 5px 5px;
+	margin:0px 0px 4px 4px! important;
+	margin:0px 0px 2px 2px;
+	float:left;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	width:75px;
+	voice-family: "\"}\"";
+	width:70px; /* Tip: Non IE 5.5 browsers. */
+	cursor:pointer;
+}
+.white-tab-simulated {
+	color:#fff;
+	background:#999;	
+	padding:6px 0px 5px 4px! important;
+	padding:6px 0px 5px 5px;
+	margin:0px 0px 4px 4px! important;
+	margin:0px 0px 2px 2px;
+	float:left;
+	cursor:hand; /* Tip: IE 5.5 only. */
+	width:75px;
+	voice-family: "\"}\"";
+	width:70px; /* Tip: Non IE 5.5 browsers. */
+	cursor:pointer;
+}
+.white-tab-selected {
+	color:#000;
+	background:#fffef5 url(../img/global/classified-marker.gif) no-repeat center right;
+	padding:6px 0px 5px 4px! important;
+	padding:6px 0px 5px 5px;
+	margin:0px 0px 4px 4px! important;
+	margin:0px 0px 2px 2px;
+	float:left;
+	width:75px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	width:70px; /* Tip: Non IE 5.5 browsers. */
+}
+/******************* SEPERATORS *******************/
+.white-line {
+	border-bottom:1px solid #fff;
+	margin-bottom:4px;
+}
+.grey-line {
+	border-bottom:1px solid #d9d9d9;
+	margin-bottom:4px;
+}
+.grey-line-left {
+	border-left:1px solid #d9d9d9;
+}
+.curved-seperator-3-col {
+	background:url(../img/global/seperator/page-end-585.gif) no-repeat bottom left;
+	padding-bottom:9px;
+	margin-bottom:15px;
+}
+.curved-seperator-2-col {
+	background:url(../img/global/seperator/page-end-385.gif) no-repeat bottom left;
+	padding-bottom:9px;
+	margin-bottom:15px;
+}
+.link-seperator-first {
+	padding:0px 5px 0px 5px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	padding:0px 5px 0px 0px;
+}
+.link-seperator {
+	padding:0px 5px 0px 5px; /* Tip: IE 5.5 only. */
+	border-left:1px solid #b1b1b1;
+	voice-family: "\"}\"";
+	padding:0px 5px 0px 7px;
+}
+.link-seperator-slash {
+	background:transparent url(../img/global/slash.gif) no-repeat 95% 50%;
+	border:1px solid #f0f0f0; /* Fixes IE 6 and 5.5 issue */
+	padding:0px 7px 0px 0px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	background:transparent url(../img/global/slash.gif) no-repeat 98% 50%!important;
+	background:transparent url(../img/global/slash.gif) no-repeat 90% 50%;
+	padding:0px 11px 0px 0px;
+}
+.link-seperator-slash-last {
+	padding:0px 7px 0px 0px; /* Tip: IE 5.5 only. */
+	voice-family: "\"}\"";
+	padding:0px 11px 0px 0px;
+}
+/******************* BORDERS *******************/
+.border-d9d9d9 {
+	border:1px solid #d9d9d9;
+}
+.border-fff {
+	border:1px solid #fff;
+}
+.border-f5f5f5 { /* Tip: Last minute request by graphic design to change f5f5f5 to f0f0f0, but XHTML mark up already in tech code. */
+	border:1px solid #f0f0f0;
+}
+.border-top-d9d9d9 {
+	border-top:1px solid #d9d9d9;
+}
+.border-bottom-d9d9d9 {
+	border-bottom:1px solid #d9d9d9;
+}
+.border-right-d9d9d9 {
+	border-right:1px solid #d9d9d9;
+}
+.border-left-d9d9d9 {
+	border-left:1px solid #d9d9d9;
+}
+/******************* SPACING *******************/
+/*** Top ***/
+.padding-top-1 {
+	padding-top:1px;
+}
+.padding-top-2 {
+	padding-top:2px;
+}
+.padding-top-3 {
+	padding-top:3px;
+}
+.padding-top-4 {
+	padding-top:4px;
+}
+.padding-top-5 {
+	padding-top:5px;
+}
+.padding-top-6 {
+	padding-top:6px;
+}
+.padding-top-7 {
+	padding-top:7px;
+}
+.padding-top-9 {
+	padding-top:9px;
+}
+.padding-top-10 {
+	padding-top:10px;
+}
+/*** Right ***/
+.padding-right-1 {
+	padding-right:1px;
+}
+.padding-right-2 {
+	padding-right:2px;
+}
+.padding-right-4 {
+	padding-right:4px;
+}
+.padding-right-7 {
+	padding-right:7px;
+}
+.padding-right-9 {
+	padding-right:9px;
+}
+.padding-right-10 {
+	padding-right:10px;
+}
+/*** Bottom ***/
+.padding-bottom-3 {
+	padding-bottom:3px;
+}
+.padding-bottom-5 {
+	padding-bottom:5px;
+}
+.padding-bottom-7 {
+	padding-bottom:7px;
+}
+.padding-bottom-9 {
+	padding-bottom:9px;
+}
+.padding-bottom-10 {
+	padding-bottom:10px;
+}
+.padding-bottom-15 {
+	padding-bottom:15px;
+}
+/*** Left ***/
+.padding-left-2 {
+	padding-left:2px;
+}
+.padding-left-3 {
+	padding-left:3px;
+}
+.padding-left-6 {
+	padding-left:6px;
+}
+.padding-left-9 {
+	padding-left:9px;
+}
+.padding-left-10 {
+	padding-left:10px;
+}
+.padding-left-11 {
+	padding-left:11px;
+}
+.padding-left-14 {
+	padding-left:14px;
+}
+.padding-left-15 {
+	padding-left:15px;
+}
+.padding-left-27 {
+	padding-left:27px;
+}
+.padding-left-29 {
+	padding-left:29px;
+}
+.padding-left-31 {
+	padding-left:31px;
+}
+/*** Top and Bottom ***/
+.padding-top-5-bottom-4 {
+	padding-top:5px;
+	padding-bottom:4px;
+}
+/*** Left and Right ***/
+.padding-left-right-1 {
+	padding-left:1px;
+	padding-right:1px;
+}
+.padding-left-right-5 {
+	padding-left:5px;
+	padding-right:5px;
+}
+.padding-left-right-7 {
+	padding-left:7px;
+	padding-right:7px;
+}
+.padding-left-right-9 {
+	padding-left:9px;
+	padding-right:9px;
+}
+.padding-left-right-10 {
+	padding-left:10px;
+	padding-right:10px;
+}
+.padding-left-right-14 {
+	padding-left:14px;
+	padding-right:14px;
+}
+/*** Top and Bottom + Left and Right ***/
+/*** All 4 sides ***/
+.padding-2 {
+	padding:2px;
+}
+.padding-4 {
+	padding:4px;
+}
+.padding-9 {
+	padding:9px;
+}
+.padding-10 {
+	padding:10px;
+}
+/*** Misc ***/
+.margin-bottom-0 {
+	margin-bottom:0px;
+}
+.margin-right-1 {
+	margin-right:1px;
+}
+.margin-right-4 {
+	margin-right:4px;
+}
+.margin-right-10 {
+	margin-right:10px;
+}
+.margin-right-15 {
+	margin-right:15px;
+}
+.margin-right-18 {
+	margin-right:18px;
+}
+.margin-bottom-1-left-1 {
+	margin-bottom:1px;
+	margin-left:1px;
+}
+.margin-top-point9-em {
+	margin-top:0.9em;
+}
+.margin-top-minus-22 {
+	margin-top:-22px;
+}
+.margin-top-minus-20 {
+	margin-top:-20px;
+}
+/******************* WIDTHS *******************/
+.width-25 {
+	width:25px;
+}
+.width-46 {
+	width:46px;
+}
+.width-65 {
+	width:65px;
+}
+.width-70 {
+	width:70px;
+}
+.width-80 {
+	width:80px;
+}
+.width-90 {
+	width:90px;
+}
+.width-95 {
+	width:95px;
+}
+.width-100 {
+	width:100px;
+}
+.width-105 {
+	width:105px;
+}
+.width-112 {
+	width:112px;
+}
+.width-115 {
+	width:115px;
+}
+.width-120 {
+	width:120px;
+}
+.width-135 {
+	width:135px;
+}
+.width-145 {
+	width:145px;
+}
+.width-165 {
+	width:165px;
+}
+.width-169 {
+	width:169px;
+}
+.width-171 {
+	width:171px;
+}
+.width-173 {
+	width:173px;
+}
+.width-175 {
+	width:175px;
+}
+.width-182 {
+	width:182px;
+}
+.width-184 {
+	width:184px;
+}
+.width-185 {
+	width:185px;
+}
+.width-189 {
+	width:189px;
+}
+.width-191 {
+	width:191px;
+}
+.width-194 {
+	width:194px;
+}
+.width-200 {
+	width:200px;
+}
+.width-215 {
+	width:215px;
+}
+.width-220 {
+	width:220px;
+}
+.width-236 {
+	width:236px;
+}
+.width-284 {
+	width:284px;
+}
+.width-285 {
+	width:285px;
+}
+.width-286 {
+	width:286px;
+}
+.width-295 {
+	width:295px;
+}
+.width-305 {
+	width:305px;
+}
+.width-315 {
+	width:315px;
+}
+.width-336 {
+	width:336px;
+}
+.width-365 {
+	width:365px;
+}
+.width-383 {
+	width:383px;
+}
+.width-385 {
+	width:385px;
+}
+.width-405 {
+	width:405px;
+}
+.width-410 {
+	width:410px;
+}
+.width-500 {
+	width:500px;
+}
+.width-570 {
+	width:570px;
+}
+.width-580 {
+	width:580px;
+}
+.width-585 {
+	width:585px;
+}
+.width-728 {
+	width:728px;
+}
+.width-100-percent {
+	width:100%;
+}
+/*Css class added to provide fixed width in quicklink section*/
+.quickLinkWidth {width: 330px;}

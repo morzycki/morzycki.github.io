@@ -1,0 +1,3356 @@
+          /* ---------- screen.css starts here ---------- */
+
+	@import "base.css";
+          /* ---------- icons.css starts here ---------- */
+@media all {
+
+
+div#promo div#finance-guides li.info
+{ 
+	background-image: url(images/i_icon.gif);
+	background-position: left;
+	text-indent: 17px;
+}
+
+div#promo div.bookshop-books ul.vertical-links li
+{
+	background-image: url(images/icon_bullet.gif);
+	text-indent: 17px;
+	background-position: 0;
+}
+
+li.print a
+
+{
+	background-image: url(images/printer.gif)
+}
+
+li.email a
+{
+	background-image: url(images/mail.gif)
+}
+
+li.save a
+{
+	background-image: url(images/printer.gif)
+}
+
+li.font-size a
+{
+	background-image: url(images/type.gif)
+}
+
+#relatedlinks h2.related-information
+{
+	background-image: url(images/icon_topics.gif);  
+}
+
+#gallery-series-navigation h3
+{
+	background-image: url(images/icon_textdoc.gif);  
+}
+
+p.jump-related
+{
+	background-image: url(images/jump_related_arrow.gif);
+	background-position: 0% 5px;
+	height: 22px;
+}
+
+#related #fact-box,
+#related #article-trailblock h2.blog,
+#related #article-trailblock h2.pictures,
+#related #article-trailblock h2.audio,
+#related #article-trailblock h2.interactive
+{
+	background-position: 0 3px;
+}
+
+#related #fact-box
+{
+	background-image: url(images/icon_textdoc.gif);
+}
+
+#related #article-trailblock h2.blog
+{
+	background-image: url(images/icon_textdoc.gif);
+}
+
+
+#related #article-trailblock h2.pictures
+{
+	background-image: url(images/icon_gallery.gif);
+}
+
+#related #article-trailblock h2.audio
+{
+	background-image: url(images/icon_audio.gif);
+}
+
+#related #article-trailblock h2.interactive
+{
+	background-image: url(images/icon_textdoc.gif);
+}
+
+#related #article-trailblock h2.localvideo,
+#related div.more-videos h2
+{
+	background-image: url(images/icon_video.gif);
+}
+
+li#larger, a#larger
+{
+	padding: 0 5px 3px 30px;
+	background-position: 12px 0;
+	background-image: url(images/icon_textsize.gif);
+}
+
+ul.user-details
+{
+	padding: 2px 5px 3px 16px;
+	background-image: url(images/icon_userinfo.gif);
+}
+
+ul#article-toolbox li a
+{
+	background-position: 3px 0;
+}
+
+body.cif ul#article-toolbox li a.printable
+{
+	background-image: url(images/icon_print.gif);
+}
+
+body.cif ul#article-toolbox li a#sharelink
+{
+	background-image: url(images/icon_share.gif)
+}
+
+body.cif ul#article-toolbox li a#clippable
+{
+	background-image: url(images/icon_clip.gif)
+}
+
+body.cif ul#article-toolbox li a#sendlink
+{
+	background-image: url(images/icon_email-friend.gif)
+}
+
+body.cif ul#article-toolbox li a#contactlink
+{
+	background-image: url(images/icon_email-us.gif)
+}
+
+body.cif ul#article-toolbox li a#historylink
+{
+	background-image: url(images/icon_history.gif)
+}
+
+body.cif #content ul#article-toolbox li a.save
+{
+	background-image: url(images/icon_save_for_later.gif)
+}
+
+a.comment-count-info,
+span.comment-count-info
+{
+	background-image: url(images/icon_comment.gif);
+	background-position: left center ;
+	padding: 0 0 2px 20px;
+	margin-top: 5px;
+	display: block;
+	clear: both;
+}
+
+#pluck-container a.comment-count-info,
+#pluck-container span.comment-count-info
+{
+	background-image: none;
+	padding-left: 0px;
+}
+
+div.full a.comment-count-info
+{
+	border-top: 1px dotted #ccc;
+	padding-top: 4px;	
+}
+
+#content a.shower, #content a.showerstyle
+{
+	background-image: url(images/icon_triangle_right.gif);
+	padding: 3px 0 2px 20px;
+	background-position: -1px 0;
+}
+
+#content a.shower.open, #content a.showerstyle.open
+{
+	background-image: url(images/icon_triangle_down.gif);
+	
+}
+
+a.shower, a.showerstyle
+{
+	background-image: url(images/icon_triangle12_right.gif);
+	padding: 3px 0 2px 14px;
+	background-position: 0 3px;
+}
+
+a.shower.open, a.showerstyle.open
+{
+	background-image: url(images/icon_triangle12_down.gif);
+}
+
+
+a.close
+{
+	padding: 0px 20px 3px 0px;
+	background-position: right top;
+	background-image: url(images/icon_close.gif);
+}
+
+
+a.feed
+{
+	background-image: url(images/icon_rss.gif);
+	padding-left: 18px;
+	background-position: 0 0;
+	padding-top: 1px
+}
+
+body.web-search div#search-container.search-container-background-image
+{
+	background-image: url(images/enhanced_by_google.gif);
+	background-position: 260px 24px;
+}
+
+/*
+Bullet images and icons
+
+------------------------------------------------------------------------------*/
+body.network #content ul.sublinks li.bullet,
+body.network #content ul.sublinks li.localvideo,
+body.vss #content ul.sublinks li.bullet,
+li.bullet,
+body.vss #content ul.sublinks li.localvideo,
+li.factsheet
+{
+	background-position: 0px 1px;
+	text-indent: 17px;
+}
+
+.video-front div#content div#video-player ul li.bullet,
+ul.sublinks li.bullet
+{
+	background-image: url(images/icon_bullet.gif);
+}
+
+body.network #content ul.sublinks li.localvideo,
+body.vss #content ul.sublinks li.localvideo
+{
+	background-image: url(images/icon_video.gif);
+}
+
+ul.sublinks li.audio
+{
+	background-image: url(images/icon_audio.gif);
+}
+
+ul.sublinks li.video
+{
+	background-image: url(images/icon_video.gif);
+}
+
+ul.sublinks li.interactive
+{
+	background-image: url(images/icon_multimedia.gif);
+}
+
+ul.sublinks li.gallery
+{
+	background-image: url(images/icon_gallery.gif);
+}
+
+body.network ul#reader-offers li.bullet
+{
+	text-indent: 0;
+	background-image: none;
+}
+
+li.factsheet
+{
+	background-image: url(images/icon_factsheet.gif);
+}
+
+p.bullet
+{
+	background-image: url(images/icon_bullet.gif);
+	background-position: 0px 1px;
+	text-indent: 17px;
+}
+
+#top-table form
+{
+	background-image: url(images/knife-fork60.gif);
+	background-position: 100% 5px;
+}
+
+
+}
+          /* ----------  icons.css ends here ----------- */
+          /* ---------- dialog-box.css starts here ---------- */
+#comment-box-wrapper,
+#abuse-box-wrapper,
+#signin-div-wrapper,
+div.dialog-box-wrapper
+{
+
+ 	display:block; 
+ 	z-index:100; 
+ 	background:transparent url(images/white-bg.png) top left repeat;
+ 	position:fixed; 
+ 	width:100%;
+ 	height: 100%;
+}
+
+#comment-box-pluck,
+#abuse-box,
+div.dialog-box
+{
+	border: 1px solid #333;
+	z-index:800;
+	background-color: #fff;
+	color: #000; 
+	top:100px; 
+	width: 288px;
+	padding: 10px 10px 10px 10px;
+	position:fixed; 
+}
+
+div.dialog-box.scrollable
+{
+	position: absolute;
+}
+
+#comment-box-pluck
+{
+	width: 500px;
+}
+#comment-box-pluck .post-comment-header
+{
+	float: left;
+	width: 420px;
+}
+
+#comment-box-pluck .post-comment-header h1
+{
+	margin-bottom: 20px;
+}
+
+#comment-box-pluck #close-comment-box,
+#abuse-box-wrapper #abuse-box-close,
+#signin-div #login-close
+{
+	float: right;
+	width: 80px;
+	text-align: right;
+}
+
+#comment-box-pluck #close-comment-box a,
+#abuse-box-wrapper #abuse-box-close a,
+#login-close-link
+{
+	background: #fff url(images/close_button.gif) top right no-repeat;
+	padding: 0 18px 0 0;
+}
+
+.comment-author
+{
+	clear: both;
+}
+
+.comment-author ul
+{
+	overflow: hidden;
+}
+.comment-author .comment-author-img
+{
+	float:left;
+	width: 35px;
+}
+
+.comment-author .comment-author-name
+{
+	float: left; 
+	width: auto;
+}
+
+.comment-author .comment-author-name a
+{
+	display: block;
+}
+.comment-author .author-role
+{
+	float: right;
+	width: 35px;
+
+}
+
+#comment-box-edit,
+#comment-box-progress,
+#comment-close-confirmation-area,
+#comment-premoderation-area,
+#comment-thank-you-area
+{
+	clear: both;
+}
+
+#comment-box-edit,
+#abuse-box-edit-area
+{
+	margin: 20px 0 0 0;
+}
+
+#abuse-box-edit-area
+{
+	border-top:1px dotted #ccc ;
+}
+
+#comment-box-edit fieldset
+{
+	margin: 0;
+	clear: both;
+}
+
+#comment-box-edit #blockquote-button
+{
+	float:left;
+	margin-bottom: 3px;
+	width: 100%;
+}
+#blockquote-button input
+{
+	float: left;
+	background-color: #ededed;
+	border: 1px solid #333;
+	color: #333;
+	font-size: 0.915em;	
+}
+
+#blockquote-button p
+{
+	text-align: right;
+	float: right;
+	padding-top: 2px;
+	position: relative;
+}
+
+#comment-body,
+#comment-box-progress,
+#abuse-progress-area,
+#abuse-description,
+#pluck-loading-dialog
+{
+	font-size: 1em;
+	font-family: arial, sans-serif;
+}
+
+#comment-body,
+#abuse-description
+{
+	width:100%;
+}
+
+#comment-box-progress,
+#abuse-progress-area,
+#abuse-thank-you-area,
+#abuse-close-confirmation-area,
+#comment-close-confirmation-area,
+#pluck-loading-dialog,
+#abuse-pluck-error-area
+{
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	margin-top: 20px;
+}
+
+#comment-box-progress,
+#abuse-progress-area,
+#pluck-loading-dialog
+{
+
+	background: url(images/waiting_bar.gif) center center no-repeat;
+}
+
+#comment-box-progress p,
+#abuse-progress-area p,
+#abuse-thank-you-area p,
+#abuse-close-confirmation-area p,
+#comment-close-confirmation-area p,
+#pluck-loading-dialog p
+{
+	margin: 70px 0 50px 0;
+	text-align: center;
+}
+
+#comment-box-pluck #comment-box-progress p
+{
+	margin: 155px 0 124px;
+}
+
+#comment-box-pluck #comment-premoderation-area p
+{
+	margin: 122px 0 135px;
+}
+
+#comment-box-pluck #comment-close-confirmation-area p
+{
+	margin: 96px 0 79px;
+}
+
+#comment-box-pluck #comment-thank-you-area p
+{
+	margin: 137px 0 142px;
+}
+
+#comment-box-pluck #comment-pluck-error-area p
+{
+	margin: 113px 0 101px;
+}
+
+#abuse-box #abuse-progress-area p
+{
+	margin: 148px 0 116px;
+}
+
+#abuse-box #abuse-close-confirmation-area p
+{
+	margin: 80px 0;
+}
+
+#abuse-box #abuse-thank-you-area p
+{
+	margin: 104px 0 123px;
+}
+
+#pluck-loading-dialog p {
+	margin-top: 80px;
+}
+
+#submit 
+{
+	text-align: right;
+	margin: 20px 0;
+}
+
+#submit #submit-comment
+{
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+}
+
+#abuse-box #abuse-box-edit-area p
+{
+	margin: 10px 0;
+}
+
+#abuse-box label 
+{
+	font-weight: bold;
+}
+#abuse-box label span 
+{
+	font-weight: normal;
+}
+#abuse-close-confirmation-area p input,
+#comment-close-confirmation-area p input,
+#abuse-thank-you-area p input
+{
+	display: block;
+	margin: 15px auto;
+}
+
+#abuse-box
+{
+	width: 300px;
+	height: 320px;
+}
+
+#abuse-box h1 
+{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#abuse-box-wrapper #abuse-email-info,
+#abuse-box-wrapper #abuse-login-info
+{
+	float: left;
+	width: 200px;
+}
+
+#abuse-box-wrapper #abuse-email-info 
+{
+	clear: both;
+}
+
+#abuse-box-wrapper #abuse-submit-container
+{
+	float: right;
+	width: 96px;
+	text-align: right;
+}
+
+#abuse-box-wrapper #abuse-submit
+{
+	margin-top: 25px;
+}
+          /* ----------  dialog-box.css ends here ----------- */
+          /* ----------  screen.css ends here ----------- */
+          /* ---------- article.css starts here ---------- */
+          /* ---------- tri-trailblock.css starts here ---------- */
+/*
+alternative tri trailblock layout
+
+----------------------------------------------------------------------*/
+
+ul.alternative
+{ 
+	overflow: hidden; 
+}
+
+ul.alternative li.wide img,
+#content ul.alternative li.normal,
+#content ul.alternative li.wide
+{	
+	float: left;
+}
+
+ul.alternative li.wide div.trail-caption,
+#content ul.alternative li.normal
+{
+	width: 140px;
+}
+
+#content ul.alternative li.wide
+{
+	clear: both;
+	width: 460px;
+}
+
+ul.alternative li.wide div.trail-caption,
+#content ul.alternative li.normal
+{
+	margin-left: 20px;
+}
+
+#content ul.alternative li.odd,
+#box #content ul.alternative li.wide
+{
+	margin-left: 0;
+}
+
+ul.alternative li.wide div.trail-caption
+{
+	float: right;
+}
+
+#box #content ul.alternative li.image
+{
+	border-top: none;
+}
+
+
+/* end alternative trailblock layout */
+
+
+/*
+full-width tri trailblock layout
+
+----------------------------------------------------------------------*/
+
+ul.tri
+{ 
+	overflow: hidden;
+}
+
+body.full-width #content #main-trailblock li
+{
+	width: 220px
+}
+
+ #content #main-trailblock li li
+{
+	width: auto
+}
+
+#content ul.tri li
+{
+	float: left;
+}
+
+ul.tri li
+{
+	width: 140px;
+}
+
+
+ul.tri li
+{
+	margin-left: 20px;
+}
+
+ul.tri li.first
+{
+	margin-left: 0;
+	clear: left;
+}
+
+
+/* end tri trailblock layout */
+
+
+ol.odd
+{
+    margin-right: 20px
+}
+
+#content div.commercial-trail li .link-text
+{
+	font-family: georgia, serif;
+	font-size: 1.333em;
+	line-height: 1.14285;
+}
+
+div.text
+{
+	border-top: 1px dotted;
+	padding-top: 3px;
+	margin-bottom: 25px;
+	font-size: 0.9166666667em;
+}
+          /* ----------  tri-trailblock.css ends here ----------- */
+          /* ---------- article-page.css starts here ---------- */
+/* CSS for pages with body class article */
+
+body.article div#content
+{
+	font-size: 1.165em; /* 14px */
+	line-height: 1.36; /* 19px at default font size */
+}
+
+body.travel-offer #content
+{
+	font-size: 1em;
+}
+
+body.article div#content p.caption
+{
+	font-size: 0.857em;
+	font-weight: normal;
+	line-height: 1.25;
+	margin-top: 0;
+}
+
+#wrapper
+{
+	background-image: url(images/article-bg-lines.gif);
+	background-repeat: repeat-y;
+}
+
+body.article h2.related-information,
+body.article h2.strap,
+div.related-item p.strap
+{
+	font-family: arial, sans-serif;
+	font-weight: bold;
+}
+
+body.article  div#related h2.strap
+{
+	padding-left: 5px;
+	border: none;
+}
+
+body.article h2.related-information
+{
+	background-image: none;
+}
+
+body.article div.related-content div.relatedlinks *,
+body.article div.related-content div.related-item *,
+body.article div#related div.relatedlinks *,
+body.article div#related div.related-item *
+{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+body.article div.relatedlinks h3
+{
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+body.article ul.relatedlinks-keywords li
+{
+	display: inline;
+}
+
+body.article div.related-item div.related-bottom-links
+{
+	border-top: 1px dotted;
+	margin-top: 11px;
+	padding-top: 3px;
+}
+
+body.article #content span.inline
+{
+	width: auto;
+}
+
+body.article div#also-on div.relatedlinks,
+body.article div.related-content div.relatedlinks,
+body.article div.related-content div.related-item
+{
+	float: left;
+	width: 140px;
+}
+
+body.article div.related-content div.relatedlinks,
+body.article div.related-content div.related-item
+{
+	margin-right: 20px;
+}
+
+body.article div.related-content h2,
+div.related-item p.strap
+{
+	border-top: 1px solid;
+	font-size: 1em;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 3px;
+	padding-bottom: 9px;
+}
+
+
+div.related-item div.trailtext p
+{
+	display: inline;
+}
+
+div.related-item p.linktext
+{
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+div.related-item p.noTrailPicture
+{
+	padding-top: 5px;
+	border-top: 1px dotted;
+}
+
+#wrapper div.multi p.linktext
+{
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+body.article div.related-content 
+{
+	overflow: hidden;
+	width: 480px;
+}
+
+body.article div.related-content li
+{
+	margin-left: 20px;
+}
+
+body.article div#also-on
+{
+	border-top: 10px solid;
+	width: 620px;
+}
+
+body.article ul#article-toolbox
+{
+	border-top:1px dotted;
+	clear:both;
+	display:block;
+	float:left;
+	margin-bottom:30px;
+	margin-top: 10px;
+	padding-top:5px;
+	text-align:left;
+	width:620px;
+}
+
+body.article ul#article-toolbox li
+{
+	display: inline;
+	padding-left: 0;
+}
+
+body.article ul#article-toolbox li.article-history
+{
+	display: block;
+}
+
+body.article #article-header h2#strap
+{
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid;
+	padding-bottom: 8px;
+}
+
+body.article #article-header
+{
+	padding-bottom: 0;
+}
+
+body.article #article-header #main-article-info,
+body.article #article-header h1,
+body.article #article-header h2,
+body.article #article-header p
+{
+	width: 460px;
+}
+
+body.article #article-header #main-article-info
+{
+	float: left;
+}
+
+body.article #comment-info-related
+{
+	width:140px;
+	margin-left: 20px;
+	float: left;
+	margin-top: 5px;
+	border-top: 1px dotted;
+	padding-top: 3px;
+}
+
+body.article #content h3,
+body.article #box #content h2
+{
+	font-family: arial, sans-serif;
+}
+
+body.article #wrapper #related-info h2
+{
+	line-height: 1.224;/* 19px at default font size */
+}
+
+body.article div#related p.jump-related,
+body.article div#relatedlinks h2.related-information
+{
+	padding-left: 20px;
+}
+
+body.article div#relatedlinks h3
+{
+	margin-left: 0;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+body.article h2,
+body.article h5,
+body.article h6
+{
+	font-size: 1em; /* 12px */
+}
+
+body.article #content p
+{
+	margin-bottom: 13px;
+	position: relative
+}
+
+body.article #compare-and-buy-money-supermarket .link
+{
+	margin-left: 0;	
+}
+
+h1.article-no-standfirst,
+#stand-first,
+#heading-alone
+{
+	padding-bottom: 30px
+}
+
+body.reuters #article-header
+{
+	padding-left: 0;
+}
+
+body.article #content
+{
+	width: 460px;
+	margin-bottom: 10px;
+}
+
+body.article #content p
+{
+	padding-right: 0;	
+}
+
+body.article #related
+{
+	margin-left: 20px;
+}
+
+a.open span.remaining
+{
+	display: none
+}
+
+body.article #box
+{
+	margin-bottom: 0;
+	margin-top: -5px;
+}
+
+body.article #box #content h2,
+body.article #box #content h3
+{
+	padding: 2px 0;
+	margin: 20px 0 10px 0;
+}
+
+body.article #box #content h2,
+body.article #box #content h3,
+div.multi h5
+{
+	border-top: 1px dotted #999;
+}
+
+body.article #box #content h2,
+body.article #box #content h3
+{
+	border-bottom: 1px dotted;
+}
+
+body.article .tips li.last a.more
+{
+	display: block;
+}
+
+ul.article-attributes
+{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-top: 2px;
+	position: relative;
+	padding-bottom: 12px;
+	overflow: hidden;
+	min-height: 54px;
+}
+
+div#wrapper div#box div#content ul.article-attributes li.byline
+{
+	display: block;
+	margin-bottom: 0;
+}
+
+div#wrapper div#box div#content ul.article-attributes li.byline a
+{
+	font-weight: bold;
+}
+
+#content ul.article-attributes li
+{
+	display: inline;
+	font-weight: normal;
+	font-size: 1em; /*12px*/
+	line-height: 1.25;
+	margin-bottom: 0;
+}
+
+#content ul.article-attributes li.history
+{
+	margin-right: 3px;
+}
+
+#content ul.article-attributes li.contact-byline
+{
+	float: left;
+}
+
+/* byline tools */
+
+div#contact-byline,
+div#history-byline
+{
+	position: relative;
+	top: -26px;	
+}
+
+div#history .section,
+div#contact-byline .section,
+div#history-byline .section
+{
+	margin: 0 5px 0px 5px;
+}
+
+.more-in-series-navigation,
+.series-navigation
+{
+	overflow: hidden;
+}
+
+.relative-series-navigation
+{
+	float: right;
+}
+
+.more-in-series-navigation h4
+{
+	float: left;
+	width: 35%;
+	color: #333;
+}
+
+.series-navigation
+{
+	padding-bottom: 6px;
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	margin-top: 2px;
+}
+
+.series-navigation h4
+{
+	float: left;
+}
+
+div.sponsored-features li.normal
+{
+	border-top: 1px dotted;
+	margin-left: 0;
+	padding-top: 3px;
+	width: 280px;
+}
+
+div.sponsored-features li.image
+{
+	border-top: none;
+	width: 130px;
+}
+
+div.sponsored-features li.image.odd
+{
+	margin-left: 20px;
+}
+
+#content span.inline,
+#content span.pullout
+{
+	display: block;
+	float: left;
+	width: 220px;
+	margin: 0 20px 10px 0;
+}
+
+#content span.wide
+{
+	display: block;
+	float: none;
+	width: 460px;
+	margin: 0 0 10px 0;
+}
+
+
+#content span.pullout span.credit,
+#content span.caption
+{
+	display: block
+}
+
+#content span.caption
+{
+	padding: 4px 0;
+}
+
+
+#box ul.pagination li.first,
+#box ul.pagination li.last
+{
+	width: 140px
+}
+
+#box ul.pagination
+{
+	text-align: right 
+}
+
+div#stock-search
+{
+	border-top: 1px dotted;
+	margin-top: 10px;
+}
+
+div#stock-search form#stock-search-form
+{
+	margin-top: 5px;
+}
+
+
+
+
+/* related stuff */
+
+div#related ul#article-toolbox-side
+{
+	border-top: 1px solid;
+}
+
+div#related div.relatedlinks
+{
+	padding-bottom: 40px;
+	clear: left;
+}
+
+div#related div.relatedlinks
+{
+	padding-bottom: 40px;
+	clear: left;
+}
+
+div.related-item h4,
+div.related-item h5,
+div#related div.related-item h4,
+div#related div.related-item h5
+{
+	font-family: arial, sans-serif;
+	font-weight: normal;
+}
+
+div.multi p.linktext
+{
+	padding-bottom: 5px;
+}
+
+div.multi h5
+{
+	padding-top: 5px;
+}
+
+body.article div#related h2, 
+body.article div#related ul,  
+body.article div#related p
+{
+	padding-left: 0;
+}
+
+
+div#related div.related-item
+{
+	padding-bottom: 40px;
+}
+
+
+body.article div#wrapper div.related-content div.last
+{
+	margin-right: 0;
+}
+
+body.article div#wrapper div.related-content 
+{
+	background-image: url(images/horizontal-related-content.gif);
+	background-repeat: repeat-y;
+	background-position: top left;
+	border-bottom: 20px solid white;
+	clear: left;
+	width: 620px;
+}
+
+body.article div#wrapper div#related div.related-content
+{
+	background-image: none;
+	width: 140px;
+} 
+
+body.article div#wrapper div#promo div.related-content
+{
+	background-image: none;
+	width: 300px;
+} 
+
+body.article div.related-content div.relatedlinks
+{
+	border-top: 1px dotted;
+}
+
+body.article div.related-content div.relatedlinks h3.first
+{
+	border-top: none;
+	padding-top: 0;
+}
+
+div.related-content h3.first,
+div#readers-tips h3,
+div#more-in-series h3
+{
+	background-color: white;
+	border-top: 10px solid;
+	font-family: georgia, serif;
+	font-size: 1.166em;
+	font-weight: bold;
+	padding-bottom: 14px;
+	padding-top: 3px;
+}
+
+div.related-content div.relatedlinks p.webfeed a,
+div#related div.relatedlinks p.webfeed a
+{
+	padding-left: 16px;
+}
+
+div.related-content div.relatedlinks h3
+{
+	border-top: 1px dotted #999;
+	padding-top: 5px;
+	margin-top: 6px;
+}
+
+div.related-item span.date
+{
+	font-weight: bold;
+}
+
+div.related-item h5.date
+{
+	font-weight: normal;
+}
+
+div.related-content div.relatedlinks p.webfeed,
+div#related div.relatedlinks p.webfeed
+{
+	border-top: 1px dotted #999;
+	padding-top: 9px;
+}
+
+/* related stuff ends */
+
+/* readers tips */
+
+div#readers-tips
+{
+	width: 620px;
+	float: left;
+	margin-bottom: 10px;
+	background-image:url(images/simplesite-inner-bg.gif);
+	background-repeat:repeat-y;
+}
+div#readers-tips.empty
+{
+	background-image: none;
+}
+div#readers-tips p.reader-tips a
+{
+	font-size: 1em;
+}
+div#readers-tips li
+{
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+div#readers-tips li.odd
+{
+	padding-right: 20px;
+}
+
+div#readers-tips li p.tip-header
+{
+	margin-bottom: 10px;
+	padding-top: 3px;
+	border-top: 1px dotted;
+}
+
+div#readers-tips li.last
+{
+	float: right;
+	border-top: 1px dotted;
+	padding-top: 3px;
+}
+
+div#readers-tips li.last a
+{
+	display: inline;
+}
+
+/* football summary */
+
+/* Hide the top border for every match report except for football, because it has a summary at the top of the article */
+body.match-report .article-attributes
+{
+	border-top: none;
+}
+body.football .article-attributes
+{
+	border-top: 1px solid;
+}
+body.match-report #related
+{
+	margin-top: 1.5em;
+}
+body.match-report #box #content #match-stats-summary h2
+{
+	margin-top: 0;
+	border-top: 0;
+}
+#match-stats-summary table
+{
+	border-collapse: collapse;
+	margin-bottom: 12px;
+}
+#match-stats-summary table td, #match-stats-summary table th, #match-stats-summary table caption
+{
+	text-align: left;
+	vertical-align: top;
+}
+#match-stats-summary table caption
+{
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+#match-stats-summary table th
+{
+	padding-right: 30px;
+}
+#match-stats-summary table td li
+{
+	display: inline;
+	color: #999;
+}
+
+/* footer */
+
+body.article #wrapper #footer
+{
+	padding-top: 10px;
+	border-top: none;
+	
+}
+
+body.article #wrapper #footer #footer-links
+{
+	border-top: 10px solid; 
+	padding-top: 4px;
+}
+
+/* more in series */
+
+div#more-in-series
+{
+	float: left;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+div#more-in-series,
+div#more-in-series ul,
+div#more-in-series p.link-to-index 
+{
+	width: 620px;
+}
+
+div#more-in-series ul
+{
+	background-image: url(images/simplesite-inner-bg.gif);
+	background-repeat: repeat-y;
+	margin-top: 3px;
+}
+
+div#more-in-series ul,
+div#more-in-series ul li,
+div#more-in-series p.link-to-index
+{
+	float: left;
+}
+
+div#more-in-series ul li
+{
+	width: 300px;
+	margin-right: 20px;
+	border-top: 1px dotted #999;
+	padding: 3px 0 5px 0;
+}
+
+div#more-in-series ul li.series
+{
+	margin-right: 0;
+	float: right;	
+}
+
+div#more-in-series ul li.no-description
+{
+	margin-right: 20px;	
+	float: left;
+}
+
+div#more-in-series ul li h4
+{
+	font-family: arial, sans-serif;	
+	font-weight: bold;
+}
+
+div#more-in-series p.link-to-index
+{
+	clear: both;
+	border-top: 1px solid #ccc;
+	padding-top: 3px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+/* more in series */
+
+div#article-header div.rating-container
+{
+	position: relative;
+	top: -30px;
+}
+
+
+/*
+big image holder
+-----------------------------------------------------------------------------*/
+
+#big-picture-holder
+{
+	display: none;
+}
+
+
+#show-big-picture-link.mask img.mask,
+#show-big-picture-link.mask div.mask
+{
+	bottom: 0;
+	right: 0;
+	left: auto;
+	top: auto;
+}
+
+#show-big-picture-link img
+{
+	vertical-align: bottom;
+}
+
+#big-picture-holder p.toolbox 
+{
+	text-align: right;
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+
+
+#big-picture-holder
+{
+	font-size: 0.75em;
+}
+
+/*
+History by line
+
+--------------------------------------------------------------------------------------------------*/
+
+div#history-byline
+{
+	position: absolute;
+	top: -20px;
+	display: none;
+}
+
+#article-wrapper
+{
+	position: relative;
+}
+
+.pluck-init-block,
+.pluck-init-inline
+{
+	display: none;
+}
+
+
+          /* ----------  article-page.css ends here ----------- */
+          /* ---------- related-info.css starts here ---------- */
+#related
+{
+	float: left;
+	margin-left: -620px;
+	width: 140px;
+}
+
+body.article #related-info .section p.shower
+{
+	font-size: 0.92em; /* 11px */
+	line-height: 1.181em; /* 13px */
+}
+
+body.article #related-info .section .first
+{
+	border: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+body.article #related-info p.reader-tips
+{
+	margin-top: 0;
+}
+
+#related #keyword-continued li.image,
+#related .ed-zone li.major-heading
+{
+	padding-top: 0;
+}
+
+body.article #related ul,
+body.article #related h2,
+body.article #related p.jump-related,
+body.article #related p,
+#related-info h3,
+#related-info h4,
+#related-info h5,
+#related h5,
+#relatedlinks h3,
+#related #article-trailblock h2
+{
+	margin: 0
+}
+
+body.article #related h2,
+body.article #related h3
+{
+	padding-top: 3px;
+}
+
+body.article #related p.jump-related,
+body.article #related-info .trail ul li,
+body.article #related h3
+{
+	margin-top: 6px;
+}
+
+body.article #related ul.trail
+{
+	padding-left: 0;
+	padding-bottom: 8px;
+}
+
+#related h2,
+#related h3,
+#related p.jump-related,
+#related #fact-box,
+#related-info div.section
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+#related-info #related-pictures ul.images li,
+#related-info #related-pictures ul li
+{
+	margin-top: 0px;
+}
+
+#related-info #related-pictures ul.images
+{
+	margin-top: 6px;
+	border-top: 1px dotted;
+	padding-top: 4px;
+}
+
+#related-info #related-pictures ul.first
+{
+	margin-top: 3px;
+	border-top: 0;
+	padding-top: 0px;
+}
+
+#related-info p.shower,
+#related-info ul.keywords li
+{
+	padding-top: 3px;
+}
+
+#related-info .section ul li,
+#related-info p,
+#related-info div.section,
+#related h2,
+#related h3,
+#related .ed-zone li.major-heading
+{
+	padding-bottom: 0;
+}
+
+#related ul.keywords li,
+#related #keyword-continued .minor-heading h2,
+#related .ed-zone li
+{
+	padding: 3px 0 5px 0;
+}
+
+#related-info ul.tips p.credit
+{
+	margin-top: 0;
+}
+
+#related-info ul.keywords a
+{
+	font-size: 0.92em;
+}
+
+#related-info ul.keywords h4 a
+{
+		font-size: 1.1em;
+}
+
+#related-info ul.tips p.credit
+{
+	 margin-bottom: 6px;
+}
+
+#related-info .section ul li
+{
+	margin-top: 10px;
+}
+
+#related-info .section ul.about-writer li,
+#related-info .section ul.about-article li
+{
+	margin-top: 4px;
+}
+
+#related-info .writer h5
+{
+	margin-top: 8px;
+}
+
+#related-info .section ul li,
+#related-info p,
+#related-info ul.tips li p.description,
+#related-info ul.tips li p.credit
+{
+	margin-top: 6px;
+}
+
+#related-info ul.tips li p,
+#related-info ul.tips li
+{
+	margin-top: 0;
+}
+
+#related-info ul.tips li
+{
+	border-top: 1px dotted;
+}
+
+#related-info ul.tips p.credit,
+#related #keyword-continued h3,
+#related #keyword-continued .linktext h3,
+#related ul.trail li.image,
+#related .ed-zone li.major-heading,
+.trail-block-page #related li h3
+{
+	border: none;
+}
+
+#related-info div.section
+{
+	border-top: 1px solid;
+	padding-left: 160px;
+	position: relative;
+}
+
+#related ul,
+#related-info div.section,
+.other #related .capsule,
+.trail-block-page #related ul.tri li
+{
+	margin-bottom: 20px;
+}
+
+#related ul.tri li {
+	margin-left: 0;
+}
+
+#related-info
+{
+	float: left;
+	width: 620px;
+}
+
+#related-info h2,
+#related #keyword-combiner h3,
+#related #keyword-continued .major-heading h2,
+.trail-block-page #related li.major-heading h2,
+.other #related .capsule h2
+{
+	border-top: 10px solid;
+	margin: 0 0 16px 0;
+	font-weight: bold;
+	padding-top: 3px; 
+}
+
+#related ul.tri li,
+.trail-block-page #related ul.tri li.major-heading,
+.trail-block-page #wrapper #related ul#editor-zone-1 li ul,
+.trail-block-page #wrapper #related ul#editor-zone-1 li ul li
+{
+	margin-bottom: 0;
+}
+
+#related-info .trail ul li,
+#related-info ul.tips li
+{
+	padding-top: 2px;
+}
+
+#related-info ul.tips p.credit
+{
+	padding: 0;
+}
+
+#related-info .section h3,
+#related-info div.section
+{
+	padding-top: 4px;
+}
+
+#related-info h3
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 140px;
+	font-size: 1em;
+}
+
+body.article #related h3,
+#onsite #related-keywords h3
+{
+	border-top-style: dotted;
+}
+
+body.article #related h3.first
+{
+	border-top-style: solid;
+}
+
+#related-info #article-resources-trailblock h4.first,
+#related-info .trail h4.first
+{
+	border: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#related p.jump-related,
+#related #fact-box
+{
+	border-top: 1px solid;
+}
+
+#related #fact-box h2
+{
+	margin-bottom: 3px;
+	border-top: none;
+}
+
+#related #fact-box h2
+{
+	margin-left: 25px;
+}
+
+#related #fact-box p,
+#related #fact-box h2
+{
+	padding-bottom: 6px;
+}
+
+#related-articles p
+{
+	padding-right: 15px;
+}
+
+#related #keyword-continued li
+{
+	float: none;
+}
+
+ul.gallerylist li
+{
+	overflow: hidden;	
+}
+
+ul.gallerylist li p.gallery-link
+{
+	clear: left;
+}
+
+ul.images li
+{
+	width: 60px;
+	margin-right: 10px;
+	float: left
+}
+
+#related-info ul.keywords h5.date
+{
+	font-weight: normal;
+}
+
+#related-info ul.keywords li.series h5.date
+{
+	font-weight: bold;
+}
+
+#keyword-external-links h3 small,
+#keyword-internal-links h3 small
+{
+	color: #999;
+	display: block;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#related-info #keyword-external-links li,
+#related-info #keyword-internal-links li
+{
+	padding-bottom: 10px;
+}
+
+#related-info #keyword-internal-links li.last,
+#related-info #keyword-external-links li.last
+{
+	padding-bottom: 0;
+}
+
+#related-info #keyword-internal-links p,
+#related-info #keyword-external-links p
+{
+	font-weight: bold;
+}
+          /* ----------  related-info.css ends here ----------- */
+          /* ---------- packages-and-manual-trailblock.css starts here ---------- */
+#manual-trailblock
+{
+	clear: left;
+	width: 140px;
+	margin-bottom: 40px;
+}
+
+#box #manual-trailblock h3
+{
+	padding-top: 0;
+}
+
+#manual-trailblock ul
+{
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding: 0;
+	padding-bottom: 7px;
+}
+
+#manual-trailblock ul li
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border-top: 1px dotted;
+}
+
+div.navigation #manual-trailblock ul li
+{
+	margin-bottom: 0;
+}
+
+body.article #related #manual-trailblock ul li h3,
+#manual-trailblock ul li h3
+{
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	border-top: none;
+	margin: 0;
+	padding: 0;
+}
+
+#manual-trailblock img.trail-icon
+{
+	margin-right: 0;
+	vertical-align: baseline;
+}
+
+#manual-trailblock ul li.picture p,
+#manual-trailblock ul li.picture h3,
+body.article #related #manual-trailblock ul li.picture h3
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#manual-trailblock ul li.picture,
+#manual-trailblock ul li.picture p.thumbnail
+{
+	margin: 0;
+	border-top: none;
+}
+
+#manual-trailblock ul li.picture
+{
+	overflow: visible;
+}
+
+#manual-trailblock ul li.first-trail
+{
+	padding-top: 0;
+}
+
+#manual-trailblock ul li.heading
+{
+	border-top: 1px solid;
+}
+
+#manual-trailblock ul li.first,
+#manual-trailblock ul li h3
+{
+	border-top: none;
+}
+
+#manual-trailblock ul li.first
+{
+	padding-bottom: 7px;
+}
+          /* ----------  packages-and-manual-trailblock.css ends here ----------- */
+          /* ---------- article-ad-links.css starts here ---------- */
+/* advertiser links starts */
+body.article #box ul#article-toolbox
+{
+	border-bottom: 1px dotted;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+div#advertiser-container
+{
+	float: left;
+	width: 620px;
+	margin-bottom: 10px;
+}
+
+body.cif div#advertiser-container,
+body.contributor div#advertiser-container
+{
+	float: right;
+	width: 460px;
+}
+
+div#advertiser-container p#ads-intro
+{
+	margin-bottom: 30px;
+}
+
+div#advertiser-container .advertiser-links h3
+{
+	border-top: 10px solid;
+	font-weight: bold;
+	margin-bottom: 16px;
+	padding-top: 3px;	
+}
+
+div#advertiser-container ul.results li h4 
+{
+	font-family:arial,sans-serif;
+}
+
+div#advertiser-container ul.results li 
+{
+	border-top:1px dotted;
+	padding:3px 0pt 12px;
+}
+/* advertiser links ends */
+          /* ----------  article-ad-links.css ends here ----------- */
+          /* ---------- football-tabs.css starts here ---------- */
+#tabs 
+{
+	border-bottom: 1px solid #b1b1b1;
+	margin-bottom: 2px;
+	line-height: 1.4;
+	width: 460px;
+}
+#tabs  ul#index-toggle-nav
+{
+	margin-right: 10px;
+	position: relative;
+	top: -1px;
+	text-align: right;
+}
+#tabs #index-toggle-nav li
+{
+	display: inline;
+	font-size: 1em;
+}
+#tabs #index-toggle-nav a
+{
+	background-color: #fff;	
+	background-image: url(images/tabs/tab-active-left.gif);
+	background-position: top left;
+	color: #000;
+	cursor: default;
+	display: inline;
+	padding: 3px 10px 3px 10px;
+	position: relative;
+	text-decoration: none;
+}
+#tabs #index-toggle-nav a span
+{
+	background: transparent url(images/tabs/tab-active-right.gif) no-repeat scroll top right;
+	font-weight: normal;
+	display: block;
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#tabs #index-toggle-nav a.inactive,
+#tabs #index-toggle-nav a.inactive span
+{
+	border-bottom-color: #ccc;
+	color: #fff;
+	cursor: pointer;
+}
+#tabs #index-toggle-nav a.inactive
+{
+	background-image: url(images/tabs/tab-sport-inactive-left.gif);
+}
+#tabs #index-toggle-nav a.inactive span
+{
+	background-image: url(images/tabs/tab-sport-inactive-right.gif);
+}
+          /* ----------  football-tabs.css ends here ----------- */
+          /* ---------- league-position.css starts here ---------- */
+#box #content div#league-position h2
+{
+	border-top-style: solid;
+	border-top-width: 10px;
+}
+div#league-position table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+div#league-position tfoot td
+{
+	text-align: left;
+	padding-left: 0;
+}
+div#league-position tr
+{
+	border-top: 1px dotted;
+}
+div#league-position thead th
+{
+	background-color: #40a040;
+}
+div#league-position td, div#league-position th
+{
+	text-align: right;
+}
+div#league-position tr.highlighted td
+{
+	background-color: #d4d4d4;
+}
+div#league-position .position
+{
+	width: 24px;
+}
+div#league-position .team
+{
+	text-align: left;
+	width: 104px;
+}
+div#league-position .played
+{
+	width: 21px;
+}
+div#league-position .won
+{
+	width: 21px;
+}
+div#league-position .drawn
+{
+	width: 21px;
+}
+div#league-position .lost
+{
+	width: 21px;
+}
+div#league-position .points
+{
+	width: 24px;
+}
+div#league-position td, div#league-position th
+{
+	padding: 2px 3px 5px 3px;
+}
+div#league-position .points
+{
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+/* Full width table used on table pages */
+
+div#wrapper div#box div#content h2.latest-table-date
+{
+	margin-bottom: 0;
+}
+
+div#wrapper div#box div#content div#league-position h3
+{
+	border-top: 1px solid #999;
+	font-size: 1em;
+	font-family:arial,sans-serif;
+	margin-bottom: 10px;
+}
+div#wrapper div#box div#content div#league-position h3.first
+{
+	border-top: none;
+	padding-top: 0;
+}
+div#league-position table.full
+{
+	margin-bottom: 24px;
+}
+div#league-position table.without-heading
+{
+	margin-top: 26px;
+}
+div#league-position table.full thead tr
+{
+	border-top: 1px solid #999;
+}
+div#league-position table.full tfoot tr
+{
+	border-bottom: none;
+}
+
+div#league-position table.full tr
+{
+	border-top: none;
+	border-bottom: 1px solid #999;
+}
+
+
+div#league-position table.full .position
+{
+	width: 30px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div#league-position table.full .team
+{
+	width: 155px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+div#league-position table.full .played,
+div#league-position table.full .won,
+div#league-position table.full .drawn,
+div#league-position table.full .lost
+{
+	padding-left: 0;
+	width: 30px;
+	padding-right: 5px;
+}
+
+div#league-position table.full td.played,
+div#league-position table.full td.won,
+div#league-position table.full td.drawn,
+div#league-position table.full td.lost
+{
+	background-color: #F3F3F3;
+}
+div#league-position table.full td.points
+{
+	width: 25px;
+	padding-left: 0;
+}
+
+          /* ----------  league-position.css ends here ----------- */
+          /* ---------- factbox.css starts here ---------- */
+/* CSS for all factboxes, all of the time. If you make changes here, make sure you're not affecting something unexpected */
+
+div#factbox
+{
+	background-color: #ededed;
+	border-top: 1px solid;
+	float: left;
+	margin-right: 20px;
+	overflow: visible;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	position: relative;
+	width: 130px;
+	z-index: 1;
+}
+
+div#factbox b,
+div#factbox li.major
+{
+	font-weight: bold;
+}
+
+div#factbox h5,
+div#factbox li.major-heading 
+{
+	border-bottom: 1px dotted #999;
+	margin-bottom: 4px;
+	padding-bottom: 5px;
+	padding-top: 3px;
+}
+
+div#factbox h5.image
+{
+	border-bottom: none;
+}
+
+div#wrapper div#content div#factbox h5,
+div#factbox li.major-heading h4
+{
+	font-family: arial, sans-serif;
+	padding-top: 4px;
+}
+
+div#wrapper div#content div#factbox h5
+{
+	font-size: 0.855em;
+	font-weight: bold;
+}
+
+div#wrapper div#factbox li
+{
+	border-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 2px;
+	width: 130px;
+}
+
+div#wrapper div#factbox li.picture
+{
+	padding-top: 10px;
+	position: relative;
+	left: -5px;
+	width: 140px;
+}
+
+#wrapper #content p.factbox-image
+{
+	margin: 0;
+}
+
+div#wrapper div#factbox li.inline
+{
+	display: inline;
+	float: none;
+	width: auto;
+}
+
+div#wrapper div#factbox ol
+{
+	font-size: 0.925em;
+	line-height: 1.25em;
+	padding-left: 0;
+	width: 130px;
+}
+
+div#wrapper div#factbox ol#factbox-minimal
+{
+	border-bottom: 1px dotted #999;
+	padding-bottom: 5px;
+}
+
+div#factbox img.generic-factbox-image
+{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+/* content-specific factbox styles should go here. Make sure you use the body class selector to only target what you want to be targeting! */
+
+body.gallery div#factbox
+{
+	clear: left;
+}
+
+body.poll div#factbox,
+body.quiz div#factbox,
+body.interactive div#factbox
+{
+	margin-right: 0;
+	overflow: hidden;
+}
+
+body.quiz div#factbox h5
+{
+	font-size: 1em;
+}
+          /* ----------  factbox.css ends here ----------- */
+          /* ---------- pluck-comment-additionals.css starts here ---------- */
+/*
+	STYLES FOR ALL PLUCK
+	RELATED PAGES
+*/
+
+/* SET CONTAINERS TO DISPLAY NONE, IN CASE PLUCK IS SWITCHED OFF */
+
+.pluck-init-block, .pluck-init-inline {display: none;}
+
+
+/* PLUCK COMMENTS */
+ .pluck-comments-container 
+{
+	clear: both;
+	width:620px;
+}
+
+.pluck-comment-block .pluck-comment,
+ .pluck-comments-container .pluck-comment-post
+{
+	float:left; 
+	width: 460px;
+}
+
+ .pluck-comments-container .header .pluck-comment-post
+{
+	width: 435px;
+}
+
+#open-comment-box-top
+{
+	margin-bottom: 3px;
+}
+
+#pluck-container h2 span
+{
+	font-weight: normal;
+	font-size: 0.856em;
+}
+
+#pluck-container h2 span.comment-count-info
+{
+	font-weight: normal;
+	font-size: 0.9em;
+	font-family: arial, sans-serif;
+}
+
+#pluck-container h2 span span
+{
+	font-size: 1em;
+}
+
+.pluck-comment-block .pluck-comment-author
+{
+	 width: 80%; 
+	 float: left; 
+	 display: block; 
+	 overflow: hidden;
+	 padding-top: 2px;
+}
+
+.pluck-comment-block .pluck-comment-tools,
+ .pluck-comments-container .pluck-comment-legend
+{
+ 	float: right; 
+ 	width: 140px;
+ 	color: #333; 
+}
+
+.pluck-comment-block .pluck-content 
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	clear: both;
+	margin: 4px 0 0 0; 
+	padding: 0;
+}
+
+#pluck-container ul.first
+{
+	margin-top: 0;
+}
+
+.pluck-comment-block .pluck-comment,
+.pluck-comment-block .pluck-comment-tools
+{
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+ .pluck-comments-container #post-comment-div-top
+{
+	padding-bottom: 26px;
+}
+
+ .pluck-comments-container .pluck-comment-addComment
+{
+	overflow: hidden;
+	clear: both;
+}
+
+ .pluck-comments-container .pluck-comment-post p 
+{
+	margin: 4px 0;
+}
+
+ .pluck-comments-container .header .pluck-comment-post,
+ .pluck-comments-container .header .pluck-comment-legend
+{
+	border-top: 1px solid;
+	padding: 4px 0 0 0;
+}
+
+ .pluck-comments-container .footer,
+ .pluck-comments-container .footer .pluck-all-comments,
+ .pluck-comments-container .header .pluck-all-comments p
+{
+	border-top: 1px solid;
+}
+
+.pluck-comments-container .footer .pluck-all-comments
+{
+	border-bottom: 1px solid;
+}
+
+ .pluck-comments-container .header .pluck-all-comments p
+{
+	padding: 5px 0;
+}
+
+ .pluck-comments-container .footer .pluck-all-comments p
+{
+	margin: 0;
+	padding: 5px 0;
+}
+
+ .pluck-comments-container .footer .pluck-comment-post
+{
+	margin: 5px 0 0 0;
+}
+
+.pluck-comment-block .pluck-comment-author a.author-profile-picture
+{
+	display: block; 
+	float: left; 
+	margin-right: 5px;
+	padding-top: 3px;
+}
+
+.pluck-comment-block .pluck-comment-author p.posted-time
+{
+	font-size: 1em; 
+	color: #999; 
+}
+
+.pluck-comment-block span.author-tier
+{
+	float: right; 
+	width: 15%; 
+	display: block; 
+	text-align: right; 
+	margin-top: 5px;
+}
+
+.pluck-comment-block .pluck-comment-author li 
+{
+	color: #A5A4A4;
+}
+
+.pluck-comment-block .pluck-comment-author a,
+.pluck-comment-block .pluck-comment-author a:link,
+.pluck-comment-block .pluck-comment-author a:visited,
+.pluck-comment-block .pluck-comment-author a:hover,
+.pluck-comment-block .pluck-comment-author a:active,
+ .pluck-comments-container .pluck-all-comments a,
+ .pluck-comments-container .pluck-all-comments a:link,
+ .pluck-comments-container .pluck-all-comments a:visited,
+ .pluck-comments-container .pluck-all-comments a:hover,
+ .pluck-comments-container .pluck-all-comments a:active
+{
+	font-weight: bold;
+}
+
+.pluck-comment-block .pluck-comment-body
+{
+ 	padding: 0 25px 0 0;
+ 	color: #333;
+ 	clear: both;
+}
+
+.comment-clipping .comment-blocked,
+.pluck-comment-block .pluck-comment-body.comment-blocked,
+.pluck-comment-block .comment-blocked,
+#cif-search-results .comment-blocked
+{
+	color: #999;
+}
+.pluck-comment-block .pluck-comment-tools ul
+{
+	margin: 2px 0 0 0;
+}
+ .pluck-comments-container .pluck-comment-legend ul
+{
+ 	margin-top: 0;
+}
+
+ .pluck-comments-container .pluck-comment-legend li
+{
+	margin: 0 0 4px;
+}
+
+ .pluck-comments-container .pluck-comment-legend li img 
+{
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+
+.pluck-comment-block .pluck-comment-tools li span
+{
+	color: #333;
+}
+
+.pluck-comment-block .pluck-comment-tools .high-recommended
+{
+}
+
+.pluck-comment-block .pluck-comment-tools li
+{
+	border-bottom: 1px dotted #999;
+	padding: 0 0 3px 0;
+}
+
+.pluck-comment-block .pluck-comment-tools li a 
+{
+}
+
+.pluck-comment-block .pluck-comment-tools .clip,
+.pluck-comment-block .pluck-comment-tools .link 
+{
+	display: inline;
+	border: none;
+}
+
+.pluck-comment-block .pluck-comment-tools .abuse-report
+{
+	margin: 3px 0;
+}
+
+ .pluck-comments-container a,
+ .pluck-comments-container a:link,
+ .pluck-comments-container a:visited,
+ .pluck-comments-container a:hover,
+#comment-box-pluck a,
+#comment-box-pluck a:link,
+#comment-box-pluck a:visited,
+#comment-box-pluck a:hover
+{
+	color: #095484;
+	background-color: transparent;
+}
+
+/* SIDEBAR TOOLS */
+
+.pluck-comment-block .author-tier a.rollover span
+{
+	display: none;
+	position: absolute;
+	left: 2px;
+	top: -30px;
+	width: 6.2em;
+	text-align: center;
+	color: #fff;
+	float:none;
+	margin-left: 5px;
+}
+
+.pluck-comment-block .author-tier a.rollover,
+.pluck-comment-block .author-tier a.rollover:link,
+.pluck-comment-block .author-tier a.rollover:visited,
+.pluck-comment-block .author-tier a.rollover:hover,
+.pluck-comment-block .author-tier a.rollover:active
+{
+	position: relative;
+	display:block;
+	margin-right: 8px;
+	text-indent: 0;
+}
+
+
+.pluck-comment-block .author-tier a.rollover:hover span,
+.pluck-comment-block .author-tier a.rollover:focus span,
+.pluck-comment-block .author-tier a.rollover:active span
+{
+
+	display: block;
+	background-color: #005689;
+	background-image: url(images/triangle-rollover.gif);
+	background-position: bottom center;
+	z-index: 999;
+	height: 2em;
+	width: 6.2em;
+	padding: 3px 0;
+}
+
+/*USER PROFILE PAGE*/
+
+body.pluck-user-profile div#user-profile
+{
+	clear: both;
+	margin-top: 10px;
+	overflow: hidden;
+	width: 620px;
+	float: left; 
+	margin-bottom: 50px;
+	position: relative;
+}
+
+body.pluck-user-profile div#user-profile img#top-pluck-logo
+{
+	position: absolute;
+	right: 0;
+	top: 0.8em;
+	float: none;
+	margin: 0;
+}
+
+body.pluck-user-profile div#pluck-profile h1
+{
+	margin-bottom: 20px;
+	display: block;
+}
+
+body.pluck-user-profile div#pluck-profile span a
+{
+	display: block;
+}
+
+body.pluck-user-profile div#user-profile span
+{
+	float: left; 
+	margin-right: 20px;
+	width: 60px;
+	display: block;
+}
+
+body.pluck-user-profile div#user-profile span img
+{
+	margin: 1px;
+	float: none;
+	top: 0;
+	border: 1px solid #333;
+}
+body.pluck-user-profile div#user-profile span img#user-image
+{
+	border: none;
+}
+
+body.pluck-user-profile div#pluck-profile p,
+body.pluck-user-profile div#user-profile table 
+{
+	float: left; 
+	width: 380px;
+	display: block;
+	border-bottom: 1px dotted #333;
+}
+
+body.pluck-user-profile div#user-profile table 
+{
+	border-collapse: collapse;
+}
+
+body.pluck-user-profile div#pluck-profile p.no-profile-data
+{
+	border-bottom: none;
+}
+
+body.pluck-user-profile div#user-profile th 
+{
+	width: 100px;
+	text-align: left;
+}
+
+body.pluck-user-profile div#user-profile td 
+{
+	width: 280px;
+}
+
+body.pluck-user-profile div#user-profile th, 
+body.pluck-user-profile div#user-profile td 
+{
+	border-top: 1px dotted #333;
+	padding: 4px 0;
+	vertical-align: top;
+}
+
+body.pluck-user-profile div.editor-zone-1,
+body.pluck-user-profile div#user-profile .pluck-logo  
+{
+	float: right;
+	width: 140px;
+}
+
+body.pluck-user-profile div#user-profile div.editor-zone-1 h2 
+{
+	font-weight: bold;
+	font-size: 1em; 
+	font-family: arial, sans-serif;
+	line-height: 1;
+	padding: 5px 0 15px 0;
+	border-top: 1px solid #333;
+	border-bottom: 1px dotted #333;
+	margin-bottom: 2px;
+}
+
+body.pluck-user-profile div#user-profile div.editor-zone-1 li.normal
+{
+	border-top-width: 0;
+	width: 140px;
+}
+
+body.pluck-user-profile div#user-profile div.editor-zone-1 li.major-heading
+{
+	margin-bottom: 0;
+}
+
+
+/* ---- Styles for comments on user profile page ---- */
+
+body.pluck-user-profile .pluck-init-block,
+body.pluck-user-profile #pluck-comment-container
+{
+	clear: both;
+}
+
+body.pluck-user-profile #content
+{
+	width: 620px;
+}
+
+body.pluck-user-profile div#pluck-comments
+{
+	clear: both;
+}
+
+body.pluck-user-profile div#pluck-comments-header h2
+{
+	padding-bottom: 20px;
+	width: 620px;
+}
+
+body.pluck-user-profile div#pluck-comments-header h2,
+body.pluck-user-profile div#wrapper div#footer
+{
+	border-top: 10px solid #CCC;
+}
+
+body.pluck-user-profile div#wrapper div#content div#pluck-comments ul li
+{
+	margin-bottom: 0;
+	border-top: 1px solid #999;
+	clear: both;
+	overflow: visible;
+}
+
+body.pluck-user-profile div#wrapper div#content div#pluck-comments ul li .clipping-data ul li.section
+{
+	border-top: 1px dotted #999;
+}
+
+body.pluck-user-profile div#wrapper div#content div#pluck-comments ul li .clipping-data ul li.section li,
+body.pluck-user-profile div#wrapper div#content div#pluck-comments ul li .clipping-data ul li.first-section
+{
+	border-top: none
+}
+
+body.pluck-user-profile div#wrapper div#content div#pluck-comments ul li.first
+{
+	border-top: 1px dotted #333333; /* To include dotted line when no pagination present. */
+}
+
+body.pluck-user-profile div#user-profile img#user-tier-icon
+{
+	vertical-align: middle;
+}
+
+body.pluck-user-profile img#pluck-logo-bottom
+{
+	float: right;
+	margin-bottom: 5px;
+	display: block;
+	clear: both;
+}
+
+div.pluck-comment-block div.pluck-comment h3
+{
+	font-size: 1.333em;
+	margin: 3px 0 10px 0;
+}
+
+div.pluck-comment-block div.pluck-comment p
+{
+	margin-bottom: 10px;
+}
+
+ .pluck-comments-container .pluck-comment p,
+ .pluck-comments-container .pluck-comment blockquote,
+div.pluck-comment-block div.pluck-comment blockquote p
+{
+	margin-bottom: 10px;
+}
+
+ .pluck-comments-container .pluck-comment blockquote,
+div.pluck-comment-block div.pluck-comment blockquote
+{
+	color: #666;
+	padding-left: 20px;
+}
+
+div#content #pluck-comment-container .pluck-comment blockquote
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+div.pluck-comment-block div.pluck-comment p.recommended
+{
+	color: #999;
+	margin: 0;
+}
+
+#post-comment-div-top,
+#post-comment-div-bottom
+{
+	width: 100%;
+}
+
+/* ---- End styles for comments on user profile page ----*/
+
+/* ---- EDIT YOUR PROFILE STYLES ---- 
+Classnames, IDs and HTML can't be edited. Using a Pluck widget. Doh :( */
+
+body.PersonaProfile_Body div.Persona_Main div.PersonaStyle_ItemContainer div#ProfileEdit_SectionDescription_Link p,
+body.PersonaProfile_Body div.Persona_Main tr.ProfileEdit_TableMessageAccessRow,
+div#personaDest div.PersonaTabs_Container
+{
+	display: none;
+}
+
+div#ProfileEdit_SectionDescription_Link
+{
+	padding: 0 0 16px 0;
+}
+
+div.Persona_Main,
+div.Persona_Main textarea
+{
+	font-family: arial, sans-serif;
+}
+
+div.Persona_Main textarea
+div.Persona_Main table.ProfileEdit_Table td.ProfileEdit_TableFieldName
+{
+	width: 20%;
+}
+
+td.ProfileEdit_Textarea
+{
+	font-size: 1.48em;
+}
+
+td.ProfileEdit_TableField
+{
+	font-size: 11px;
+}
+
+td.ProfileEdit_TableField img
+{
+	border: none !important;
+}
+
+tr.ProfileEdit_TableAboutMeRow textarea.ProfileEdit_Textarea
+{
+	font-size: 13px;
+}
+
+div.Persona_Main table.ProfileEdit_Table td.ProfileEdit_TableField
+{
+	width: 80%;
+}
+
+body.PersonaProfile_Body div.Persona_Main div.PersonaStyle_ItemContainer
+{
+	border: none;
+}
+
+body.PersonaProfile_Body div.Persona_Main div.PersonaStyle_ItemContainer div.PersonaStyle_SectionHead
+
+{
+	background-color: #FFF;
+	border-top: 10px solid #999;
+	padding: 3px 0 16px 0;
+	font-weight: bold;
+	font-size: 1.166em; 
+	font-family: georgia, sans-serif;
+	line-height: 1.2;
+}
+
+div.Persona_Main input[type="radio"]
+{
+	margin-right: 3px;
+	vertical-align: top;
+}
+
+/* ---- END EDIT YOUR PROFILE STYLES ---- */
+
+div#comment-thank-you-area,
+div#comment-premoderation-area,
+div#comment-pluck-error-area
+{
+	display: block;
+	border-top: 1px dotted #CCC; 
+	border-bottom: 1px dotted #CCC; 
+	margin-top: 20px; 
+	text-align: center;
+}
+
+div#comment-pluck-error-area p,
+div#abuse-pluck-error-area p
+{
+	background-image: url(images/pluck/error-icon.gif);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	padding: 20px 96px 0;
+	color: #CD0000;
+	font-weight: bold;
+}
+
+div#abuse-pluck-error-area p
+{
+	padding: 19px 45px 0;
+	text-align: center;
+	margin: 96px 0 104px;
+}
+
+div#comment-pluck-error-area p span,
+div#abuse-pluck-error-area p span
+{
+	display: block;
+	margin-top: 15px;
+}
+
+input#comment-premoderation-close 
+{
+	margin-top: 15px;	
+}
+
+td.ProfileEdit_Caption,
+tr.ProfileEdit_TableAddAvatarRow table td div,
+tr.ProfileEdit_TableAddAvatarRow table td input
+{
+	display: none;
+}
+
+td.ProfileEdit_TableField td.ProfileEdit_Caption
+{
+	display: table-cell;
+}
+
+/* Comments */
+
+
+body.article  .pluck-comments-container .footer
+{
+	border-top: 0; 
+}
+
+/* end comments*/
+
+/* Pluck pagination styles */
+
+div#pluck-pagination-top,
+div#pluck-pagination-bottom
+{
+	overflow: hidden; 
+	clear: both; 
+	padding: 3px 0;
+	margin-bottom: 0;
+	width: 620px;
+}
+
+div#pluck-pagination-bottom,
+div#pluck-pagination-top
+{
+	border-top: 1px dotted;
+	border-bottom: 1px dotted;
+}
+
+div#pluck-pagination-top
+{
+	border-bottom: none;
+}
+
+body.pluck-user-profile div#pluck-pagination-top
+{
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+div#pluck-pagination-bottom
+{
+	margin-bottom: 20px;
+}
+
+body.article div#pluck-pagination-bottom
+{
+	margin-top: 5px;
+}
+
+ul.pluck-pagination li.prev,
+ul.pluck-pagination li.next
+{
+	 display: block; 
+	 width: 25%; 
+}
+
+ul.pluck-pagination li.prev
+{
+	 float: left;
+}
+
+ul.pluck-pagination li.next
+{
+	float: right; 
+	text-align: right;
+} 
+
+
+ul.pluck-pagination li.pages 
+{
+ 	display: block;
+ 	float: left; 
+ 	width: 50%; 
+ 	text-align: center;
+}
+
+ul.pluck-pagination li.pages ul li.first,
+ul.pluck-pagination li.pages ul li.last,
+ul.pluck-pagination li.pages ul li
+{
+	display: inline; 
+}
+
+ul.pluck-pagination li.pages ul li.current
+{
+	font-weight: bold;
+}
+
+ul.pluck-pagination li.pages ul li
+{
+	padding: 0 3px;	
+}
+
+ul.pluck-pagination li.pages ul li a
+{
+	font-weight: normal;
+}
+
+ul.pluck-pagination li.pages ul li.last
+{
+	 padding: 0 3px 0 10px;
+}
+
+ul.pluck-pagination li.pages ul li.first
+{
+	 padding: 0 10px 0 3px;
+}
+
+
+#pluck-pagination-top ul li,
+#pluck-pagination-top ul li ul,
+#pluck-pagination-bottom ul li,
+#pluck-pagination-bottom ul li ul
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* End pagination styles */
+
+/* comment keywords */
+
+.pluck-comment-block .comment-keywords 
+{	
+	float: right;
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 9px;
+}
+
+
+/* end comment keywords */
+
+/* Pluck Error message */
+
+.javascript-off-error,
+.pluck-off-error
+{
+	clear: both;
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+}
+
+#pluck-container h2,
+#pluck-addressed-comment-container h2,
+.javascript-off-error h2,
+.pluck-off-error h2
+{
+	border-top: 10px solid;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 4px 0 0 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.166em;
+}
+
+body.article #pluck-container h2
+{
+	font-family: georgia, serif;
+}
+body.article #pluck-container h2 span
+{
+	font-family: arial, helvetica, sans-serif;
+}
+
+.javascript-off-error h2,
+.pluck-off-error h2
+{
+	padding-bottom: 10px;
+	border-bottom: 1px dotted;
+	margin-bottom: 5px;
+}
+
+.javascript-off-error p,
+.pluck-off-error p
+{
+	background-image: url(images/pluck/error-icon.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+#wrapper #content .javascript-off-error p span,
+#wrapper #content .pluck-off-error p span
+{
+	display: block;
+	width: 100%;
+	background-color: #fff;
+}
+
+#reviewsiframe
+{
+	height: 306px !important;
+}
+
+#reviewsiframe,
+body.ReviewFrame_Body
+{
+	width: 460px !important;
+}
+
+.ReviewFrame_Body img,
+.ReviewFrame_Body #Reviews_ProsEntry,
+.ReviewFrame_Body #Reviews_ConsEntry,
+.ReviewFrame_Body div.Pluck_FooterLink
+{
+	display: none;
+}
+
+.ReviewFrame_Body div.Reviews_AddHeading
+{
+	border-top: 10px solid #D1008B;
+	padding-top: 2px;
+	padding-bottom: 0;
+	font-family: georgia, serif;
+	margin-bottom: -6px;
+}
+
+.ReviewFrame_Body form span
+{
+	display: none;
+}
+
+.ReviewFrame_Body div.Reviews_AddTextarea
+{
+	padding: 0;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+}
+
+.ReviewFrame_Body div.SiteLife_Login
+{
+	display: none;
+}
+
+.ReviewFrame_Body div#Reviews_HeadlineEntry
+{
+	margin-bottom: 14px;
+}
+
+.ReviewFrame_Body div.Reviews_AddTextarea input,
+.ReviewFrame_Body div.Reviews_AddTextarea textarea
+{
+	width: 456px !important;
+	border: 1px solid #999 !important;
+}
+
+.ReviewFrame_Body div.Reviews_AddTextarea textarea
+{
+	height: 210px;
+	resize: none;
+}
+
+.ReviewFrame_Body .Reviews_Submit input
+{
+	float: right;
+}
+
+
+          /* ----------  pluck-comment-additionals.css ends here ----------- */
+          /* ----------  article.css ends here ----------- */

@@ -1,0 +1,89 @@
+
+          /* ---------- accent.css starts here ---------- */
+
+@media all{
+
+.directory-continent li.last a.more span.count,
+.commercial #promo li a,
+body.most-viewed div#promo div#editor-zone-1 a,
+body.most-clipped div#promo div#editor-zone-1 a,
+body.most-popular div#promo div#editor-zone-1 a
+{
+    color: #005689; /* $editorialLink */
+    background-color: transparent; /* $editorialLinkReverse */
+}
+
+
+#promo a,
+.commercial #promo .commercial li a,
+body.front .commercial li a,
+div.jobsbox a,
+div.ventures-slot-machine a
+{
+    color: #436a90; /* $promoLink */
+    background-color: transparent; /* $promoLinkReverse */
+ }
+
+a:focus,
+a:active,
+label:focus,
+label:active,
+body.front .commercial li a:active,
+body.front .commercial li a:focus
+{
+    outline: none;
+    background-color: #005689; /* $editorialLink */
+    color: white; /* $editorialLinkReverse */
+}
+
+#promo a:focus,
+#promo a:active,
+body.front .commercial a:focus,
+body.front .commercial a:active
+{
+    background-color: #436a90; /* $promoLink */
+    color: white; /* $promoLinkReverse */
+}
+
+
+/*lightbox special case*/
+body.gallery div.lightbox ol li a:hover
+{
+    background-color: #036; /* $lightboxLink */
+    color: #fff; /* $lightboxLinkReverse */
+}
+
+
+
+/*front heading link colour set */
+
+body.front #content .first ul#main-trailblock li.wide h3 a,
+body.front #content #main-zone .first li.wide h3 a
+{
+    color: #005ca3; /* $frontLink */
+    background-color: white; /* $frontLinkReverse */
+}
+
+body.front #content .first ul#main-trailblock li.wide h3 a:focus,
+body.front #content .first ul#main-trailblock li.wide h3 a:active,
+#badge a,
+#badge
+{
+    color:  white;/* $frontLink */
+    background-color: #005ca3; /* $frontLinkReverse */
+}
+
+
+body.front #content .first ul#main-trailblock li.wide .trailtext
+{
+    color: #005689; /* $editorialLink */
+}
+
+body.third-party-toolkit div#footer
+{
+    border-color: #04669c; /* $sectionAccent */
+}
+
+}
+          /* ----------  accent.css ends here ----------- */
+

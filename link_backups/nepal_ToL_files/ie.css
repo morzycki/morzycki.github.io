@@ -1,0 +1,64 @@
+/********************** IE Workarounds *******************/
+
+/*** Competition teaser ***/
+*html #competition {
+	height:9.35em;
+}
+/*** Property teaser ***/
+*html #property {
+	height:9em;
+}
+/*** Classified teaser ***/
+*html #classifieds {
+	height:9.7em;
+}
+*html #classifieds ul {
+	margin:0px 0px 0px 15px;
+}
+/*** Front Page teaser ***/
+*html #front-page-frontpage,
+*html #front-page-breaking,
+*html #front-page-pick {
+	height:4.5em;
+	overflow:visible;
+}
+/*** Reports teaser ***/
+*html #reports {
+	padding:2px 0px 2px 8px;
+	height:4em;
+	overflow:visible;
+}
+*html #reports ul.reports {
+	margin:2px 0px 10px 2px;
+	padding:0px 0px 0px 0px;
+	list-style-position:inside;
+	list-style-image:url(../img/global/chevron16.gif);
+}
+*html #reports h3.also {
+	padding-left:2px;
+	color:#666;
+}
+/*** Special Module ***/
+*html .special-heading {
+	padding:5px 0px 0px 0px;
+}
+/*** Related Links Module ***/
+*html #related-topic-box {
+	padding:2px 0px 5px 8px;
+	height:4em;
+	overflow:visible;
+}
+*html #related-topic-box ul.topic {
+	margin:2px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	list-style-position:inside;
+	list-style-image:url(../img/global/chevron16.gif);
+}
+*html #related-topic-box ul.left {
+	float:left;
+	width:160px;
+}
+*html #related-topic-box ul.right {
+	float:right;
+	width:180px;
+}

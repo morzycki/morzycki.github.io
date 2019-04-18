@@ -20,9 +20,9 @@ var ABSTRACT_CLASS        = 'abs';
 var ITEM_ID_PREFIX        = 'item_';
 
 // abstract show/hide link stuff: 
-var USE_HIDE_LINKS        = true;
+var USE_HIDE_LINKS        = false;
    // Should there be hide links at the ends of abstracts?
-var USE_SHOW_HIDE_TOGGLES = false;
+var USE_SHOW_HIDE_TOGGLES = true;
    // Should the main abstract link be used for both showing and hiding?
 var LINK_CONTENT          = 'abstract';
    // The displayed content of show-a-particular-abstract link.
@@ -56,7 +56,7 @@ function initialize_abstracts() {
    var lis = document.getElementsByTagName("li");
 
    for ( var i in lis ) {
-
+	
       // assign an id to an item:
       if ( lis[i].id != '' ) lis[i].id += "_" + i;
          // If it already has one, just add a numerical suffix.
@@ -97,7 +97,9 @@ function initialize_abstracts() {
             new_link += 
                'href=""' + '>' + LINK_CONTENT + '</a>';
             pars[0].innerHTML += new_link;
-            
+
+// 				console.log('id="' + LINK_ID_PREFIX + lis[i].id + '" ');
+
             // hook up javascript to link:
             document.getElementById(LINK_ID_PREFIX + 
                lis[i].id).onclick = run_abs_link;

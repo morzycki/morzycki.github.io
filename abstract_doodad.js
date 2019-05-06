@@ -98,7 +98,7 @@ function initialize_abstracts() {
                'href=""' + '>' + LINK_CONTENT + '</a>';
             pars[0].innerHTML += new_link;
 
-// 				console.log('id="' + LINK_ID_PREFIX + lis[i].id + '" ');
+				console.log('id="' + LINK_ID_PREFIX + lis[i].id + '" ');
 
             // hook up javascript to link:
             document.getElementById(LINK_ID_PREFIX + 
@@ -144,7 +144,7 @@ function initialize_abstracts() {
       else
          all_link["both"] = all_link["show"];
 
-      match_the_cookie();
+//       match_the_cookie();
    
    } catch ( err ) {}
    

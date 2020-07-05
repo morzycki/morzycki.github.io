@@ -1,0 +1,1617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"orig",
+				"orig_region"
+			],
+			[
+				"left",
+				"left_delete"
+			],
+			[
+				"com",
+				"command_name"
+			],
+			[
+				"run",
+				"run_command"
+			],
+			[
+				"is",
+				"isspace"
+			],
+			[
+				"target",
+				"target_text"
+			],
+			[
+				"script",
+				"script_commands"
+			],
+			[
+				"na",
+				"narrower_find_results"
+			],
+			[
+				"tar",
+				"target_text"
+			],
+			[
+				"full",
+				"full_line"
+			],
+			[
+				"prev",
+				"prev_example"
+			],
+			[
+				"curren",
+				"current_sel"
+			],
+			[
+				"linebre",
+				"\\linebreak[number]                                \tlatex-document"
+			],
+			[
+				"parb",
+				"\\parbox{width}{text}                              \tlatex-document"
+			],
+			[
+				"sec",
+				"sec:intro"
+			],
+			[
+				"se",
+				"sec:butts"
+			],
+			[
+				"kratzer",
+				"kratzer:focus: The Representation of Focus"
+			],
+			[
+				"77",
+				"karttunen:77:alt: Syntax and semantics of questions"
+			],
+			[
+				"new",
+				"new_cursor_posn"
+			],
+			[
+				"targ",
+				"target_text_before_cursor"
+			],
+			[
+				"resul",
+				"result_before_cursor"
+			],
+			[
+				"targe",
+				"target_text"
+			],
+			[
+				"curre",
+				"current_posn"
+			],
+			[
+				"next",
+				"next_correction"
+			],
+			[
+				"mont",
+				"montague:ptq: The Proper Treatment of Quantification in Ordinary English"
+			],
+			[
+				"curr",
+				"current_sel"
+			],
+			[
+				"end",
+				"end_of_edit"
+			],
+			[
+				"math",
+				"math_block_regions"
+			],
+			[
+				"01",
+				"poli:01: Perspective shifters"
+			],
+			[
+				"Citation",
+				"Citations"
+			],
+			[
+				"Correc",
+				"CorrectSpelling"
+			],
+			[
+				"previous",
+				"previous_command"
+			],
+			[
+				"std",
+				"stderr"
+			],
+			[
+				"cur",
+				"current_word"
+			],
+			[
+				"curretn",
+				"current_word"
+			],
+			[
+				"IGNOR",
+				"SPELLING_IGNORED_WORDS"
+			],
+			[
+				"add",
+				"add_to_list"
+			],
+			[
+				"papers",
+				"papers_dir"
+			],
+			[
+				"corre",
+				"correction_index"
+			],
+			[
+				"cor",
+				"corrections_string"
+			],
+			[
+				"shel",
+				"shell_command"
+			],
+			[
+				"ful",
+				"full_line"
+			],
+			[
+				"cites",
+				"cites_region"
+			],
+			[
+				"bi",
+				"bib_cmd"
+			],
+			[
+				"bib",
+				"bibdesk_string"
+			],
+			[
+				"bibt",
+				"bibtex_entry"
+			],
+			[
+				"extra",
+				"extract_bib_entry"
+			],
+			[
+				"cite",
+				"cite_string"
+			],
+			[
+				"find",
+				"find_results"
+			],
+			[
+				"mjm",
+				"mjm_tools"
+			],
+			[
+				"decoded",
+				"decoded_string"
+			],
+			[
+				"block",
+				"block_comments"
+			],
+			[
+				"line",
+				"line_comments"
+			],
+			[
+				"min",
+				"min_indent_string"
+			],
+			[
+				"indent",
+				"indent_string"
+			],
+			[
+				"nex",
+				"nextDelimiterRegion"
+			],
+			[
+				"this",
+				"thisRegion"
+			],
+			[
+				"comman",
+				"command_line"
+			],
+			[
+				"abs",
+				"abstract\tAbstract Template"
+			],
+			[
+				"measu",
+				"measurement-constants"
+			],
+			[
+				"pre",
+				"preprocessor"
+			],
+			[
+				"\\newcommand",
+				"\\newcommand"
+			],
+			[
+				"template",
+				"template\tDocument"
+			],
+			[
+				"enu",
+				"enumerate                                         \tlatex-document"
+			],
+			[
+				"prob",
+				"probably"
+			],
+			[
+				"newcom",
+				"\\newcommand{cmd}{def}                             \tlatex-document"
+			],
+			[
+				"biblio",
+				"\\bibliography{file}                               \tlatex-document"
+			],
+			[
+				"biblo",
+				"\\begin{thebibliography}{widestlabel}              \tlatex-document"
+			],
+			[
+				"en",
+				"\\end{}                                            \tlatex-document"
+			],
+			[
+				"d",
+				"desc\tDescription"
+			],
+			[
+				"partee",
+				"partee:typeshift: ????"
+			],
+			[
+				"font",
+				"\\fontfamily{family}                               \tlatex-document"
+			],
+			[
+				"use",
+				"\\usepackage{package}                              \tlatex-document"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"mo",
+				"moltmann:tropestrux: ????"
+			],
+			[
+				"inte",
+				"inertly"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/LaTeX MJM.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/LaTeX MJM.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"grap",
+				"Git: Graph All"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"graph",
+				"Git: Graph Current File"
+			],
+			[
+				"auto",
+				"Auto Wrap: Toggle"
+			],
+			[
+				"op",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"set sy bash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"previouex",
+				"Insert Previous Example"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"defini",
+				"Goto: Definition…"
+			],
+			[
+				"goto de",
+				"Goto: Definition…"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"k",
+				"Preferences: Key Bindings"
+			],
+			[
+				"command",
+				"LaTeXTools: Search for commands in document"
+			],
+			[
+				"goto",
+				"Goto: Symbol…"
+			],
+			[
+				"got",
+				"Goto: Symbol…"
+			],
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"insert prev",
+				"Insert Previous Formula"
+			],
+			[
+				"swap",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"fork",
+				"Open in Fork"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sh",
+				"ShellCommand"
+			],
+			[
+				"shell",
+				"ShellCommand"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"set syn perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"keybidn",
+				"Preferences: Key Bindings"
+			],
+			[
+				"copy",
+				"File: Copy Absolute Path"
+			],
+			[
+				"line number",
+				"View: Toggle Line Numbers"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"git commit fi",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"ls",
+				"Layout: Single"
+			],
+			[
+				"setsynbash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"open ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"documenta",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"doc",
+				"LaTeXTools: Update document analysis cache"
+			],
+			[
+				"docume",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex",
+				"LaTeXTools: Search for commands in document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bracketsw",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"close",
+				"BracketHighlighter: Toggle String Bracket Escape Mode"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"quic",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax settings",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"quiccom",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"clea",
+				"Bookmarks: Clear All"
+			],
+			[
+				"setsynmjm",
+				"Set Syntax: LaTeX MJM"
+			],
+			[
+				"openres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rese",
+				"Font: Reset Font Size"
+			],
+			[
+				"qc",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"set synmjm",
+				"Set Syntax: LaTeX MJM"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"quick",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"open pack",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open vie",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"reset",
+				"Font: Reset Font Size"
+			],
+			[
+				"open res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"set syntax latex",
+				"Set Syntax: LaTeX MJM"
+			],
+			[
+				"reveal",
+				"File: Reveal in Sidebar"
+			],
+			[
+				"addfo",
+				"Project: Add Folder"
+			],
+			[
+				"addfold",
+				"Project: Add Folder"
+			],
+			[
+				"insertda",
+				"InsertDate: Show Panel"
+			],
+			[
+				"keybinding",
+				"Preferences: Key Bindings"
+			],
+			[
+				"set latexmjm",
+				"Set Syntax: LaTeX MJM"
+			],
+			[
+				"open resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"preview",
+				"Equation Preview: View Current Equation"
+			],
+			[
+				"quick comm",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"openreso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagev",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"set latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"jump",
+				"BracketHighlighter: Jump to Right Bracket"
+			],
+			[
+				"help",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"set syn latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"set syntax:lat",
+				"Set Syntax: LaTeX Log"
+			],
+			[
+				"latex get doc",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"thesis",
+				"BracketHighlighter: Swap Settings"
+			],
+			[
+				"colorscheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"git ",
+				"Git: Init"
+			],
+			[
+				"ab",
+				"About"
+			],
+			[
+				"font",
+				"Font: Reset Font Size"
+			],
+			[
+				"latextools ke",
+				"LaTeXTools: Build cache of LaTeX packages"
+			],
+			[
+				"keybindings",
+				"Preferences: Key Bindings"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"setsyntaxlate",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"chang",
+				"Changelog"
+			],
+			[
+				"latex open",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex vi",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"git graph",
+				"Git: Graph Current File"
+			],
+			[
+				"git d",
+				"Git: Diff Current File"
+			],
+			[
+				"sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"git",
+				"Set Syntax: Git Log"
+			],
+			[
+				"revert",
+				"File: Revert"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"mouse",
+				"Preferences: LaTeXYZ Mouse Bindings"
+			],
+			[
+				"latex ju",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"latex view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"latex log",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"late",
+				"LaTeX Accents: Decode accents"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"lat",
+				"LaTeXTools: Jump to PDF"
+			],
+			[
+				"check",
+				"LaTeXTools: Check system"
+			],
+			[
+				"packa brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"removpack",
+				"Package Control: Remove Package"
+			],
+			[
+				"log",
+				"LaTeXTools: Show toggles"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"packagecontrol remov",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 191.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sf",
+			"clear",
+			"sublime.clear",
+			"clear",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(true)",
+			"sublime.commandLog(true)",
+			"sublime.logCommands(true)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(on)",
+			"sublime.log_commands(true)",
+			"sublime.log_commands(True)",
+			"Sublime.log(true)",
+			"SublimeText.log(true)",
+			"log(true)",
+			"Text.log(true)",
+			"clear",
+			"if 1 == 1 then print(\"hi\")",
+			"if 1 == 1: print(\"hi\")",
+			"if 1 == 1: print(\"hi\");",
+			"if os: print(\"hi\");",
+			"if os: print(\"hi\")",
+			"if os exist: print(\"hi\")",
+			"if os exists: print(\"hi\")",
+			"if os exists print(\"hi\")",
+			"os",
+			"os.py",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marcin/Dropbox/Sites/morzycki.github.io",
+		"/Users/marcin/Dropbox/Sites/morzycki.github.io/link_backups",
+		"/Users/marcin/Dropbox/Sites/morzycki.github.io/pix"
+	],
+	"file_history":
+	[
+		"/Users/marcin/Dropbox/Sites/morzycki.github.io/index.mmd",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/Agila Theme/Markdown/Dracula Markdown.tmTheme",
+		"/Users/marcin/Dropbox/Sites/morzycki.github.io/afs.msu.edu.webloc",
+		"/Users/marcin/Dropbox/In Progress/425-525/437.pdf",
+		"/Users/marcin/Dropbox/In Progress/425-525/assn_one_lambdas_portion.tex",
+		"/Users/marcin/crap.tex",
+		"/Users/marcin/Dropbox/In Progress/425-525/slides_01.filtered.tex",
+		"/Users/marcin/Dropbox/In Progress/425-525/slides_01.log",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/delims-to-environs.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/transformations.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM Indents.tmPreferences",
+		"/Users/marcin/Dropbox/In Progress/angelika squib/angelika_squib.tex",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX.sublime-settings",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/pdfBuilder.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/texSyntaxListener.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/traditionalBuilder.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/scriptBuilder.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/insert_previous.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM.sublime-settings",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Divider.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Section.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Subsection.sublime-snippet",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/basicBuilder.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/cites_mjm.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Paper Template.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/set_syntax.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/builders/simpleBuilder.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/shell_mjm.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/rewrap.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM.sublime-build",
+		"/Users/marcin/Desktop/crap/crap.tex",
+		"/Users/marcin/bin/tmbin/tex-build",
+		"/Users/marcin/Desktop/latex testing/ressem_slides.tex",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/generate-indep-bib.sh",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/SideBarTools.sublime-settings",
+		"/Users/marcin/Dropbox/In Progress/viruses/ressem_slides.tex",
+		"/Users/marcin/.emacs.d/init.el",
+		"/Users/marcin/bin/zshrc",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/MJM.sublime-commands",
+		"/Users/marcin/Desktop/latex testing/report.tex",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/reformat-formula.pl",
+		"/Users/marcin/Desktop/generate-indep-bib.sh",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/LaTeX MJM.tmbundle/Commands/reformat-formula.pl",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/LaTeX MJM.tmbundle/Support/bin/delims-to-environs.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Cite.sublime-snippet",
+		"/Users/marcin/Desktop/latex testing/abstract.tex",
+		"/tmp/zshE4echJ",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Cache/LaTeXTools/internal/preview_math/074cab3cc72c99be5eb8482040ef59b5.png.err",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Cache/LaTeXTools/internal/preview_math/074cab3cc72c99be5eb8482040ef59b5.tex",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/LaTeX MJM.sublime-syntax",
+		"/Users/marcin/Desktop/latex testing/report.filtered.tex",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Denotation Brackets.sublime-snippet",
+		"/Users/marcin/.emacs.d/README.md",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/Basics MJM.tmbundle/Support/bin/detect-repetition.rb",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/rewrap-list-items.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/reformat-list-items.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/mjm_tools.py",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/LaTeX MJM.tmbundle/Commands/Typeset.plist",
+		"/Users/marcin/bin/zshenv",
+		"/Users/marcin/Desktop/reformat_list_items.pl",
+		"/Users/marcin/Desktop/latex testing/report.log",
+		"/Users/marcin/Desktop/latex testing/aux/report.log",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/Default/comment.py",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/New Formula Line.sublime-snippet",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Cache/LaTeXTools/internal/preview_math/23c45d84c30ae08999b1a4dc8dce170d.png.err",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/Denotation Brackets",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/Print Log Message (Python).sublime-snippet",
+		"/Users/marcin/Library/Preferences/default-terminal-list-mjm.txt",
+		"/Users/marcin/.mjm_paths/INFO_LOGS/Headache Log.txt",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/insert_previous.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/sort-cites.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/MJM/TextMate.pm",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/MJM.sublime-commands",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/open_app.py",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/MJM/BibTeX.pm",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/BibTeX.pm",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/MJM/BibTeX.pm",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/continue-comment.py",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/shell_cites.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/detect_spellcheck.py",
+		"/Users/marcin/Desktop/sort_cites.pl",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/expand_selection_to_sentence.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/latexDocumentationViewer.py",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/BibTeX MJM.tmbundle/Support/bin/go-to-document.pl",
+		"/Users/marcin/bin/file-pdf-receipt",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/BibTeX MJM.tmbundle/Commands/split-or-merge-cites.rb",
+		"/Users/marcin/Dropbox/bin/tmbin/tex-build",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/bibliography_plugins/traditionalBibliography.py",
+		"/Users/marcin/Library/Application Support/Sublime Text 3/Packages/Default/show_scope_name.py",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/BibTeX MJM.tmbundle/Support/bin/read_bdsk_file.py",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/LaTeX MJM.tmbundle/Support/bin/smart-tooltip.pl",
+		"/Users/marcin/Dropbox/bin/multiples.pl",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/General Tools MJM.tmbundle/Support/bin/comment wrap.pl",
+		"/Users/marcin/Dropbox/Library/texmf/bibtex/bib/MJM.bib",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/BibTeX MJM.tmbundle/Commands/Expand BibTeX Strings.tmCommand",
+		"/Users/marcin/Dropbox/bin/ling",
+		"/Users/marcin/Dropbox/bin/tmbin/tex-build-report",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/Basics MJM.tmbundle/Commands/Smarter Rewrap.plist",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Letter Template.sublime-snippet",
+		"/tmp/zshpBNz7o",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/add_line_continuing_punctuation.py",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/Email MJM.tmbundle/Preferences/Spellchecking: Continuous for Email.plist",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/continue-comment.py",
+		"/Users/marcin/.zshrc",
+		"/Users/marcin/bin/texclean",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Slides Template.sublime-snippet",
+		"/Users/marcin/.zshenv",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/Review.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Handout Template.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Memo Template.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Abstract Template.sublime-snippet",
+		"/Users/marcin/Dropbox/Library/TextMate/Bundles/Email MJM.tmbundle/Snippets/Abstract.plist",
+		"/Users/marcin/Desktop/latex testing/aux/ressem_slides.log",
+		"/Users/marcin/.bash_profile",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/move_to_next_delimiter.py",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/move_to_previous_delimiter.py",
+		"/Users/marcin/.inputrc",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/MJM Error Msg",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/comment-mjm.py",
+		"/Users/marcin/bin/bash_profile",
+		"/Users/marcin/.vimrc",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/HighlightWords.sublime-settings",
+		"/Users/marcin/Desktop/latex testing/strings.bib",
+		"/Users/marcin/Desktop/latex testing/MJM.bib",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/Small Caps.sublime-snippet",
+		"/Users/marcin/Dropbox/Library/Sublime/Packages/User/LaTeX MJM/Keyword.sublime-snippet",
+		"/Users/marcin/.mjm_paths/DROPBOX/Library/Sublime/Packages/User/LaTeX MJM/Prev.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/marcin/Dropbox/Sites/morzycki.github.io"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"file": "pix/flourish.png",
+					"semi_transient": true,
+					"stack_index": 0,
+					"type": "image"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 54.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 261.0
+	},
+	"output.exec":
+	{
+		"height": 283.0
+	},
+	"output.find_results":
+	{
+		"height": 317.0
+	},
+	"output.git":
+	{
+		"height": 185.0
+	},
+	"output.latextools":
+	{
+		"height": 160.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 227.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sylla",
+				"syllabus.tex"
+			],
+			[
+				"assn",
+				"assn_relatives_and_negation.tex"
+			],
+			[
+				"assn la",
+				"assn_one_lambdas_portion.tex"
+			],
+			[
+				"syll",
+				"syllabus.tex"
+			],
+			[
+				"syl",
+				"syllabus.tex"
+			],
+			[
+				"slid",
+				"slides_01.tex"
+			],
+			[
+				"rewra",
+				"User/rewrap-list-items.pl"
+			],
+			[
+				"indent",
+				"User/LaTeX MJM Indents.tmPreferences"
+			],
+			[
+				"rew",
+				"User/rewrap.py"
+			],
+			[
+				"divid",
+				"User/LaTeX MJM/Divider.sublime-snippet"
+			],
+			[
+				"prev",
+				"User/insert_previous.py"
+			],
+			[
+				"auto",
+				"User/autowrap-mjm.py"
+			],
+			[
+				"latexmjm",
+				"User/LaTeX MJM.sublime-settings"
+			],
+			[
+				"latex set",
+				"User/LaTeX.sublime-settings"
+			],
+			[
+				"subse",
+				"User/LaTeX MJM/Subsection.sublime-snippet"
+			],
+			[
+				"section",
+				"User/LaTeX MJM/Section.sublime-snippet"
+			],
+			[
+				"setsy",
+				"User/set_syntax.py"
+			],
+			[
+				"paper",
+				"User/LaTeX MJM/Paper Template.sublime-snippet"
+			],
+			[
+				"sublime-build",
+				"User/LaTeX MJM.sublime-build"
+			],
+			[
+				"sidebar",
+				"User/SideBarTools.sublime-settings"
+			],
+			[
+				"command",
+				"User/MJM.sublime-commands"
+			],
+			[
+				"insertpre",
+				"User/insert_previous.py"
+			],
+			[
+				"comman",
+				"User/MJM.sublime-commands"
+			],
+			[
+				"repor",
+				"latex testing/report.tex"
+			],
+			[
+				"reforma",
+				"User/reformat-formula.pl"
+			],
+			[
+				"commands",
+				"User/MJM.sublime-commands"
+			],
+			[
+				"shell",
+				"User/shell_mjm.py"
+			],
+			[
+				"latex mjm syn",
+				"User/LaTeX MJM/LaTeX MJM.sublime-syntax"
+			],
+			[
+				"latexmjmsyn",
+				"User/LaTeX MJM/LaTeX MJM.sublime-syntax"
+			],
+			[
+				"cites",
+				"User/cites_mjm.py"
+			],
+			[
+				"latexsyn",
+				"User/LaTeX MJM/LaTeX MJM.sublime-syntax"
+			],
+			[
+				"detec",
+				"Bundles/Basics MJM.tmbundle/Support/bin/detect-repetition.rb"
+			],
+			[
+				"detect",
+				"Bundles/LaTeX MJM.tmbundle/Commands/Detect Repetition.tmCommand"
+			],
+			[
+				"rewrap",
+				"User/rewrap-list-items.pl"
+			],
+			[
+				"items",
+				"User/reformat-list-items.pl"
+			],
+			[
+				"tool",
+				"User/mjm_tools.py"
+			],
+			[
+				"insert",
+				"User/insert_previous.py"
+			],
+			[
+				"mjm/",
+				"User/MJM/TextMate.pm"
+			],
+			[
+				"cont",
+				"User/continue-comment.py"
+			],
+			[
+				"",
+				"User/cites_mjm.py"
+			],
+			[
+				"tools",
+				"User/mjm_tools.py"
+			],
+			[
+				"sort",
+				"User/sort-cites.pl"
+			],
+			[
+				"open",
+				"User/open_app.py"
+			],
+			[
+				"rewr",
+				"User/rewrap.py"
+			],
+			[
+				"contine",
+				"User/continue-comment.py"
+			],
+			[
+				"readb",
+				"Bundles/BibTeX MJM.tmbundle/Support/bin/read_bdsk_file.py"
+			],
+			[
+				"got-t",
+				"Bundles/BibTeX MJM.tmbundle/Support/bin/go-to-document.pl"
+			],
+			[
+				"letter",
+				"User/LaTeX MJM/Letter Template.sublime-snippet"
+			],
+			[
+				"continue",
+				"User/continue-comment.py"
+			],
+			[
+				"contin",
+				"User/add_line_continuing_punctuation.py"
+			],
+			[
+				"commen",
+				"Default/comment.py"
+			],
+			[
+				"comment wrap",
+				"Bundles/General Tools MJM.tmbundle/Support/bin/comment wrap.pl"
+			],
+			[
+				"comment.",
+				"Default/comment.py"
+			],
+			[
+				"revi",
+				"User/Review.sublime-snippet"
+			],
+			[
+				"review",
+				"User/Review.sublime-snippet"
+			],
+			[
+				"slides",
+				"User/LaTeX MJM/Slides Template.sublime-snippet"
+			],
+			[
+				"handout",
+				"User/LaTeX MJM/Handout Template.sublime-snippet"
+			],
+			[
+				"abstract",
+				"User/LaTeX MJM/Abstract Template.sublime-snippet"
+			],
+			[
+				"sent",
+				"User/expand_selection_to_sentence.py"
+			],
+			[
+				"latexmjms",
+				"User/LaTeX MJM/LaTeX MJM.sublime-syntax"
+			],
+			[
+				"high",
+				"User/HighlightWords.sublime-settings"
+			],
+			[
+				"hihgligh",
+				"User/HighlightWords.sublime-settings"
+			],
+			[
+				"latemjm",
+				"User/LaTeX MJM.sublime-settings"
+			],
+			[
+				"begin",
+				"Bundles/LaTeX MJM.tmbundle/Snippets/Begin.plist"
+			],
+			[
+				"cite",
+				"User/LaTeX MJM/Cite.sublime-snippet"
+			],
+			[
+				"cite.",
+				"User/LaTeX MJM/Cite.sublime-snippet"
+			],
+			[
+				"abstr",
+				"Bundles/LaTeX MJM Non-Standard.tmbundle/Snippets/Abstract Template Snippet.tmSnippet"
+			],
+			[
+				"abstra",
+				"latex testing/abstract.tex"
+			],
+			[
+				"move to",
+				"User/move_to_next_delimiter.py"
+			],
+			[
+				"frame",
+				"User/LaTeX MJM/Frame.sublime-snippet"
+			],
+			[
+				"resse",
+				"latex testing/ressem_slides.tex"
+			],
+			[
+				"memo",
+				"User/LaTeX MJM/Memo.sublime-snippet"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ange",
+				"~/Dropbox/In Progress/angelika squib/angelika_squib.sublime-project"
+			],
+			[
+				"angel",
+				"~/Dropbox/In Progress/angelika squib/angelika_squib.sublime-project"
+			],
+			[
+				"testin",
+				"~/Desktop/latex testing/latex_testing.sublime-project"
+			],
+			[
+				"test",
+				"~/Desktop/latex testing/latex_testing.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/Library/texmf/tex/latex/mjm/mjm-styles.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 341.0,
+		"last_filter": "citation",
+		"selected_items":
+		[
+			[
+				"citation",
+				"CitationCommand"
+			],
+			[
+				"foobar",
+				"foobar"
+			],
+			[
+				"",
+				"Paragraph: Digression"
+			]
+		],
+		"width": 704.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

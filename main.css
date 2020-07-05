@@ -212,13 +212,13 @@ body {
    font-family: Helvetica, Arial, sans-serif;
    font-size: 10.5pt;
 /*   font-size: 10px;*/
-	line-height: 1.5em; 
+	line-height: 1.6em; 
 	/*	font-size-adjust: .62;*/
 		/* Not supported by most browsers (in 2010), and in any case not in 
 		/* CSS 2.1, though apparently may be back in 3.0. */
 }
 h1 { 
-   font-family: Georgia, Times, "Times New Roman", serif; 
+   font-family: Georgia, serif; 
 }
 h1 { font-size: 175%; }
 h2 { font-size: 145%; }

@@ -164,6 +164,7 @@ function affect( the_element, the_effect ) {
 
 // what fires when a show/hide link for a particular abstract is clicked: 
 function run_abs_link() {
+   console.log('run_abs_link');
    affect_abstract(
       this.id.replace(LINK_ID_PREFIX, '').replace(HIDE_LINK_ID_PREFIX, ''),
             // This all sorts out the id of the abstract itself.

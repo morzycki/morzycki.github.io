@@ -360,10 +360,8 @@ blockquote p:after {
    border: 1pt solid #d0d0d0;
    background-color: #EFEFEF;
    padding: 0.3ex 0.8ex;
-   margin: 0.2em;
+   /*margin: 0.2em;*/
    white-space: nowrap;
-/*	font-weight: bold;
-	font-size: 70%;*/
 }
 a:hover.bib, a:hover.abs_link { 
    border-width: 1pt; 

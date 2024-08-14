@@ -214,7 +214,7 @@ function update_cookie_and_links() {
    var hidden_abstracts = [];
    for ( var i in abstract_values )
       if ( abstract_values[i] == false ) hidden_abstracts.push(i);
-   update_cookie(hidden_abstracts);
+   // update_cookie(hidden_abstracts);
    
    // update the show/hide all links in light of above info:
    if ( hidden_abstracts.length == 0 )
@@ -240,18 +240,18 @@ function display_all_abs_link( which_link ) {
    current_display_all_state = which_link;
 }
 
-// cookies for tracking what's hidden:
-var COOKIE_DELIM = ", ";
-function update_cookie( hidden_items ) {
-   var hidden_items_str = hidden_items.join(COOKIE_DELIM) + COOKIE_DELIM;
-   setCookie(COOKIE_NAME, hidden_items_str, EXPIRE_AFTER);
-}
-function match_the_cookie() {
-   var hidden_items_str = getCookie(COOKIE_NAME);
-   for ( var i in abstract_values )
-      affect_abstract(i, ! hidden_items_str.match(i + COOKIE_DELIM));
-   update_cookie_and_links();
-}
+// // cookies for tracking what's hidden:
+// var COOKIE_DELIM = ", ";
+// function update_cookie( hidden_items ) {
+//    var hidden_items_str = hidden_items.join(COOKIE_DELIM) + COOKIE_DELIM;
+//    setCookie(COOKIE_NAME, hidden_items_str, EXPIRE_AFTER);
+// }
+// function match_the_cookie() {
+//    var hidden_items_str = getCookie(COOKIE_NAME);
+//    for ( var i in abstract_values )
+//       affect_abstract(i, ! hidden_items_str.match(i + COOKIE_DELIM));
+//    update_cookie_and_links();
+// }
 
 
 /*****************************************************************************

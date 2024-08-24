@@ -210,7 +210,7 @@ body {
 
 body {
    font-family: Helvetica, Arial, sans-serif;
-   font-size: 11.5pt;
+   font-size: 12pt;
    /*font-size: 10.5pt;*/
 	line-height: 1.6em; 
 	/*	font-size-adjust: .62;*/
@@ -229,7 +229,7 @@ h4 { font-size: 110%; }
 .abs, blockquote { line-height: 1.5em; }*/
 .bib, .abs_link { font-family: Helvetica, Arial, sans-serif; }
 .bib, .abs_link,
-#footer { font-size: 70%; }
+#footer { font-size: 75%; }
 /*#footer { font-size: 9px; }*/
 	/* If this is a percentage, bib links in abstracts will be smaller than 
 	those elsewhere. */

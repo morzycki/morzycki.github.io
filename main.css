@@ -131,7 +131,7 @@ body {
            what's inside it when it extends beyond the window.
       */
 
-   border-top: 1em solid #000;
+   border-top: 1em solid #444;
       /* This bar is mostly redundant. It's a fallback for when the real main 
       top bar winds up too short because the text has been scrolled
       horizontally. (Since it's 100% of the window, it wouldn't necessarily be
@@ -191,7 +191,9 @@ body {
    left: 0px;
    width: 100%;
    border: none;
-   border-top: 1em solid #000;
+   border-top: 1em solid #444;
+   /*border-top: 1em solid #248;*/
+   /* Consider other colors that don't blend into tab bars? Also fix color fallback above. */
    z-index: 100;
 }
 .semanticsarchive {

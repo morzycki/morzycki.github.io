@@ -50,13 +50,15 @@ a:visited { color: #906040; } */
 a:active { color: #E00 }
 
 /* grey */
-.caption, .picture em,
 h4,
-strong, b, 
-dt,
-.abs, blockquote 
-	{ color: #444; }
+strong, b
+	{ color: #333; }
 /*a.bib, a.abs_link,*/
+dt,
+blockquote,
+.caption, .picture em,
+.abs 
+   { color: #666; }
 
 
 /*****************************************************************************

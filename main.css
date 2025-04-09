@@ -96,7 +96,7 @@ body {
            full width since there can be no elements inside <html> that aren't
            also in <body>.
       */
-
+   
    position: absolute;
    left: 240px;
    /*   left: 21em;*/
@@ -106,7 +106,7 @@ body {
    margin-right: 3em;
       /* Ensures that there is a bit of room in window to the right of the 
       content, to let background show. */
-
+   
    border-left-width: 1px;
    border-right-width: 1px;
 

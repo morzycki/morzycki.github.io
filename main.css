@@ -15,7 +15,7 @@
 /* overall colors: */
 body {
    color: #111; 
-   background-color: #f4f4f4;
+   background-color: #f2f2f2;
    /*background-color: #ECECEC;*/
 /*   background-color: #ECECE5;*/
 }
@@ -30,7 +30,7 @@ body {
 /* accent colors: */
 #footer,
 #menu .current a,
-h2, h3 { color: #3B53AA; }
+h2 { color: #3B53AA; }
 a:hover, a:visited:hover { border-color: #999; }
 /*a:hover, a:visited:hover { border-color: #3B53AA; }*/
 
@@ -150,7 +150,7 @@ body {
       /* These all have to be here rather than in the content div to get the 
       top bar to work. */
 
-   padding-bottom: 5em;
+   padding-bottom: 3em; /* Was 5em when the footer was present. */
    padding-top: 3em;
 
 }
@@ -229,8 +229,8 @@ h1 {
 }
 h1 { font-size: 175%; }
 h2 { font-size: 145%; }
-h3 { font-size: 130%; }
-h4 { font-size: 110%; }
+h3 { font-size: 100%; }
+h4 { font-size: 100%; }
 /*.abs, blockquote 
    { font-size: 90%; }
 .abs, blockquote { line-height: 1.5em; }*/

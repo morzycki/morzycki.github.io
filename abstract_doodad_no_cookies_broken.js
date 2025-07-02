@@ -145,7 +145,6 @@ function initialize_abstracts() {
          all_link["both"] = all_link["show"];
 
 //       match_the_cookie();
-      hide_abstracts();
    
    } catch ( err ) {}
    
@@ -171,7 +170,7 @@ function run_abs_link() {
             // This all sorts out the id of the abstract itself.
       this.innerHTML == LINK_CONTENT
    ); 
-   // update_cookie_and_links();
+   update_cookie_and_links();
       // NB: Shouldn't put this in affect_abstract() because for speed reasons
       //     we don't want it happening independently for each item when
       //     affecting lots of them simultaneously.
@@ -218,14 +217,13 @@ function update_cookie_and_links() {
       if ( abstract_values[i] == false ) hidden_abstracts.push(i);
    // update_cookie(hidden_abstracts);
    
-   // // update the show/hide all links in light of above info:
-   // if ( hidden_abstracts.length == 0 )
-   //    display_all_abs_link("hide");
-   // else if ( hidden_abstracts.length == no_of_abstracts ) 
-   //    display_all_abs_link("show");
-   // else 
-   //    display_all_abs_link("both");
-   
+   // update the show/hide all links in light of above info:
+   if ( hidden_abstracts.length == 0 )
+      display_all_abs_link("hide");
+   else if ( hidden_abstracts.length == no_of_abstracts ) 
+      display_all_abs_link("show");
+   else 
+      display_all_abs_link("both");
 }
 
 // for hiding or showing all abstracts:

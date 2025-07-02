@@ -98,7 +98,7 @@ body {
       */
    
    position: absolute;
-   left: 240px;
+   left: 250px;
    /*   left: 21em;*/
    min-height: 100%;
    z-index: 50;
@@ -167,9 +167,7 @@ body {
       /* It helps to do this in pixels because we want to match the pointy 
       hand picture and because the em size is smaller here. */
    padding-right: 2.35em;
-   /*   width: 15em;*/
-   /*   width: 162px;*/
-   width: 170px;
+   width: 180px;
 
 }
 #footer {
